@@ -2234,62 +2234,72 @@ async function loadDeals(force=false) {
   setStatus('loading');
   document.getElementById('dealList').innerHTML=skeletons();
 
-  // 1. Try local scraper-server.js backend
-  // This only works if you run: node scraper-server.js
-  // It will NOT work from the Files app or GitHub Pages without a server
-  try {
-    const ctrl=new AbortController();
-    const t=setTimeout(()=>ctrl.abort(),3000);
-    const res=await fetch(BACKEND_URL, {signal:ctrl.signal});
-    clearTimeout(t);
-    if (res.ok) {
-      const json=await res.json();
-      allDeals=json.deals;
-      setStatus('live-server');
-      document.getElementById('srcBar').textContent=
-        `Scraper server running — ${allDeals.length} deals — updated ${new Date(json.updated).toLocaleTimeString()}`;
-      document.getElementById('srcBar').className='src-bar live';
-      afterLoad(); return;
-    }
-  } catch(e) { /* server not running — expected in offline use */ }
+  // 1. Try configured scraper (Glitch, Render, localhost, etc.)
+  // Glitch sleeps after 5 min — ping /health first to wake it,
+  // then allow up to 14 seconds for /api/deals to respond.
+  if (BACKEND_URL) {
+    try {
+      const baseUrl = BACKEND_URL.replace(/\/api\/deals$/, '');
+      // Wake ping — fire and forget
+      fetch(baseUrl + '/health', { signal: AbortSignal.timeout(4000) }).catch(()=>{});
+      // Brief pause to give Glitch a head start waking up
+      await new Promise(r => setTimeout(r, 800));
 
-  // 2. Reddit public JSON API via CORS proxy
-  // Works in a browser (not Files app). Reddit's API is public and free.
-  // corsproxy.io bridges the cross-origin restriction.
-  // Note: "Live" here means fresh Reddit posts were fetched — not a dedicated scraper.
+      const ctrl = new AbortController();
+      const t    = setTimeout(() => ctrl.abort(), 14000);
+      const res  = await fetch(BACKEND_URL, { signal: ctrl.signal });
+      clearTimeout(t);
+
+      if (res.ok) {
+        const json = await res.json();
+        allDeals = json.deals;
+        setStatus('live-server');
+        const srcDetail = json.sources
+          ? `Reddit ${json.sources.reddit||0} · KVR ${json.sources.kvr||0} · VI-Control ${json.sources.vic||0} · LinkedMusicians ${json.sources.linkedMusicians||0}`
+          : `${allDeals.length} deals`;
+        document.getElementById('srcBar').textContent =
+          `Live — ${srcDetail} — ${new Date(json.updated).toLocaleTimeString()}`;
+        document.getElementById('srcBar').className = 'src-bar live';
+        afterLoad(); return;
+      }
+    } catch(e) { /* scraper offline, sleeping too long, or URL wrong */ }
+  }
+
+  // 2. Reddit public JSON — works from any real browser, no server needed.
   try {
-    const ctrl=new AbortController();
-    const t=setTimeout(()=>ctrl.abort(),5000);
-    const res=await fetch(
+    const ctrl = new AbortController();
+    const t    = setTimeout(() => ctrl.abort(), 7000);
+    const res  = await fetch(
       'https://corsproxy.io/?url=https://www.reddit.com/r/AudioProductionDeals/new.json?limit=30',
-      {signal:ctrl.signal, headers:{'Accept':'application/json'}}
+      { signal: ctrl.signal, headers: { 'Accept': 'application/json' } }
     );
     clearTimeout(t);
     if (res.ok) {
-      const json=await res.json();
-      const live=parseRedditJSON(json);
+      const json = await res.json();
+      const live = parseRedditJSON(json);
       if (live.length > 0) {
-        // Merge: live Reddit posts first, then indexed deals not already covered
-        const liveNames=new Set(live.map(l=>l.plugin_name.toLowerCase().slice(0,12)));
-        allDeals=[...live, ...MOCK_DEALS.filter(m=>!liveNames.has(m.plugin_name.toLowerCase().slice(0,12)))];
+        const liveNames = new Set(live.map(l => l.plugin_name.toLowerCase().slice(0,12)));
+        allDeals = [...live, ...MOCK_DEALS.filter(m => !liveNames.has(m.plugin_name.toLowerCase().slice(0,12)))];
         setStatus('live-reddit');
-        document.getElementById('srcBar').textContent=
-          `Reddit r/AudioProductionDeals — ${live.length} live posts fetched — plus ${MOCK_DEALS.length} indexed deals`;
-        document.getElementById('srcBar').className='src-bar live';
+        document.getElementById('srcBar').textContent =
+          `Reddit r/AudioProductionDeals — ${live.length} posts · plus ${MOCK_DEALS.length} indexed`;
+        document.getElementById('srcBar').className = 'src-bar live';
         afterLoad(); return;
       }
     }
-  } catch(e) { /* proxy unavailable or rate-limited */ }
+  } catch(e) { /* proxy unavailable */ }
 
-  // 3. Indexed fallback — what you see in the Files app or if both sources fail
-  // This is curated, accurate data — not scraped, not live
-  allDeals=MOCK_DEALS;
+  // 3. Indexed fallback — curated accurate data
+  allDeals = MOCK_DEALS;
   setStatus('indexed');
-  document.getElementById('srcBar').textContent=
-    'Indexed data — open in a browser for live Reddit deals, or run scraper-server.js';
-  document.getElementById('srcBar').className='src-bar';
+  document.getElementById('srcBar').textContent =
+    BACKEND_URL
+      ? 'Scraper did not respond — showing indexed data. Check your Glitch URL in Settings.'
+      : 'Indexed data — add a Glitch scraper URL in Settings for live deals';
+  document.getElementById('srcBar').className = 'src-bar';
   afterLoad();
 }
+
 
 function afterLoad() {
   renderAll();
