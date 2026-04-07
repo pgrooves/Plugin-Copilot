@@ -9,7 +9,7 @@
 
   <script>
     async function loadDeals() {
-      const res = await fetch('https://your-scraper.onrender.com/api/deals');
+      const res = await fetch('https://plugin-copilot.onrender.com');
       const data = await res.json();
       document.getElementById('deals').textContent = JSON.stringify(data.deals, null, 2);
     }
