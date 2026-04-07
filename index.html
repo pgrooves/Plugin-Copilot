@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Plugin Copilot Deals</title>
+</head>
+<body>
+  <h1>Plugin Copilot Deals</h1>
+  <pre id="deals"></pre>
+
+  <script>
+    async function loadDeals() {
+      const res = await fetch('https://your-scraper.onrender.com/api/deals');
+      const data = await res.json();
+      document.getElementById('deals').textContent = JSON.stringify(data.deals, null, 2);
+    }
+    loadDeals();
+  </script>
+</body>
+</html>
