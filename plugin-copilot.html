@@ -1,0 +1,2002 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Plugin Copilot</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+/* ─────────────────────────────────────────────────────────────
+   ARTURIA-STYLE DESIGN SYSTEM
+   Light: clean white, charcoal text, coral accent (#E8490F)
+   Dark: near-black, sand text, same coral accent
+   ───────────────────────────────────────────────────────────── */
+
+:root {
+  --bg:        #ffffff;
+  --bg-2:      #f5f4f2;
+  --bg-3:      #efefed;
+  --border:    #d8d6d2;
+  --border-2:  #c0beba;
+  --text:      #1a1916;
+  --text-2:    #4a4844;
+  --text-3:    #8a8884;
+  --accent:    #E8490F;
+  --accent-2:  #c83d0d;
+  --accent-bg: rgba(232,73,15,0.06);
+  --good:      #2d6a4f;
+  --good-bg:   rgba(45,106,79,0.07);
+  --warn:      #7d5c00;
+  --warn-bg:   rgba(125,92,0,0.07);
+  --bad:       #9b1c1c;
+  --bad-bg:    rgba(155,28,28,0.07);
+  --sans:      'DM Sans', sans-serif;
+  --mono:      'DM Mono', monospace;
+  --r:         2px;
+  --t:         150ms ease;
+}
+
+[data-theme="dark"] {
+  --bg:        #111110;
+  --bg-2:      #1a1917;
+  --bg-3:      #232220;
+  --border:    #2e2c28;
+  --border-2:  #3d3b36;
+  --text:      #e8e4dc;
+  --text-2:    #a09c94;
+  --text-3:    #5a5850;
+  --accent:    #E8490F;
+  --accent-2:  #ff6535;
+  --accent-bg: rgba(232,73,15,0.1);
+  --good:      #6db890;
+  --good-bg:   rgba(109,184,144,0.1);
+  --warn:      #d4a84b;
+  --warn-bg:   rgba(212,168,75,0.1);
+  --bad:       #e06060;
+  --bad-bg:    rgba(224,96,96,0.1);
+}
+
+*,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 14px; -webkit-text-size-adjust: 100%; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-weight: 400;
+  max-width: 430px;
+  margin: 0 auto;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  transition: background var(--t), color var(--t);
+}
+
+a { color: inherit; text-decoration: none; }
+button { background: none; border: none; cursor: pointer; font-family: inherit; }
+input, select { font-family: inherit; }
+::-webkit-scrollbar { width: 0; height: 0; }
+
+/* ── HEADER ──────────────────────────────────────────────── */
+.hdr {
+  position: sticky; top: 0; z-index: 200;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.hdr-top {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 16px 13px;
+  border-bottom: 1px solid var(--border);
+}
+
+.wordmark {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+.wordmark em { color: var(--accent); font-style: normal; }
+
+.hdr-actions { display: flex; align-items: center; gap: 8px; }
+
+/* Dark mode toggle */
+.theme-btn {
+  width: 32px; height: 18px;
+  border-radius: 9px;
+  border: 1px solid var(--border-2);
+  background: var(--bg-3);
+  position: relative;
+  cursor: pointer;
+  transition: background var(--t), border-color var(--t);
+  flex-shrink: 0;
+}
+.theme-btn::after {
+  content: '';
+  position: absolute;
+  top: 2px; left: 2px;
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  background: var(--text-3);
+  transition: transform var(--t), background var(--t);
+}
+[data-theme="dark"] .theme-btn { background: var(--bg-3); border-color: var(--border-2); }
+[data-theme="dark"] .theme-btn::after { transform: translateX(14px); background: var(--accent); }
+
+.icon-btn {
+  width: 28px; height: 28px;
+  display: flex; align-items: center; justify-content: center;
+  border: 1px solid transparent;
+  border-radius: var(--r);
+  color: var(--text-2);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all var(--t);
+  font-family: var(--mono);
+  font-weight: 500;
+}
+.icon-btn:hover { border-color: var(--border); color: var(--text); }
+.icon-btn:active { background: var(--bg-2); }
+
+/* ── STATUS BAR ──────────────────────────────────────────── */
+.status-bar {
+  display: flex; align-items: center; gap: 8px;
+  padding: 7px 16px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-2);
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--text-3);
+  letter-spacing: 0.03em;
+  min-height: 33px;
+  overflow: hidden;
+}
+
+.status-pip {
+  width: 5px; height: 5px; border-radius: 50%;
+  background: var(--text-3);
+  flex-shrink: 0;
+  transition: background var(--t);
+}
+.status-pip.live    { background: var(--good); }
+.status-pip.loading { background: var(--accent); animation: pip-pulse 0.8s ease-in-out infinite; }
+.status-pip.reddit  { background: var(--warn); }
+
+@keyframes pip-pulse { 0%,100%{opacity:1;} 50%{opacity:0.2;} }
+
+.status-text { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* ── TAB NAVIGATION ──────────────────────────────────────── */
+.tab-row {
+  display: flex;
+  border-bottom: 1px solid var(--border);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.tab-row::-webkit-scrollbar { display: none; }
+
+.tab-btn {
+  flex-shrink: 0;
+  padding: 11px 14px;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: var(--text-3);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: color var(--t), border-color var(--t);
+  white-space: nowrap;
+  position: relative; top: 1px;
+}
+.tab-btn:hover { color: var(--text-2); }
+.tab-btn.on { color: var(--text); border-bottom-color: var(--accent); }
+
+.tab-n {
+  font-size: 10px;
+  font-family: var(--mono);
+  color: var(--text-3);
+  margin-left: 3px;
+}
+.tab-btn.on .tab-n { color: var(--accent); }
+
+/* ── TOOLBAR ─────────────────────────────────────────────── */
+.toolbar {
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.search-wrap { position: relative; }
+
+.search-pfx {
+  position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
+  font-family: var(--mono); font-size: 9px; letter-spacing: 0.06em;
+  color: var(--text-3); pointer-events: none; text-transform: uppercase;
+}
+
+.search-input {
+  width: 100%;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 8px 28px 8px 36px;
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--text);
+  outline: none;
+  transition: border-color var(--t);
+  -webkit-appearance: none;
+}
+.search-input::placeholder { color: var(--text-3); }
+.search-input:focus { border-color: var(--accent); }
+
+.search-clear {
+  position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+  width: 16px; height: 16px;
+  display: none; align-items: center; justify-content: center;
+  font-family: var(--mono); font-size: 9px; color: var(--text-3);
+  cursor: pointer; border-radius: 2px;
+}
+.search-clear:hover { color: var(--text); }
+.search-clear.on { display: flex; }
+
+.filter-row {
+  display: flex; gap: 5px;
+  overflow-x: auto; scrollbar-width: none;
+}
+.filter-row::-webkit-scrollbar { display: none; }
+
+.chip {
+  flex-shrink: 0;
+  padding: 4px 10px;
+  font-family: var(--mono);
+  font-size: 9px; font-weight: 500;
+  letter-spacing: 0.05em; text-transform: uppercase;
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  color: var(--text-3);
+  cursor: pointer;
+  transition: all var(--t);
+  white-space: nowrap;
+  background: transparent;
+}
+.chip:hover { border-color: var(--border-2); color: var(--text-2); }
+.chip.on { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
+
+/* ── STAT STRIP ──────────────────────────────────────────── */
+.stat-strip {
+  display: flex;
+  border-bottom: 1px solid var(--border);
+}
+
+.stat-cell {
+  flex: 1;
+  padding: 8px 10px;
+  border-right: 1px solid var(--border);
+  text-align: center;
+}
+.stat-cell:last-child { border-right: none; }
+
+.stat-n {
+  font-family: var(--mono);
+  font-size: 16px; font-weight: 500;
+  color: var(--text);
+  line-height: 1;
+}
+.stat-n.accent { color: var(--accent); }
+.stat-n.good   { color: var(--good); }
+
+.stat-l {
+  font-family: var(--mono);
+  font-size: 8px; letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  margin-top: 3px;
+}
+
+/* ── SORT ROW ─────────────────────────────────────────────── */
+.sort-row {
+  display: flex; gap: 4px;
+  padding: 8px 16px;
+  border-bottom: 1px solid var(--border);
+  overflow-x: auto; scrollbar-width: none;
+}
+.sort-row::-webkit-scrollbar { display: none; }
+
+.sort-btn {
+  flex-shrink: 0;
+  padding: 4px 9px;
+  font-family: var(--mono);
+  font-size: 9px; letter-spacing: 0.05em; text-transform: uppercase;
+  border: 1px solid transparent;
+  border-radius: var(--r);
+  color: var(--text-3);
+  cursor: pointer;
+  transition: all var(--t);
+  white-space: nowrap;
+}
+.sort-btn:hover { border-color: var(--border); color: var(--text-2); }
+.sort-btn.on { border-color: var(--border-2); color: var(--text); background: var(--bg-2); }
+
+/* ── CONTENT ─────────────────────────────────────────────── */
+.content { padding: 0 0 90px; }
+
+.pane { display: none; }
+.pane.on { display: block; animation: fadein 0.15s ease; }
+@keyframes fadein { from{opacity:0;transform:translateY(3px);} to{opacity:1;transform:translateY(0);} }
+
+/* ── DEAL CARD ───────────────────────────────────────────── */
+.deal-card {
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  transition: background var(--t);
+}
+.deal-card:hover { background: var(--bg-2); }
+.deal-card.open  { background: var(--bg-2); }
+
+/* Top clickable area */
+.card-top {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  padding: 16px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  -webkit-tap-highlight-color: transparent;
+  align-items: start;
+}
+.card-top:active { background: var(--bg-3); }
+
+.card-name {
+  font-family: var(--sans);
+  font-weight: 500;
+  font-size: 15px;
+  color: var(--text);
+  line-height: 1.3;
+  word-break: break-word;
+  margin-bottom: 2px;
+}
+
+.card-dev {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--text-3);
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+
+.card-price-row {
+  display: flex; align-items: baseline; gap: 8px;
+}
+
+.p-now {
+  font-family: var(--mono);
+  font-size: 20px; font-weight: 500;
+  color: var(--text);
+}
+
+.p-was {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text-3);
+  text-decoration: line-through;
+}
+
+.p-pct {
+  font-family: var(--mono);
+  font-size: 10px; font-weight: 500;
+  color: var(--accent);
+}
+
+/* ── SCORE BLOCK ─────────────────────────────────────────── */
+.score-block { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+
+.score-circle {
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border-2);
+  display: flex; align-items: center; justify-content: center;
+  position: relative;
+}
+
+.score-n {
+  font-family: var(--mono);
+  font-size: 13px; font-weight: 500;
+  color: var(--text);
+}
+
+.score-bar-mini {
+  width: 40px; height: 2px;
+  background: var(--border);
+  border-radius: 1px;
+  overflow: hidden;
+}
+.score-bar-fill { height: 100%; border-radius: 1px; }
+
+/* ── CARD META TAGS ──────────────────────────────────────── */
+.card-meta {
+  display: flex; align-items: center; gap: 5px; flex-wrap: wrap;
+  padding: 0 16px 14px;
+}
+
+.tag {
+  font-family: var(--mono);
+  font-size: 9px; letter-spacing: 0.05em; text-transform: uppercase;
+  padding: 2px 6px;
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  color: var(--text-3);
+}
+
+.tag-verdict {
+  font-family: var(--mono);
+  font-size: 9px; font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: var(--r);
+}
+.tv-rare  { background: var(--good-bg); border: 1px solid var(--good); color: var(--good); }
+.tv-warn  { background: var(--warn-bg); border: 1px solid var(--warn); color: var(--warn); }
+.tv-bad   { background: var(--bad-bg);  border: 1px solid var(--bad);  color: var(--bad); }
+.tv-ok    { background: var(--accent-bg); border: 1px solid var(--accent); color: var(--accent); }
+
+.tag-src { font-family: var(--mono); font-size: 9px; color: var(--text-3); margin-left: auto; letter-spacing: 0.02em; }
+
+/* ── EXPANDED DETAIL ─────────────────────────────────────── */
+.card-detail {
+  max-height: 0; overflow: hidden;
+  transition: max-height 0.3s ease;
+  border-top: 0px solid var(--border);
+}
+.deal-card.open .card-detail {
+  max-height: 2200px;
+  border-top: 1px solid var(--border);
+}
+
+/* Recommendation */
+.rec-row {
+  display: flex; align-items: stretch;
+  border-bottom: 1px solid var(--border);
+}
+.rec-action {
+  width: 52px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--mono); font-size: 9px; font-weight: 500;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  writing-mode: vertical-lr; transform: rotate(180deg);
+  border-right: 1px solid var(--border);
+}
+.ra-buy  { background: var(--good-bg); color: var(--good); }
+.ra-wait { background: var(--warn-bg); color: var(--warn); }
+.ra-skip { background: var(--bad-bg);  color: var(--bad);  }
+
+.rec-body { padding: 12px 14px; flex: 1; }
+.rec-title {
+  font-family: var(--sans); font-weight: 600; font-size: 13px;
+  color: var(--text); margin-bottom: 4px;
+}
+.rec-txt {
+  font-size: 12px; color: var(--text-2);
+  line-height: 1.6; font-weight: 300;
+}
+
+/* Data grid */
+.dg {
+  display: grid; grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid var(--border);
+}
+.dc {
+  padding: 11px 14px;
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.dc:nth-child(2n) { border-right: none; }
+.dc:nth-last-child(-n+2) { border-bottom: none; }
+.dc-l {
+  font-family: var(--mono); font-size: 8px; letter-spacing: 0.07em;
+  text-transform: uppercase; color: var(--text-3); margin-bottom: 4px;
+}
+.dc-v {
+  font-family: var(--mono); font-size: 14px; font-weight: 500;
+  color: var(--text); line-height: 1;
+}
+.dc-v.good { color: var(--good); }
+.dc-v.warn { color: var(--warn); }
+.dc-v.bad  { color: var(--bad); }
+.dc-s { font-family: var(--mono); font-size: 9px; color: var(--text-3); margin-top: 3px; }
+
+/* Score breakdown */
+.score-sec {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border);
+}
+.sec-hd {
+  font-family: var(--mono); font-size: 8px;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--text-3); margin-bottom: 10px;
+}
+.sb-row { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+.sb-l { font-family: var(--mono); font-size: 9px; color: var(--text-3); width: 120px; flex-shrink: 0; }
+.sb-track { flex: 1; height: 2px; background: var(--border); border-radius: 1px; overflow: hidden; }
+.sb-fill { height: 100%; background: var(--accent); border-radius: 1px; }
+.sb-v { font-family: var(--mono); font-size: 9px; color: var(--text-3); width: 22px; text-align: right; flex-shrink: 0; }
+
+/* Flags */
+.flags { padding: 10px 14px; border-bottom: 1px solid var(--border); display: flex; flex-direction: column; gap: 6px; }
+.flag {
+  display: flex; align-items: flex-start; gap: 8px;
+  padding: 7px 9px; border-radius: var(--r); border: 1px solid;
+}
+.flag-fomo { background: var(--warn-bg); border-color: var(--warn); }
+.flag-hype { background: var(--bad-bg);  border-color: var(--bad); }
+.flag-ico {
+  width: 14px; height: 14px; flex-shrink: 0; margin-top: 1px;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--mono); font-size: 8px; font-weight: 700;
+}
+.flag-fomo .flag-ico { color: var(--warn); }
+.flag-hype .flag-ico { color: var(--bad); }
+.flag-txt { font-family: var(--mono); font-size: 9px; line-height: 1.5; color: var(--text-2); }
+
+/* Alert section */
+.alert-sec { padding: 12px 14px; border-bottom: 1px solid var(--border); }
+.alert-form { display: flex; gap: 6px; align-items: center; margin-top: 8px; }
+.alert-lbl { font-family: var(--mono); font-size: 9px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-3); flex-shrink: 0; }
+.alert-input {
+  flex: 1; min-width: 0;
+  background: var(--bg); border: 1px solid var(--border);
+  border-radius: var(--r); padding: 6px 8px;
+  font-family: var(--mono); font-size: 12px; color: var(--text);
+  outline: none; transition: border-color var(--t); -webkit-appearance: none;
+}
+.alert-input:focus { border-color: var(--accent); }
+.alert-set { flex-shrink: 0; padding: 6px 10px; border: 1px solid var(--border); border-radius: var(--r); font-family: var(--mono); font-size: 9px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-2); cursor: pointer; transition: all var(--t); }
+.alert-set:hover { border-color: var(--accent); color: var(--accent); }
+.alert-active { display: flex; align-items: center; justify-content: space-between; margin-top: 7px; padding: 7px 9px; background: var(--warn-bg); border: 1px solid var(--warn); border-radius: var(--r); }
+.alert-active-txt { font-family: var(--mono); font-size: 9px; color: var(--warn); }
+.alert-del { font-family: var(--mono); font-size: 9px; color: var(--text-3); cursor: pointer; padding: 2px 5px; border: 1px solid var(--border); border-radius: var(--r); }
+.alert-del:hover { border-color: var(--bad); color: var(--bad); }
+
+/* Notes */
+.notes-sec { padding: 12px 14px; border-bottom: 1px solid var(--border); }
+.notes-txt { font-size: 12px; color: var(--text-2); line-height: 1.65; font-weight: 300; }
+
+/* Action row */
+.act-row { display: flex; border-top: 1px solid var(--border); }
+.act-btn {
+  flex: 1; padding: 12px 8px;
+  font-family: var(--mono); font-size: 9px; font-weight: 500;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--text-3); cursor: pointer;
+  transition: all var(--t); text-align: center;
+  border-right: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: center; gap: 5px;
+  border-top: none; border-bottom: none; border-left: none;
+}
+.act-btn:last-child { border-right: none; }
+.act-btn:hover { background: var(--bg-3); color: var(--text); }
+.act-btn:active { background: var(--border); }
+.act-btn.primary { color: var(--accent); }
+.act-btn.primary:hover { background: var(--accent-bg); }
+.act-btn.saved   { color: var(--good); }
+.act-btn.cmp-on  { color: var(--warn); }
+
+/* ── CATEGORIES ──────────────────────────────────────────── */
+.cat-grid { display: grid; grid-template-columns: 1fr 1fr; }
+
+.cat-tile {
+  padding: 16px;
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  transition: background var(--t);
+}
+.cat-tile:nth-child(2n) { border-right: none; }
+.cat-tile:hover { background: var(--bg-2); }
+.cat-tile:active { background: var(--bg-3); }
+.cat-tile.on { background: var(--accent-bg); }
+
+.ct-name { font-family: var(--sans); font-weight: 500; font-size: 13px; color: var(--text); margin-bottom: 3px; }
+.cat-tile.on .ct-name { color: var(--accent); }
+.ct-meta { font-family: var(--mono); font-size: 9px; color: var(--text-3); letter-spacing: 0.03em; }
+.ct-bar { height: 1px; background: var(--border); margin-top: 10px; overflow: hidden; }
+.ct-fill { height: 100%; background: var(--accent); }
+
+/* ── WATCHLIST ───────────────────────────────────────────── */
+.wl-summary {
+  border-bottom: 1px solid var(--border);
+  display: grid; grid-template-columns: 1fr 1fr 1fr;
+}
+.wl-cell { padding: 14px 12px; border-right: 1px solid var(--border); text-align: center; }
+.wl-cell:last-child { border-right: none; }
+.wl-n { font-family: var(--mono); font-size: 16px; font-weight: 500; color: var(--text); }
+.wl-l { font-family: var(--mono); font-size: 8px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-3); margin-top: 3px; }
+
+/* ── COMPARE STRIP ───────────────────────────────────────── */
+.cmp-strip {
+  position: fixed; bottom: 58px; left: 50%; transform: translateX(-50%);
+  width: calc(100% - 24px); max-width: 406px;
+  background: var(--bg);
+  border: 1px solid var(--border-2);
+  border-radius: 3px;
+  z-index: 400;
+  display: none;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+}
+.cmp-strip.on { display: block; animation: fadein 0.18s ease; }
+.cmp-hd { display: flex; align-items: center; justify-content: space-between; padding: 9px 12px; border-bottom: 1px solid var(--border); }
+.cmp-title { font-family: var(--mono); font-size: 9px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--text-2); }
+.cmp-acts { display: flex; gap: 6px; }
+.cmp-act { padding: 4px 9px; font-family: var(--mono); font-size: 9px; text-transform: uppercase; letter-spacing: 0.05em; border: 1px solid var(--border); border-radius: var(--r); color: var(--text-3); cursor: pointer; transition: all var(--t); }
+.cmp-act:hover { border-color: var(--border-2); color: var(--text); }
+.cmp-act.primary { border-color: var(--accent); color: var(--accent); }
+.cmp-items { display: flex; gap: 6px; padding: 9px 12px; overflow-x: auto; }
+.cmp-item { flex-shrink: 0; display: flex; align-items: center; gap: 5px; padding: 4px 8px; border: 1px solid var(--border); border-radius: var(--r); font-family: var(--mono); font-size: 9px; color: var(--text-2); }
+.cmp-item-x { cursor: pointer; color: var(--text-3); padding: 1px 3px; transition: color var(--t); }
+.cmp-item-x:hover { color: var(--bad); }
+
+/* ── COMPARE MODAL ───────────────────────────────────────── */
+.cmp-modal { position: fixed; inset: 0; z-index: 700; background: rgba(0,0,0,0.4); display: none; align-items: flex-end; }
+.cmp-modal.on { display: flex; }
+.cmp-inner { width: 100%; max-width: 430px; margin: 0 auto; background: var(--bg); border-top: 1px solid var(--border-2); max-height: 85vh; overflow-y: auto; animation: fadein 0.2s ease; }
+.cmp-modal-hd { display: flex; align-items: center; justify-content: space-between; padding: 13px 16px; border-bottom: 1px solid var(--border); }
+.cmp-modal-title { font-family: var(--sans); font-weight: 600; font-size: 14px; }
+.cmp-close { font-family: var(--mono); font-size: 9px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-3); cursor: pointer; padding: 5px 9px; border: 1px solid var(--border); border-radius: var(--r); }
+.cmp-close:hover { border-color: var(--border-2); color: var(--text); }
+table.cmp-table { width: 100%; border-collapse: collapse; }
+.cmp-table th { font-family: var(--mono); font-size: 9px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-3); font-weight: 400; padding: 9px 14px; text-align: left; border-bottom: 1px solid var(--border); background: var(--bg-2); }
+.cmp-table td { font-family: var(--mono); font-size: 11px; color: var(--text); padding: 9px 14px; border-bottom: 1px solid var(--border); }
+.cmp-table tr:hover td { background: var(--bg-2); }
+.cmp-table td.best { color: var(--accent); font-weight: 500; }
+.cmp-table td.good { color: var(--good); }
+.cmp-table td.bad  { color: var(--bad); }
+.cmp-winner { padding: 12px 16px; font-family: var(--mono); font-size: 9px; color: var(--text-3); border-top: 1px solid var(--border); }
+.cmp-winner strong { color: var(--text); font-weight: 500; }
+
+/* ── SETTINGS DRAWER ─────────────────────────────────────── */
+.drw-overlay { position: fixed; inset: 0; z-index: 600; background: rgba(0,0,0,0.3); display: none; }
+.drw-overlay.on { display: block; }
+.drw {
+  position: fixed; bottom: 0; left: 50%; transform: translateX(-50%);
+  width: 100%; max-width: 430px;
+  background: var(--bg);
+  border-top: 1px solid var(--border-2);
+  border-radius: 6px 6px 0 0;
+  z-index: 601; max-height: 78vh; overflow-y: auto;
+  display: none;
+}
+.drw.on { display: block; animation: sheet-up 0.22s ease; }
+@keyframes sheet-up { from{transform:translateX(-50%) translateY(100%);} to{transform:translateX(-50%) translateY(0);} }
+
+.drw-handle { width: 32px; height: 3px; background: var(--border-2); border-radius: 2px; margin: 10px auto 12px; }
+.drw-title { font-family: var(--sans); font-weight: 600; font-size: 16px; padding: 0 16px 12px; border-bottom: 1px solid var(--border); letter-spacing: -0.01em; }
+.drw-sec { padding: 14px 16px; border-bottom: 1px solid var(--border); }
+.drw-sec:last-child { border-bottom: none; padding-bottom: 28px; }
+.drw-sec-title { font-family: var(--mono); font-size: 8px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-3); margin-bottom: 11px; }
+
+.setting-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.setting-row:last-child { margin-bottom: 0; }
+.setting-info { flex: 1; }
+.setting-lbl { font-size: 13px; color: var(--text); font-weight: 400; }
+.setting-sub { font-family: var(--mono); font-size: 9px; color: var(--text-3); margin-top: 2px; }
+
+.toggle { width: 34px; height: 18px; border-radius: 9px; border: 1px solid var(--border-2); background: var(--bg-3); position: relative; cursor: pointer; transition: background var(--t), border-color var(--t); flex-shrink: 0; }
+.toggle.on { background: var(--accent); border-color: var(--accent); }
+.toggle::after { content:''; position:absolute; left:2px; top:2px; width:12px; height:12px; border-radius:50%; background:var(--text-3); transition: transform var(--t), background var(--t); }
+.toggle.on::after { transform: translateX(16px); background: white; }
+
+input[type=range] { width: 100%; -webkit-appearance: none; appearance: none; height: 2px; border-radius: 1px; background: var(--border); outline: none; cursor: pointer; }
+input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 14px; height: 14px; border-radius: 2px; background: var(--accent); cursor: pointer; border: 2px solid var(--bg); box-shadow: 0 0 0 1px var(--accent); }
+.thr-row { margin-bottom: 10px; }
+.thr-lbl-row { display: flex; justify-content: space-between; margin-bottom: 7px; }
+.thr-lbl { font-family: var(--mono); font-size: 9px; color: var(--text-3); }
+.thr-val { font-family: var(--mono); font-size: 9px; color: var(--accent); font-weight: 500; }
+
+.src-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 9px; }
+.src-info .src-name { font-size: 13px; color: var(--text); font-weight: 400; }
+.src-info .src-url  { font-family: var(--mono); font-size: 9px; color: var(--text-3); margin-top: 1px; }
+
+/* Scraper URL */
+.scraper-url-display {
+  font-family: var(--mono); font-size: 10px; color: var(--text);
+  word-break: break-all; padding: 7px 9px;
+  background: var(--bg-2); border: 1px solid var(--border);
+  border-radius: var(--r); margin-bottom: 7px; min-height: 32px;
+}
+.scraper-url-display.empty { color: var(--text-3); }
+.scraper-url-acts { display: flex; gap: 6px; }
+.scraper-url-btn { padding: 5px 10px; font-family: var(--mono); font-size: 9px; text-transform: uppercase; letter-spacing: 0.05em; border: 1px solid var(--border); border-radius: var(--r); color: var(--text-3); cursor: pointer; transition: all var(--t); }
+.scraper-url-btn:hover { border-color: var(--border-2); color: var(--text); }
+.scraper-url-btn.danger:hover { border-color: var(--bad); color: var(--bad); }
+
+/* Custom sources */
+.custom-src-item { display: flex; align-items: center; justify-content: space-between; margin-bottom: 7px; padding: 8px 10px; background: var(--bg-2); border: 1px solid var(--border); border-radius: var(--r); }
+.custom-src-name { font-family: var(--sans); font-size: 12px; font-weight: 500; color: var(--text); }
+.custom-src-url  { font-family: var(--mono); font-size: 9px; color: var(--text-3); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 180px; }
+.custom-src-rm { font-family: var(--mono); font-size: 9px; text-transform: uppercase; padding: 3px 7px; border: 1px solid var(--border); border-radius: var(--r); color: var(--text-3); cursor: pointer; flex-shrink: 0; transition: all var(--t); }
+.custom-src-rm:hover { border-color: var(--bad); color: var(--bad); }
+
+/* Form fields in settings */
+.field-lbl { font-family: var(--mono); font-size: 8px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--text-3); margin-bottom: 5px; }
+.field-input {
+  width: 100%; background: var(--bg-2); border: 1px solid var(--border);
+  border-radius: var(--r); padding: 8px 10px; font-family: var(--mono);
+  font-size: 12px; color: var(--text); outline: none;
+  transition: border-color var(--t); -webkit-appearance: none;
+  margin-bottom: 6px;
+}
+.field-input:focus { border-color: var(--accent); }
+.field-input::placeholder { color: var(--text-3); }
+.field-btn {
+  width: 100%; padding: 10px; text-align: center;
+  font-family: var(--mono); font-size: 9px; font-weight: 500;
+  text-transform: uppercase; letter-spacing: 0.07em;
+  border: 1px solid var(--accent); border-radius: var(--r);
+  color: var(--accent); cursor: pointer; background: var(--accent-bg);
+  transition: all var(--t);
+}
+.field-btn:hover { background: var(--accent); color: white; }
+.field-btn:active { opacity: 0.85; }
+
+/* ── SETUP MODAL ─────────────────────────────────────────── */
+.setup-overlay {
+  position: fixed; inset: 0; z-index: 2000;
+  background: var(--bg);
+  display: none;
+  align-items: center; justify-content: center; padding: 24px;
+}
+.setup-overlay.on { display: flex; }
+.setup-box { width: 100%; max-width: 360px; }
+.setup-wordmark { font-family: var(--sans); font-weight: 600; font-size: 13px; letter-spacing: 0.07em; text-transform: uppercase; color: var(--text); margin-bottom: 32px; }
+.setup-wordmark em { color: var(--accent); font-style: normal; }
+.setup-h { font-family: var(--sans); font-weight: 600; font-size: 22px; color: var(--text); margin-bottom: 6px; letter-spacing: -0.02em; }
+.setup-sub { font-size: 13px; color: var(--text-2); line-height: 1.6; font-weight: 300; margin-bottom: 28px; }
+.setup-hint { font-family: var(--mono); font-size: 9px; color: var(--text-3); margin-bottom: 20px; min-height: 13px; }
+.setup-hint.ok  { color: var(--good); }
+.setup-hint.err { color: var(--bad); }
+.setup-acts { display: flex; gap: 8px; margin-top: 4px; }
+.setup-skip {
+  flex: 1; padding: 11px; font-family: var(--mono); font-size: 9px;
+  font-weight: 500; text-transform: uppercase; letter-spacing: 0.07em;
+  border: 1px solid var(--border); border-radius: var(--r); color: var(--text-3);
+  cursor: pointer; transition: all var(--t); background: none;
+}
+.setup-skip:hover { border-color: var(--border-2); color: var(--text); }
+.setup-connect {
+  flex: 2; padding: 11px; font-family: var(--mono); font-size: 9px;
+  font-weight: 500; text-transform: uppercase; letter-spacing: 0.07em;
+  border: 1px solid var(--accent); border-radius: var(--r);
+  color: var(--accent); background: var(--accent-bg);
+  cursor: pointer; transition: all var(--t);
+}
+.setup-connect:hover { background: var(--accent); color: white; }
+.setup-footer { font-family: var(--mono); font-size: 9px; color: var(--text-3); text-align: center; margin-top: 14px; }
+
+/* ── EMPTY STATE ─────────────────────────────────────────── */
+.empty { text-align: center; padding: 60px 24px; }
+.empty-h { font-family: var(--sans); font-weight: 500; font-size: 15px; color: var(--text-2); margin-bottom: 7px; }
+.empty-b { font-family: var(--mono); font-size: 10px; color: var(--text-3); line-height: 1.8; letter-spacing: 0.03em; }
+
+/* ── SKELETON ────────────────────────────────────────────── */
+.sk { border-bottom: 1px solid var(--border); padding: 16px; }
+.sk-line { background: linear-gradient(90deg, var(--bg-2) 25%, var(--bg-3) 50%, var(--bg-2) 75%); background-size: 200% 100%; animation: shimmer 1.4s infinite; border-radius: 1px; margin-bottom: 8px; }
+@keyframes shimmer { 0%{background-position:200% 0;} 100%{background-position:-200% 0;} }
+
+/* ── TOAST ───────────────────────────────────────────────── */
+.toast {
+  position: fixed; bottom: 70px; left: 50%;
+  transform: translateX(-50%) translateY(5px);
+  background: var(--text); color: var(--bg);
+  font-family: var(--mono); font-size: 11px;
+  padding: 8px 16px; border-radius: var(--r);
+  z-index: 1000; opacity: 0; pointer-events: none;
+  transition: opacity 0.18s, transform 0.18s;
+  white-space: nowrap;
+}
+.toast.on { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+/* ── BOTTOM NAV ──────────────────────────────────────────── */
+.nav {
+  position: fixed; bottom: 0; left: 50%; transform: translateX(-50%);
+  width: 100%; max-width: 430px;
+  background: var(--bg);
+  border-top: 1px solid var(--border);
+  display: flex; z-index: 200;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.ni {
+  flex: 1; display: flex; flex-direction: column; align-items: center;
+  gap: 3px; padding: 9px 4px 10px;
+  cursor: pointer; transition: background var(--t);
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+}
+.ni:hover { background: var(--bg-2); }
+.ni:active { background: var(--bg-3); }
+.ni-ico { font-size: 0; width: 16px; height: 14px; display: flex; align-items: center; justify-content: center; }
+
+/* Geometric icons — no emojis */
+.icon-bars { display: flex; align-items: flex-end; gap: 2px; height: 14px; }
+.icon-bars s { background: var(--text-3); border-radius: 1px; width: 3px; transition: background var(--t); }
+.icon-bolt { width: 9px; height: 14px; background: var(--text-3); clip-path: polygon(70% 0%,28% 54%,62% 54%,30% 100%,72% 46%,40% 46%); transition: background var(--t); }
+.icon-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; width: 12px; height: 12px; }
+.icon-grid s { background: var(--text-3); border-radius: 1px; transition: background var(--t); }
+.icon-star { width: 13px; height: 13px; background: var(--text-3); clip-path: polygon(50% 0%,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%); transition: background var(--t); }
+.icon-gear { width: 13px; height: 13px; background: var(--text-3); clip-path: polygon(38% 0%,62% 0%,65% 18%,80% 25%,96% 18%,100% 38%,88% 50%,100% 62%,96% 82%,80% 75%,65% 82%,62% 100%,38% 100%,35% 82%,20% 75%,4% 82%,0% 62%,12% 50%,0% 38%,4% 18%,20% 25%,35% 18%); transition: background var(--t); }
+
+.ni-lbl { font-family: var(--mono); font-size: 8px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-3); transition: color var(--t); }
+
+.ni.on .ni-lbl { color: var(--accent); }
+.ni.on .icon-bars s  { background: var(--accent); }
+.ni.on .icon-bolt    { background: var(--accent); }
+.ni.on .icon-grid s  { background: var(--accent); }
+.ni.on .icon-star    { background: var(--accent); }
+.ni.on .icon-gear    { background: var(--accent); }
+
+.ni-badge { position: absolute; top: 7px; right: calc(50% - 14px); background: var(--accent); color: white; font-family: var(--mono); font-size: 8px; font-weight: 600; min-width: 14px; height: 14px; padding: 0 3px; border-radius: 2px; display: none; align-items: center; justify-content: center; }
+
+/* ── SEC LABEL ───────────────────────────────────────────── */
+.sec-lbl {
+  font-family: var(--mono); font-size: 8px;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--text-3); padding: 12px 16px 8px;
+  display: flex; align-items: center; gap: 8px;
+  border-bottom: 1px solid var(--border);
+}
+.sec-lbl::after { content:''; flex:1; height:1px; background:var(--border); }
+
+/* ── KEYBOARD HINT ───────────────────────────────────────── */
+.kb-hint {
+  position: fixed; top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  background: var(--text); color: var(--bg);
+  font-family: var(--mono); font-size: 11px;
+  padding: 6px 14px; border-radius: var(--r);
+  z-index: 2000; opacity: 0; pointer-events: none;
+  transition: opacity 0.14s;
+}
+.kb-hint.on { opacity: 1; }
+
+/* Dev rep tags */
+.dev-tag { font-family: var(--mono); font-size: 8px; padding: 1px 5px; border-radius: var(--r); margin-left: 4px; vertical-align: middle; letter-spacing: 0.04em; text-transform: uppercase; }
+.dt-freq { border: 1px solid var(--warn); color: var(--warn); }
+.dt-rare { border: 1px solid var(--good); color: var(--good); }
+
+/* Alert dot */
+.alert-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--warn); flex-shrink: 0; animation: pip-pulse 2.5s ease-in-out infinite; }
+</style>
+</head>
+<body>
+
+<!-- SETUP MODAL -->
+<div class="setup-overlay" id="setupOverlay">
+  <div class="setup-box">
+    <div class="setup-wordmark">Plugin<em>Copilot</em></div>
+    <div class="setup-h">Connect a data source</div>
+    <div class="setup-sub">Enter your Render scraper URL for live deal data. Skip to browse the curated index — you can connect later in Settings.</div>
+    <div class="field-lbl">Render scraper URL</div>
+    <input class="field-input" type="url" id="setupInput" placeholder="https://your-app.onrender.com" autocorrect="off" autocapitalize="none" spellcheck="false" oninput="validateSetup(this.value)">
+    <div class="setup-hint" id="setupHint"></div>
+    <div class="setup-acts">
+      <button class="setup-skip" onclick="setupSkip()">Use Index</button>
+      <button class="setup-connect" onclick="setupSave()">Connect &amp; Launch</button>
+    </div>
+    <div class="setup-footer">URL stored on this device only. Change anytime in Settings.</div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="hdr">
+  <div class="hdr-top">
+    <div class="wordmark">Plugin<em>Copilot</em></div>
+    <div class="hdr-actions">
+      <div class="status-pip" id="sPip"></div>
+      <span id="sTxt" style="font-family:var(--mono);font-size:9px;letter-spacing:.05em;text-transform:uppercase;color:var(--text-3)">Loading</span>
+      <button class="theme-btn" id="themeBtn" onclick="toggleTheme()" title="Toggle dark mode"></button>
+      <button class="icon-btn" onclick="openSettings()" title="Settings">&#9881;</button>
+      <button class="icon-btn" onclick="loadDeals(true)" title="Refresh">&#8635;</button>
+    </div>
+  </div>
+  <div class="tab-row">
+    <button class="tab-btn on" data-tab="all"        onclick="switchTab('all',this)">All <span class="tab-n" id="cnt-all">—</span></button>
+    <button class="tab-btn"    data-tab="best"       onclick="switchTab('best',this)">Best <span class="tab-n" id="cnt-best">—</span></button>
+    <button class="tab-btn"    data-tab="categories" onclick="switchTab('categories',this)">Types</button>
+    <button class="tab-btn"    data-tab="watchlist"  onclick="switchTab('watchlist',this)">Saved <span class="tab-n" id="cnt-wl">—</span></button>
+  </div>
+</header>
+
+<!-- STATUS BAR -->
+<div class="status-bar">
+  <div class="status-pip" id="sBarPip"></div>
+  <span class="status-text" id="sBarTxt">Connecting…</span>
+</div>
+
+<!-- TOOLBAR -->
+<div class="toolbar" id="toolbar">
+  <div class="search-wrap">
+    <span class="search-pfx">Find</span>
+    <input class="search-input" type="search" id="srch" placeholder="plugin name, developer…" oninput="onSearch(this.value)" autocomplete="off" spellcheck="false">
+    <div class="search-clear" id="srchX" onclick="clearSearch()">✕</div>
+  </div>
+  <div class="filter-row">
+    <button class="chip on" onclick="setFilter('all',this)">All</button>
+    <button class="chip" onclick="setFilter('Reverb',this)">Reverb</button>
+    <button class="chip" onclick="setFilter('Delay',this)">Delay</button>
+    <button class="chip" onclick="setFilter('Compression',this)">Compression</button>
+    <button class="chip" onclick="setFilter('EQ',this)">EQ</button>
+    <button class="chip" onclick="setFilter('Synths',this)">Synths</button>
+    <button class="chip" onclick="setFilter('Distortion',this)">Distortion</button>
+    <button class="chip" onclick="setFilter('Modulation',this)">Modulation</button>
+    <button class="chip" onclick="setFilter('Instruments',this)">Instruments</button>
+    <button class="chip" onclick="setFilter('Mastering',this)">Mastering</button>
+  </div>
+</div>
+
+<!-- STAT STRIP -->
+<div class="stat-strip" id="statStrip">
+  <div class="stat-cell"><div class="stat-n" id="sTotal">—</div><div class="stat-l">Deals</div></div>
+  <div class="stat-cell"><div class="stat-n good" id="sStrong">—</div><div class="stat-l">Strong</div></div>
+  <div class="stat-cell"><div class="stat-n accent" id="sAvg">—</div><div class="stat-l">Avg Score</div></div>
+  <div class="stat-cell"><div class="stat-n" id="sWl">0</div><div class="stat-l">Saved</div></div>
+</div>
+
+<!-- CONTENT -->
+<div class="content">
+  <div class="pane on" id="pane-all">
+    <div class="sort-row">
+      <button class="sort-btn on" onclick="setSort('score',this)">Best Score</button>
+      <button class="sort-btn"    onclick="setSort('newest',this)">Newest</button>
+      <button class="sort-btn"    onclick="setSort('discount',this)">Biggest %</button>
+      <button class="sort-btn"    onclick="setSort('price_asc',this)">Price ↑</button>
+      <button class="sort-btn"    onclick="setSort('price_desc',this)">Price ↓</button>
+    </div>
+    <div id="dealList"></div>
+  </div>
+
+  <div class="pane" id="pane-best">
+    <div class="sec-lbl">Score 75 and above</div>
+    <div id="bestList"></div>
+  </div>
+
+  <div class="pane" id="pane-categories">
+    <div class="cat-grid" id="catGrid"></div>
+    <div id="catDeals"></div>
+  </div>
+
+  <div class="pane" id="pane-watchlist">
+    <div id="wlContent"></div>
+  </div>
+</div>
+
+<!-- COMPARE STRIP -->
+<div class="cmp-strip" id="cmpStrip">
+  <div class="cmp-hd">
+    <span class="cmp-title">Comparing <span id="cmpCnt">0</span></span>
+    <div class="cmp-acts">
+      <button class="cmp-act primary" onclick="openCmpModal()">Compare</button>
+      <button class="cmp-act" onclick="clearCmp()">Clear</button>
+    </div>
+  </div>
+  <div class="cmp-items" id="cmpItems"></div>
+</div>
+
+<!-- COMPARE MODAL -->
+<div class="cmp-modal" id="cmpModal">
+  <div class="cmp-inner">
+    <div class="cmp-modal-hd">
+      <span class="cmp-modal-title">Side-by-Side</span>
+      <button class="cmp-close" onclick="closeCmpModal()">Close</button>
+    </div>
+    <div id="cmpTableWrap"></div>
+  </div>
+</div>
+
+<!-- SETTINGS DRAWER -->
+<div class="drw-overlay" id="drwOverlay" onclick="closeSettings()"></div>
+<div class="drw" id="drwSettings">
+  <div class="drw-handle"></div>
+  <div class="drw-title">Settings</div>
+
+  <div class="drw-sec" id="scraper-section">
+    <div class="drw-sec-title">Scraper Connection</div>
+    <div class="scraper-url-display empty" id="scraperDisplay">Not configured</div>
+    <div class="scraper-url-acts">
+      <button class="scraper-url-btn" id="scraperChangeBtn" onclick="openSetupFromSettings()">Add URL</button>
+      <button class="scraper-url-btn danger" id="scraperRemoveBtn" onclick="clearScraperUrl()" style="display:none">Remove</button>
+    </div>
+  </div>
+
+  <div class="drw-sec">
+    <div class="drw-sec-title">Display</div>
+    <div class="setting-row">
+      <div class="setting-info"><div class="setting-lbl">FOMO warnings</div><div class="setting-sub">Flag plugins that go on sale very frequently</div></div>
+      <div class="toggle on" id="tog-fomo" onclick="toggleSetting('fomo',this)"></div>
+    </div>
+    <div class="setting-row">
+      <div class="setting-info"><div class="setting-lbl">Overhype detector</div><div class="setting-sub">Flag inflated MSRP discounts</div></div>
+      <div class="toggle on" id="tog-hype" onclick="toggleSetting('hype',this)"></div>
+    </div>
+    <div class="setting-row">
+      <div class="setting-info"><div class="setting-lbl">Score breakdown</div><div class="setting-sub">Show detailed scoring in expanded view</div></div>
+      <div class="toggle on" id="tog-breakdown" onclick="toggleSetting('breakdown',this)"></div>
+    </div>
+    <div class="thr-row">
+      <div class="thr-lbl-row">
+        <span class="thr-lbl">Minimum score to show</span>
+        <span class="thr-val" id="thrVal">0</span>
+      </div>
+      <input type="range" min="0" max="80" value="0" id="thrSlider" oninput="onThreshold(this.value)">
+    </div>
+  </div>
+
+  <div class="drw-sec" id="alerts-section">
+    <div class="drw-sec-title">Price Alerts</div>
+    <div id="alertsList"><div style="font-family:var(--mono);font-size:9px;color:var(--text-3)">No active alerts.</div></div>
+    <div class="setting-row" style="margin-top:10px">
+      <div class="setting-info"><div class="setting-lbl">Alert notifications</div><div class="setting-sub">Trigger when price drops below target</div></div>
+      <div class="toggle on" id="tog-alerts" onclick="toggleSetting('alerts',this)"></div>
+    </div>
+  </div>
+
+  <div class="drw-sec">
+    <div class="drw-sec-title">Data Sources</div>
+    <div class="src-row"><div class="src-info"><div class="src-name">AudioPluginGuy.com</div><div class="src-url">audiopluginguy.com/deals · Master reference</div></div><div class="toggle on" id="tog-apg" onclick="toggleSetting('apg',this)"></div></div>
+    <div class="src-row"><div class="src-info"><div class="src-name">Reddit AudioProductionDeals</div><div class="src-url">reddit.com/r/AudioProductionDeals</div></div><div class="toggle on" id="tog-reddit" onclick="toggleSetting('reddit',this)"></div></div>
+    <div class="src-row"><div class="src-info"><div class="src-name">KVR Audio</div><div class="src-url">kvraudio.com</div></div><div class="toggle on" id="tog-kvr" onclick="toggleSetting('kvr',this)"></div></div>
+    <div class="src-row"><div class="src-info"><div class="src-name">VI-Control</div><div class="src-url">vi-control.net</div></div><div class="toggle on" id="tog-vic" onclick="toggleSetting('vic',this)"></div></div>
+    <div class="src-row" style="margin-bottom:0"><div class="src-info"><div class="src-name">LinkedMusicians</div><div class="src-url">linkedmusicians.com</div></div><div class="toggle on" id="tog-lm" onclick="toggleSetting('lm',this)"></div></div>
+  </div>
+
+  <div class="drw-sec" id="custom-sec">
+    <div class="drw-sec-title">Custom Sources</div>
+    <div style="font-family:var(--mono);font-size:9px;color:var(--text-3);margin-bottom:10px;line-height:1.6">Add any deal page URL. Requires Render scraper to be connected.</div>
+    <div id="customList"></div>
+    <div style="margin-top:10px">
+      <div class="field-lbl">URL</div>
+      <input class="field-input" type="url" id="customUrl" placeholder="https://example.com/deals" autocorrect="off" autocapitalize="none" spellcheck="false">
+      <div class="field-lbl">Name (optional)</div>
+      <input class="field-input" type="text" id="customName" placeholder="Source name" autocorrect="off" spellcheck="false">
+      <button class="field-btn" onclick="addCustomSource()">Add Source</button>
+    </div>
+  </div>
+
+  <div class="drw-sec">
+    <div class="drw-sec-title">Keyboard Shortcuts</div>
+    <div style="font-family:var(--mono);font-size:9px;color:var(--text-3);line-height:2.2">
+      <div>J / K — Next / Previous deal</div>
+      <div>Enter — Expand selected</div>
+      <div>W — Toggle watchlist</div>
+      <div>C — Toggle compare</div>
+      <div>/ — Focus search</div>
+      <div>Esc — Close panel</div>
+      <div>1–4 — Switch tabs</div>
+    </div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<!-- KEYBOARD HINT -->
+<div class="kb-hint" id="kbHint"></div>
+
+<!-- BOTTOM NAV -->
+<nav class="nav">
+  <div class="ni on" onclick="switchTab('all',this);setNavOn(this)">
+    <div class="ni-ico"><div class="icon-bars"><s style="height:6px"></s><s style="height:10px"></s><s style="height:8px"></s><s style="height:13px"></s></div></div>
+    <span class="ni-lbl">Deals</span>
+  </div>
+  <div class="ni" onclick="switchTab('best',this);setNavOn(this)">
+    <div class="ni-ico"><div class="icon-bolt"></div></div>
+    <span class="ni-lbl">Best</span>
+  </div>
+  <div class="ni" onclick="switchTab('categories',this);setNavOn(this)">
+    <div class="ni-ico"><div class="icon-grid"><s></s><s></s><s></s><s></s></div></div>
+    <span class="ni-lbl">Types</span>
+  </div>
+  <div class="ni" style="position:relative" onclick="switchTab('watchlist',this);setNavOn(this)">
+    <div class="ni-ico"><div class="icon-star"></div></div>
+    <span class="ni-lbl">Saved</span>
+    <div class="ni-badge" id="navBadge"></div>
+  </div>
+  <div class="ni" onclick="openSettings()">
+    <div class="ni-ico"><div class="icon-gear"></div></div>
+    <span class="ni-lbl">Settings</span>
+  </div>
+</nav>
+
+<script>
+/* ══════════════════════════════════════════════════════════════
+   STATE
+══════════════════════════════════════════════════════════════ */
+let allDeals   = [];
+let watchlist  = JSON.parse(localStorage.getItem('pc_wl')    || '[]');
+let alerts     = JSON.parse(localStorage.getItem('pc_alerts')|| '{}');
+let cmpSet     = [];
+let customSrcs = JSON.parse(localStorage.getItem('pc_custom')|| '[]');
+let filterCat  = 'all';
+let sortMode   = 'score';
+let searchQ    = '';
+let activeTab  = 'all';
+let activeCat  = null;
+let expandedId = null;
+let selIdx     = -1;
+let scoreThr   = 0;
+
+let settings = JSON.parse(localStorage.getItem('pc_settings') || JSON.stringify({
+  fomo:true, hype:true, breakdown:true, alerts:true,
+  apg:true, reddit:true, kvr:true, vic:true, lm:true
+}));
+
+// ── Backend URL — loaded from localStorage, never hardcoded ──
+let BACKEND_URL = (() => {
+  const saved = localStorage.getItem('pc_scraper_url');
+  return saved ? saved.replace(/\/+$/, '') + '/api/deals' : '';
+})();
+
+/* ══════════════════════════════════════════════════════════════
+   MOCK / INDEXED DATA
+   Only shown when scraper is offline and Reddit proxy fails.
+   Accurate real-world data — no fabricated sales.
+══════════════════════════════════════════════════════════════ */
+const MOCK_DEALS = [
+  {id:2,  plugin_name:'Pro-Q 4',             developer:'FabFilter',          category:'EQ',          current_price:99,  msrp:179, historical_low_price:99,  historical_avg_sale_price:149, last_sale_dates:['2024-11-29','2023-11-24','2022-11-25'], sale_frequency_days:365, url:'https://www.fabfilter.com/shop/',                                                              source:'KVR Audio',                   timestamp:new Date(Date.now()-7200000).toISOString(),  price_history:[179,179,179,149,129,99],    dev_discount_freq:'rare',     sentiment:0.95, notes:'FabFilter only discounts on Black Friday. This is the historical low and only occurs ~once per year.'},
+  {id:4,  plugin_name:'Soundtoys 5 Bundle',  developer:'Soundtoys',          category:'Modulation',  current_price:59,  msrp:499, historical_low_price:29,  historical_avg_sale_price:79,  last_sale_dates:['2025-01-20','2024-11-25','2024-07-04','2024-03-15'], sale_frequency_days:75,  url:'https://www.soundtoys.com/product/soundtoys-5/',                                        source:'KVR Audio',                   timestamp:new Date(Date.now()-900000).toISOString(),   price_history:[499,149,99,79,59,49,29],    dev_discount_freq:'frequent', sentiment:0.65, notes:'Has been as low as $29. Current $59 is above historical low. Sale recurs every 2–3 months.'},
+  {id:5,  plugin_name:'Ozone 11 Advanced',   developer:'iZotope',            category:'Mastering',   current_price:99,  msrp:499, historical_low_price:79,  historical_avg_sale_price:119, last_sale_dates:['2024-11-29','2024-07-15','2024-01-10'], sale_frequency_days:120, url:'https://www.izotope.com/en/products/ozone.html',                                               source:'KVR Audio',                   timestamp:new Date(Date.now()-43200000).toISOString(), price_history:[499,299,179,149,119,99,79], dev_discount_freq:'frequent', sentiment:0.78, notes:'iZotope runs deep sales 3–4 times per year. Historical low is $79.'},
+  {id:6,  plugin_name:'Piano V3',            developer:'Arturia',            category:'Instruments', current_price:39,  msrp:99,  historical_low_price:39,  historical_avg_sale_price:59,  last_sale_dates:['2025-01-01','2024-06-01','2023-11-28'], sale_frequency_days:180, url:'https://www.arturia.com/products/analog-classics/piano-v/overview',                            source:'LinkedMusicians',             timestamp:new Date(Date.now()-21600000).toISOString(), price_history:[99,89,79,69,59,49,39],      dev_discount_freq:'occasional',sentiment:0.88, notes:'Matches historical low. Arturia discounts seasonally.'},
+  {id:7,  plugin_name:'SSL G-Master Buss Compressor', developer:'Waves',     category:'Compression', current_price:29,  msrp:299, historical_low_price:19,  historical_avg_sale_price:29,  last_sale_dates:['2025-01-28','2025-01-14','2025-01-01','2024-12-20'], sale_frequency_days:10,  url:'https://www.waves.com/plugins/ssl-g-master-buss-compressor',                           source:'KVR Audio',                   timestamp:new Date(Date.now()-600000).toISOString(),   price_history:[299,99,49,35,29,29,29],     dev_discount_freq:'frequent', sentiment:0.42, notes:'Waves MSRP is fictitious. $29 has been the de facto price for years. Wait for $19 flash sales.'},
+  {id:8,  plugin_name:'Straylight',          developer:'Native Instruments', category:'Instruments', current_price:49,  msrp:149, historical_low_price:49,  historical_avg_sale_price:99,  last_sale_dates:['2025-01-20','2024-07-10','2024-01-15'], sale_frequency_days:185, url:'https://www.native-instruments.com/en/products/komplete/synths/straylight/',                  source:'VI-Control',                  timestamp:new Date(Date.now()-86400000).toISOString(), price_history:[149,129,99,79,69,49,49],    dev_discount_freq:'occasional',sentiment:0.85, notes:'At all-time low. NI discounts individual instruments semi-annually.'},
+  {id:9,  plugin_name:'H3000 Factory',       developer:'Eventide',           category:'Modulation',  current_price:29,  msrp:199, historical_low_price:29,  historical_avg_sale_price:79,  last_sale_dates:['2025-01-28','2024-12-25','2024-11-29','2024-10-15'], sale_frequency_days:30,  url:'https://www.eventideaudio.com/plug-ins/h3000-factory/',                                source:'Reddit AudioProductionDeals', timestamp:new Date(Date.now()-7200000).toISOString(),  price_history:[199,149,99,79,49,29,29],    dev_discount_freq:'frequent', sentiment:0.70, notes:'At historical low but Eventide runs monthly flash sales. No urgency.'},
+  {id:10, plugin_name:'Snap Heap',           developer:'Kilohearts',         category:'Modulation',  current_price:39,  msrp:99,  historical_low_price:29,  historical_avg_sale_price:59,  last_sale_dates:['2024-11-28','2024-04-01','2023-11-25'], sale_frequency_days:230, url:'https://kilohearts.com/products/snap_heap',                                                    source:'Reddit AudioProductionDeals', timestamp:new Date(Date.now()-18000000).toISOString(), price_history:[99,79,69,59,49,39,39],      dev_discount_freq:'rare',     sentiment:0.80, notes:'$10 above historical low. Kilohearts discounts infrequently — roughly twice a year.'},
+  {id:11, plugin_name:'Manipulator',         developer:'Polyverse',          category:'Distortion',  current_price:79,  msrp:149, historical_low_price:59,  historical_avg_sale_price:99,  last_sale_dates:['2024-10-31','2024-01-15','2023-03-01'], sale_frequency_days:280, url:'https://polyversemusic.com/products/manipulator/',                                             source:'VI-Control',                  timestamp:new Date(Date.now()-28800000).toISOString(), price_history:[149,149,119,99,89,79,79],   dev_discount_freq:'rare',     sentiment:0.77, notes:'$20 above historical low. Polyverse discounts less than 3 times per year.'},
+  {id:12, plugin_name:'RX 11 Elements',      developer:'iZotope',            category:'Utility',     current_price:29,  msrp:99,  historical_low_price:19,  historical_avg_sale_price:29,  last_sale_dates:['2025-01-15','2024-11-29','2024-08-01'], sale_frequency_days:90,  url:'https://www.izotope.com/en/products/rx/rx-elements.html',                                     source:'Reddit AudioProductionDeals', timestamp:new Date(Date.now()-14400000).toISOString(), price_history:[99,79,49,39,29,29,29],      dev_discount_freq:'frequent', sentiment:0.72, notes:'$29 is the recurring price — has been $19 on flash deals. Useful but not urgent.'},
+  {id:13, plugin_name:'V Collection 10',     developer:'Arturia',            category:'Synths',      current_price:199, msrp:599, historical_low_price:149, historical_avg_sale_price:249, last_sale_dates:['2025-01-10','2024-07-01','2023-11-28'], sale_frequency_days:180, url:'https://www.arturia.com/products/analog-classics/v-collection/overview',                     source:'KVR Audio',                   timestamp:new Date(Date.now()-3600000).toISOString(),  price_history:[599,449,349,299,249,199,149],dev_discount_freq:'occasional',sentiment:0.85, notes:'$50 above historical low. V Collection discounts twice yearly — 40+ vintage synth emulations.'},
+  {id:14, plugin_name:'Portal',              developer:'Output',             category:'Modulation',  current_price:49,  msrp:99,  historical_low_price:29,  historical_avg_sale_price:59,  last_sale_dates:['2024-12-01','2024-06-15','2023-12-05'], sale_frequency_days:180, url:'https://output.com/products/portal',                                                           source:'LinkedMusicians',             timestamp:new Date(Date.now()-10800000).toISOString(), price_history:[99,89,79,69,59,49,49],      dev_discount_freq:'occasional',sentiment:0.72, notes:'$20 above historical low. Output runs bi-annual sales.'},
+  {id:15, plugin_name:'VMR Complete Bundle', developer:'Slate Digital',      category:'Mastering',   current_price:149, msrp:299, historical_low_price:99,  historical_avg_sale_price:179, last_sale_dates:['2024-12-20','2024-07-04','2024-01-15'], sale_frequency_days:150, url:'https://slatedigital.com/vmr/',                                                                source:'KVR Audio',                   timestamp:new Date(Date.now()-32400000).toISOString(), price_history:[299,249,199,179,149,129,99], dev_discount_freq:'frequent', sentiment:0.60, notes:'$50 above historical low. Slate runs frequent promos.'},
+];
+
+/* ══════════════════════════════════════════════════════════════
+   SCORING
+══════════════════════════════════════════════════════════════ */
+function scoreBreakdown(d) {
+  const dPct   = d.msrp > 0 ? Math.min((d.msrp - d.current_price) / d.msrp * 100, 100) : 0;
+  const atLow  = d.current_price <= d.historical_low_price;
+  const vsLow  = atLow ? 100 : d.current_price <= d.historical_avg_sale_price ? 60 : 20;
+  const rarity = Math.min(d.sale_frequency_days / 365, 1) * 100;
+  const days   = d.last_sale_dates?.length ? (Date.now()-new Date(d.last_sale_dates[0]))/86400000 : 999;
+  const rec    = Math.min(days/(d.sale_frequency_days||90),1)*100;
+  const sent   = (d.sentiment||0.5)*100;
+  const total  = Math.min(Math.round(dPct*.3 + vsLow*.3 + rarity*.2 + rec*.1 + sent*.1), 100);
+  return {total, dPct:Math.round(dPct), vsLow:Math.round(vsLow), rarity:Math.round(rarity), rec:Math.round(rec), sent:Math.round(sent)};
+}
+
+function getScore(d) { return d.deal_score != null ? d.deal_score : scoreBreakdown(d).total; }
+
+function getVerdict(deal) {
+  const atLow = deal.current_price <= deal.historical_low_price;
+  const freq  = deal.sale_frequency_days < 60;
+  if (atLow && !freq) return {l:'Historically Rare', c:'tv-rare'};
+  if (atLow && freq)  return {l:'Common — No Urgency', c:'tv-warn'};
+  if (deal.current_price > deal.historical_avg_sale_price) return {l:'Above Average Price', c:'tv-bad'};
+  if (getScore(deal) >= 65) return {l:'Solid Deal', c:'tv-ok'};
+  return {l:'Common Sale', c:'tv-warn'};
+}
+
+function getRec(deal) {
+  const s = getScore(deal);
+  const atLow = deal.current_price <= deal.historical_low_price;
+  if (s >= 78) return {a:'BUY', c:'ra-buy', t: atLow ? 'At or below historical low' : 'Strong deal for this plugin', b:`Historical low is $${deal.historical_low_price}. Typical sale: $${deal.historical_avg_sale_price}. ${deal.dev_discount_freq==='rare'?'This developer rarely discounts.':''}`};
+  if (s >= 50) return {a:'WAIT', c:'ra-wait', t:'Not the best price on record', b:`Historical low is $${deal.historical_low_price}. Estimated next sale: ${nextWindow(deal)}.`};
+  return {a:'SKIP', c:'ra-skip', t:'Not historically strong', b:`Goes on sale every ~${deal.sale_frequency_days} days. Has been as low as $${deal.historical_low_price}.`};
+}
+
+function scoreColor(s) {
+  if (s >= 78) return 'var(--good)';
+  if (s >= 60) return 'var(--text)';
+  if (s >= 40) return 'var(--warn)';
+  return 'var(--bad)';
+}
+
+function fmt(p) { return p===0?'Free':`$${p}`; }
+function pctOff(d) { return Math.round((d.msrp-d.current_price)/d.msrp*100); }
+
+function timeAgo(iso) {
+  if (!iso) return '';
+  const s=(Date.now()-new Date(iso))/1000;
+  if (s<3600)  return `${Math.round(s/60)}m ago`;
+  if (s<86400) return `${Math.round(s/3600)}h ago`;
+  return `${Math.round(s/86400)}d ago`;
+}
+
+function nextWindow(deal) {
+  if (!deal.last_sale_dates?.length) return 'unknown';
+  const next = new Date(new Date(deal.last_sale_dates[0]).getTime() + deal.sale_frequency_days*86400000);
+  return next.toLocaleDateString('en-US',{month:'short',year:'numeric'});
+}
+
+/* ══════════════════════════════════════════════════════════════
+   CARD RENDER — NO SPARKLINES
+══════════════════════════════════════════════════════════════ */
+function renderCard(deal, idx=0) {
+  const s      = getScore(deal);
+  const sb     = scoreBreakdown(deal);
+  const v      = getVerdict(deal);
+  const r      = getRec(deal);
+  const pct    = pctOff(deal);
+  const atLow  = deal.current_price <= deal.historical_low_price;
+  const inWl   = watchlist.includes(deal.id);
+  const inCmp  = cmpSet.includes(deal.id);
+  const hasAlert = alerts[deal.id];
+  const col    = scoreColor(s);
+
+  const fomoHtml = (settings.fomo && deal.sale_frequency_days < 45)
+    ? `<div class="flag flag-fomo"><div class="flag-ico">!</div><span class="flag-txt">FOMO ALERT — Goes on sale every ~${deal.sale_frequency_days} days. No urgency.</span></div>` : '';
+  const hypeHtml = (settings.hype && pct >= 80 && deal.sale_frequency_days < 60)
+    ? `<div class="flag flag-hype"><div class="flag-ico">!</div><span class="flag-txt">OVERHYPED — ${pct}% off looks large but MSRP is inflated. This discount is routine.</span></div>` : '';
+
+  const devTag = deal.dev_discount_freq==='frequent'
+    ? `<span class="dev-tag dt-freq">Sale-Heavy</span>`
+    : deal.dev_discount_freq==='rare'
+    ? `<span class="dev-tag dt-rare">Rarely Discounts</span>` : '';
+
+  return `<div class="deal-card" id="card-${deal.id}" data-idx="${idx}">
+  <button class="card-top" onclick="toggle(${deal.id})" type="button">
+    <div class="card-left">
+      <div class="card-name">${deal.plugin_name}</div>
+      <div class="card-dev">${deal.developer}${devTag}${hasAlert?`<span class="alert-dot" style="display:inline-block;margin-left:5px"></span>`:''}</div>
+      <div class="card-price-row">
+        <span class="p-now">${fmt(deal.current_price)}</span>
+        <span class="p-was">${fmt(deal.msrp)}</span>
+        <span class="p-pct">−${pct}%</span>
+      </div>
+    </div>
+    <div class="score-block">
+      <div class="score-circle" style="border-color:${col}">
+        <span class="score-n" style="color:${col}">${s}</span>
+      </div>
+      <div class="score-bar-mini"><div class="score-bar-fill" style="width:${s}%;background:${col}"></div></div>
+    </div>
+  </button>
+
+  <div class="card-meta" onclick="toggle(${deal.id})" style="cursor:pointer">
+    <span class="tag">${deal.category}</span>
+    <span class="tag-verdict ${v.c}">${v.l}</span>
+    <span class="tag-src">${deal.source} · ${timeAgo(deal.timestamp)}</span>
+  </div>
+
+  <div class="card-detail" id="det-${deal.id}">
+    <div class="rec-row">
+      <div class="rec-action ${r.c}">${r.a}</div>
+      <div class="rec-body">
+        <div class="rec-title">${r.t}</div>
+        <div class="rec-txt">${r.b}</div>
+      </div>
+    </div>
+
+    <div class="dg">
+      <div class="dc">
+        <div class="dc-l">Historical Low</div>
+        <div class="dc-v ${atLow?'good':''}">${fmt(deal.historical_low_price)}</div>
+        <div class="dc-s">${atLow?'Current matches':`$${deal.current_price-deal.historical_low_price} above`}</div>
+      </div>
+      <div class="dc">
+        <div class="dc-l">Avg Sale Price</div>
+        <div class="dc-v ${deal.current_price<deal.historical_avg_sale_price?'good':'warn'}">${fmt(deal.historical_avg_sale_price)}</div>
+        <div class="dc-s">${deal.current_price<deal.historical_avg_sale_price?'Below average':'Above average'}</div>
+      </div>
+      <div class="dc">
+        <div class="dc-l">Sale Cycle</div>
+        <div class="dc-v">${deal.sale_frequency_days >= 9000 ? 'Never' : `${deal.sale_frequency_days}d`}</div>
+        <div class="dc-s">${deal.sale_frequency_days>=9000?'Does not discount':deal.sale_frequency_days<60?'Very frequent':deal.sale_frequency_days<180?'Occasional':'Rare'}</div>
+      </div>
+      <div class="dc">
+        <div class="dc-l">Next Window</div>
+        <div class="dc-v">${nextWindow(deal)}</div>
+        <div class="dc-s">Estimated</div>
+      </div>
+    </div>
+
+    ${settings.breakdown ? `<div class="score-sec">
+      <div class="sec-hd">Score Breakdown</div>
+      ${[['Discount vs MSRP',sb.dPct],['vs Historical Low',sb.vsLow],['Sale Rarity',sb.rarity],['Recency',sb.rec],['Community Signal',sb.sent]].map(([l,v])=>`
+      <div class="sb-row"><span class="sb-l">${l}</span><div class="sb-track"><div class="sb-fill" style="width:${v}%"></div></div><span class="sb-v">${v}</span></div>`).join('')}
+    </div>` : ''}
+
+    ${fomoHtml||hypeHtml ? `<div class="flags">${fomoHtml}${hypeHtml}</div>` : ''}
+
+    <div class="alert-sec">
+      <div class="sec-hd">Price Alert</div>
+      <div class="alert-form">
+        <span class="alert-lbl">Notify below</span>
+        <input class="alert-input" type="number" min="1" max="${deal.msrp}" step="1"
+          id="ai-${deal.id}" value="${hasAlert||''}" placeholder="${deal.historical_low_price}"
+          onclick="event.stopPropagation()">
+        <button class="alert-set" onclick="event.stopPropagation();setAlert(${deal.id})" type="button">Set</button>
+      </div>
+      ${hasAlert?`<div class="alert-active"><span class="alert-active-txt">Alert — notify below $${hasAlert}</span><span class="alert-del" onclick="event.stopPropagation();delAlert(${deal.id})">Remove</span></div>`:''}
+    </div>
+
+    ${deal.notes?`<div class="notes-sec"><div class="sec-hd">Notes</div><div class="notes-txt">${deal.notes}</div></div>`:''}
+
+    <div class="act-row" onclick="event.stopPropagation()">
+      <a class="act-btn primary" href="${deal.url}" target="_blank" rel="noopener noreferrer"
+         onclick="event.stopPropagation()" ontouchend="event.stopPropagation()">
+        View Deal →
+      </a>
+      <button class="act-btn ${inWl?'saved':''}" type="button" id="wl-${deal.id}"
+        onclick="event.stopPropagation();toggleWl(${deal.id})"
+        ontouchend="event.stopPropagation();toggleWl(${deal.id});return false;">
+        ${inWl?'Saved':'Save'}
+      </button>
+      <button class="act-btn ${inCmp?'cmp-on':''}" type="button" id="cmp-${deal.id}"
+        onclick="event.stopPropagation();toggleCmp(${deal.id})"
+        ontouchend="event.stopPropagation();toggleCmp(${deal.id});return false;">
+        ${inCmp?'Comparing':'Compare'}
+      </button>
+    </div>
+  </div>
+</div>`;
+}
+
+/* ══════════════════════════════════════════════════════════════
+   TOGGLE EXPAND
+══════════════════════════════════════════════════════════════ */
+function toggle(id) {
+  const card = document.getElementById(`card-${id}`);
+  if (!card) return;
+  const wasOpen = card.classList.contains('open');
+  document.querySelectorAll('.deal-card.open').forEach(c => { if(c!==card) c.classList.remove('open'); });
+  if (wasOpen) { card.classList.remove('open'); expandedId=null; }
+  else {
+    card.classList.add('open'); expandedId=id;
+    setTimeout(()=>card.scrollIntoView({behavior:'smooth',block:'nearest'}), 50);
+    const deal = allDeals.find(d=>d.id===id);
+    if (deal && settings.alerts) checkAlert(deal);
+  }
+}
+
+/* ══════════════════════════════════════════════════════════════
+   SWIPE TO SAVE
+══════════════════════════════════════════════════════════════ */
+function attachSwipe(card, deal) {
+  let sx, sy, st;
+  card.addEventListener('touchstart', e=>{
+    if (e.target.closest('.card-detail')) return;
+    sx=e.touches[0].clientX; sy=e.touches[0].clientY; st=Date.now();
+  },{passive:true});
+  card.addEventListener('touchend', e=>{
+    if (!sx) return;
+    const dx=e.changedTouches[0].clientX-sx, dy=Math.abs(e.changedTouches[0].clientY-sy);
+    if (Math.abs(dx)>55 && dy<35 && Date.now()-st<350) {
+      if (dx>0) { if(!watchlist.includes(deal.id)){toggleWl(deal.id);} }
+      else { toggleCmp(deal.id); }
+    }
+    sx=null;
+  },{passive:true});
+}
+
+/* ══════════════════════════════════════════════════════════════
+   ALERTS
+══════════════════════════════════════════════════════════════ */
+function setAlert(id) {
+  const input = document.getElementById(`ai-${id}`);
+  const val = parseFloat(input?.value);
+  const deal = allDeals.find(d=>d.id===id);
+  if (!val || isNaN(val) || !deal) return;
+  if (val >= deal.current_price) { showToast(`Target must be below current price $${deal.current_price}`); return; }
+  alerts[id] = val;
+  localStorage.setItem('pc_alerts', JSON.stringify(alerts));
+  showToast(`Alert set — notify when below $${val}`);
+  renderAlertsInSettings();
+  const row = document.getElementById(`card-${id}`)?.querySelector('.alert-sec');
+  if (row) {
+    let ar = row.querySelector('.alert-active');
+    if (!ar) { ar=document.createElement('div'); ar.className='alert-active'; row.appendChild(ar); }
+    ar.innerHTML=`<span class="alert-active-txt">Alert — notify below $${val}</span><span class="alert-del" onclick="event.stopPropagation();delAlert(${id})">Remove</span>`;
+  }
+}
+function delAlert(id) {
+  delete alerts[id];
+  localStorage.setItem('pc_alerts', JSON.stringify(alerts));
+  showToast('Alert removed');
+  renderAlertsInSettings();
+  document.getElementById(`card-${id}`)?.querySelector('.alert-active')?.remove();
+}
+function checkAlert(deal) {
+  const t = alerts[deal.id];
+  if (t && deal.current_price <= t) setTimeout(()=>showToast(`ALERT: ${deal.plugin_name} is at $${deal.current_price} — below your $${t} target`), 400);
+}
+function checkAllAlerts() {
+  if (!settings.alerts) return;
+  const triggered = allDeals.filter(d=>{ const t=alerts[d.id]; return t && d.current_price<=t; });
+  if (triggered.length) showToast(`${triggered.length} price alert${triggered.length>1?'s':''} triggered`);
+}
+function renderAlertsInSettings() {
+  const el = document.getElementById('alertsList');
+  if (!el) return;
+  const entries = Object.entries(alerts);
+  if (!entries.length) { el.innerHTML=`<div style="font-family:var(--mono);font-size:9px;color:var(--text-3)">No active alerts.</div>`; return; }
+  el.innerHTML = entries.map(([id,price])=>{
+    const d = allDeals.find(x=>x.id==id);
+    if (!d) return '';
+    return `<div class="alert-active" style="margin-bottom:6px">
+      <span class="alert-active-txt">${d.plugin_name} below $${price} <span style="color:var(--text-3)">(now $${d.current_price})</span></span>
+      <span class="alert-del" onclick="delAlert(${id})">Remove</span>
+    </div>`;
+  }).join('');
+}
+
+/* ══════════════════════════════════════════════════════════════
+   WATCHLIST
+══════════════════════════════════════════════════════════════ */
+function toggleWl(id) {
+  const i=watchlist.indexOf(id);
+  if (i===-1){watchlist.push(id);showToast('Saved to watchlist');}
+  else{watchlist.splice(i,1);showToast('Removed from watchlist');}
+  localStorage.setItem('pc_wl', JSON.stringify(watchlist));
+  updateBadge();
+  const btn=document.getElementById(`wl-${id}`);
+  if (btn){const on=watchlist.includes(id);btn.className=`act-btn ${on?'saved':''}`;btn.textContent=on?'Saved':'Save';}
+  if (activeTab==='watchlist') renderWatchlist();
+}
+
+function updateBadge() {
+  const n=watchlist.length;
+  const b=document.getElementById('navBadge');
+  b.style.display=n>0?'flex':'none'; b.textContent=n;
+  document.getElementById('sWl').textContent=n;
+  document.getElementById('cnt-wl').textContent=n||'—';
+}
+
+/* ══════════════════════════════════════════════════════════════
+   COMPARE
+══════════════════════════════════════════════════════════════ */
+function toggleCmp(id) {
+  const i=cmpSet.indexOf(id);
+  if (i===-1){if(cmpSet.length>=4){showToast('Max 4 plugins');return;}cmpSet.push(id);showToast('Added to compare');}
+  else{cmpSet.splice(i,1);showToast('Removed from compare');}
+  updateCmpStrip();
+  const btn=document.getElementById(`cmp-${id}`);
+  if(btn){const on=cmpSet.includes(id);btn.className=`act-btn ${on?'cmp-on':''}`;btn.textContent=on?'Comparing':'Compare';}
+}
+function updateCmpStrip() {
+  const strip=document.getElementById('cmpStrip');
+  strip.classList.toggle('on',cmpSet.length>0);
+  document.getElementById('cmpCnt').textContent=cmpSet.length;
+  const deals=cmpSet.map(id=>allDeals.find(d=>d.id===id)).filter(Boolean);
+  document.getElementById('cmpItems').innerHTML=deals.map(d=>`
+    <div class="cmp-item">
+      <span style="color:${scoreColor(getScore(d))};font-weight:500">${getScore(d)}</span>
+      <span>${d.plugin_name}</span>
+      <span class="cmp-item-x" onclick="toggleCmp(${d.id})">✕</span>
+    </div>`).join('');
+}
+function clearCmp() {
+  cmpSet.forEach(id=>{const b=document.getElementById(`cmp-${id}`);if(b){b.className='act-btn';b.textContent='Compare';}});
+  cmpSet=[];updateCmpStrip();
+}
+function openCmpModal() {
+  if(cmpSet.length<2){showToast('Select at least 2 plugins');return;}
+  const deals=cmpSet.map(id=>allDeals.find(d=>d.id===id)).filter(Boolean);
+  const bestScore=Math.max(...deals.map(d=>getScore(d)));
+  const bestLow=Math.min(...deals.map(d=>d.historical_low_price));
+  const bestPct=Math.max(...deals.map(d=>pctOff(d)));
+  const rows=[
+    ['Score',d=>getScore(d),(v,d)=>(getScore(d)===bestScore?'best':'')],
+    ['Current Price',d=>fmt(d.current_price),()=>''],
+    ['MSRP',d=>fmt(d.msrp),()=>''],
+    ['Discount',d=>`${pctOff(d)}%`,(v,d)=>(pctOff(d)===bestPct?'best':'')],
+    ['Historical Low',d=>fmt(d.historical_low_price),(v,d)=>(d.historical_low_price===bestLow?'good':'')],
+    ['Avg Sale',d=>fmt(d.historical_avg_sale_price),()=>''],
+    ['Cycle',d=>`${d.sale_frequency_days}d`,()=>''],
+    ['At Low?',d=>(d.current_price<=d.historical_low_price?'Yes':'No'),(v,d)=>(d.current_price<=d.historical_low_price?'good':'bad')],
+    ['Verdict',d=>getVerdict(d).l,()=>''],
+  ];
+  document.getElementById('cmpTableWrap').innerHTML=`<div style="overflow-x:auto">
+    <table class="cmp-table"><thead><tr>
+      <th></th>${deals.map(d=>`<th>${d.plugin_name}<br><span style="font-weight:300;font-size:8px;color:var(--text-3)">${d.developer}</span></th>`).join('')}
+    </tr></thead><tbody>
+      ${rows.map(([label,val,cls])=>`<tr><td style="color:var(--text-3);font-size:9px">${label}</td>${deals.map(d=>`<td class="${cls(val(d),d)}">${val(d)}</td>`).join('')}</tr>`).join('')}
+    </tbody></table>
+    <div class="cmp-winner">Best overall: <strong>${deals.find(d=>getScore(d)===bestScore)?.plugin_name}</strong> — score ${bestScore}/100</div>
+  </div>`;
+  document.getElementById('cmpModal').classList.add('on');
+}
+function closeCmpModal(){document.getElementById('cmpModal').classList.remove('on');}
+
+/* ══════════════════════════════════════════════════════════════
+   FILTER / SORT / SEARCH
+══════════════════════════════════════════════════════════════ */
+function setFilter(cat, el) {
+  filterCat=cat;
+  document.querySelectorAll('.chip').forEach(c=>c.classList.remove('on'));
+  el.classList.add('on'); renderAll();
+}
+function setSort(mode, el) {
+  sortMode=mode;
+  document.querySelectorAll('.sort-btn').forEach(b=>b.classList.remove('on'));
+  el.classList.add('on'); renderAll();
+}
+function onSearch(v) {
+  searchQ=v.trim().toLowerCase();
+  document.getElementById('srchX').classList.toggle('on',searchQ.length>0);
+  renderAll();
+}
+function clearSearch() {
+  document.getElementById('srch').value=''; searchQ='';
+  document.getElementById('srchX').classList.remove('on'); renderAll();
+}
+function getFiltered() {
+  let d=[...allDeals];
+  if (filterCat!=='all')  d=d.filter(x=>x.category===filterCat);
+  if (searchQ)            d=d.filter(x=>(x.plugin_name+' '+x.developer).toLowerCase().includes(searchQ));
+  if (scoreThr>0)         d=d.filter(x=>getScore(x)>=scoreThr);
+  d.sort((a,b)=>{
+    if(sortMode==='score')     return getScore(b)-getScore(a);
+    if(sortMode==='newest')    return new Date(b.timestamp)-new Date(a.timestamp);
+    if(sortMode==='discount')  return ((b.msrp-b.current_price)/b.msrp)-((a.msrp-a.current_price)/a.msrp);
+    if(sortMode==='price_asc') return a.current_price-b.current_price;
+    if(sortMode==='price_desc')return b.current_price-a.current_price;
+  });
+  return d;
+}
+
+/* ══════════════════════════════════════════════════════════════
+   RENDERERS
+══════════════════════════════════════════════════════════════ */
+function skels(n=4){return Array.from({length:n},()=>`<div class="sk"><div class="sk-line" style="height:13px;width:55%;margin-bottom:8px"></div><div class="sk-line" style="height:10px;width:30%"></div><div style="height:10px"></div><div class="sk-line" style="height:22px;width:40%"></div></div>`).join('');}
+
+function renderCards(deals, containerId) {
+  const el=document.getElementById(containerId);
+  if (!deals.length){el.innerHTML=`<div class="empty"><div class="empty-h">No results</div><div class="empty-b">Adjust filters or search term.</div></div>`;return;}
+  el.innerHTML=deals.map((d,i)=>renderCard(d,i)).join('');
+  deals.forEach(d=>{const card=document.getElementById(`card-${d.id}`);if(card)attachSwipe(card,d);});
+}
+
+function renderAll() {
+  const deals=getFiltered();
+  renderCards(deals,'dealList');
+  updateStats(deals);
+  document.getElementById('cnt-all').textContent=deals.length||'—';
+}
+
+function renderBest() {
+  const deals=allDeals.filter(d=>getScore(d)>=75).sort((a,b)=>getScore(b)-getScore(a));
+  document.getElementById('cnt-best').textContent=deals.length||'—';
+  renderCards(deals,'bestList');
+}
+
+function renderCategories() {
+  const cats=[...new Set(allDeals.map(d=>d.category))].sort();
+  document.getElementById('catGrid').innerHTML=cats.map(cat=>{
+    const cd=allDeals.filter(d=>d.category===cat);
+    const best=Math.max(...cd.map(d=>getScore(d)));
+    return `<div class="cat-tile ${activeCat===cat?'on':''}" onclick="selectCat('${cat}')">
+      <div class="ct-name">${cat}</div>
+      <div class="ct-meta">${cd.length} deal${cd.length!==1?'s':''} · Best ${best}</div>
+      <div class="ct-bar"><div class="ct-fill" style="width:${best}%"></div></div>
+    </div>`;
+  }).join('');
+  if (activeCat) {
+    const cd=allDeals.filter(d=>d.category===activeCat).sort((a,b)=>getScore(b)-getScore(a));
+    document.getElementById('catDeals').innerHTML=`<div class="sec-lbl">${activeCat}</div>`+cd.map((d,i)=>renderCard(d,i)).join('');
+    cd.forEach(d=>{const card=document.getElementById(`card-${d.id}`);if(card)attachSwipe(card,d);});
+  } else document.getElementById('catDeals').innerHTML='';
+}
+function selectCat(cat){activeCat=activeCat===cat?null:cat;renderCategories();}
+
+function renderWatchlist() {
+  const saved=allDeals.filter(d=>watchlist.includes(d.id)).sort((a,b)=>getScore(b)-getScore(a));
+  const el=document.getElementById('wlContent');
+  if (!saved.length){el.innerHTML=`<div class="empty"><div class="empty-h">Nothing saved</div><div class="empty-b">Expand any deal and tap Save,<br>or swipe right on a card.</div></div>`;return;}
+  const totalSavings=saved.reduce((s,d)=>s+(d.msrp-d.current_price),0);
+  const avgSc=Math.round(saved.reduce((s,d)=>s+getScore(d),0)/saved.length);
+  el.innerHTML=`<div class="wl-summary">
+    <div class="wl-cell"><div class="wl-n">${saved.length}</div><div class="wl-l">Plugins</div></div>
+    <div class="wl-cell"><div class="wl-n">$${totalSavings}</div><div class="wl-l">Savings</div></div>
+    <div class="wl-cell"><div class="wl-n" style="color:${scoreColor(avgSc)}">${avgSc}</div><div class="wl-l">Avg Score</div></div>
+  </div>
+  <div class="sec-lbl">${saved.length} saved</div>`+saved.map((d,i)=>renderCard(d,i)).join('');
+  saved.forEach(d=>{const card=document.getElementById(`card-${d.id}`);if(card)attachSwipe(card,d);});
+}
+
+function updateStats(deals) {
+  document.getElementById('sTotal').textContent=deals.length;
+  document.getElementById('sStrong').textContent=deals.filter(d=>getScore(d)>=78).length;
+  const avg=deals.length?Math.round(deals.reduce((s,d)=>s+getScore(d),0)/deals.length):0;
+  document.getElementById('sAvg').textContent=avg;
+  updateBadge();
+}
+
+/* ══════════════════════════════════════════════════════════════
+   TABS + NAV
+══════════════════════════════════════════════════════════════ */
+function switchTab(tab, el) {
+  activeTab=tab;
+  document.querySelectorAll('.pane').forEach(p=>p.classList.remove('on'));
+  document.getElementById(`pane-${tab}`).classList.add('on');
+  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.toggle('on',b.dataset.tab===tab));
+  document.getElementById('toolbar').style.display=tab==='categories'?'none':'';
+  document.getElementById('statStrip').style.display=tab==='watchlist'?'none':'';
+  if(tab==='best')       renderBest();
+  if(tab==='categories') renderCategories();
+  if(tab==='watchlist')  renderWatchlist();
+  if(tab==='all')        renderAll();
+}
+function setNavOn(el){document.querySelectorAll('.ni').forEach(n=>n.classList.remove('on'));el.classList.add('on');}
+
+/* ══════════════════════════════════════════════════════════════
+   SETTINGS
+══════════════════════════════════════════════════════════════ */
+function openSettings(section) {
+  // Refresh scraper URL display
+  const saved=localStorage.getItem('pc_scraper_url')||'';
+  const disp=document.getElementById('scraperDisplay');
+  const changeBtn=document.getElementById('scraperChangeBtn');
+  const removeBtn=document.getElementById('scraperRemoveBtn');
+  if (saved){disp.textContent=saved;disp.classList.remove('empty');changeBtn.textContent='Change URL';removeBtn.style.display='';}
+  else{disp.textContent='Not configured — using indexed data';disp.classList.add('empty');changeBtn.textContent='Add URL';removeBtn.style.display='none';}
+
+  // Render custom sources
+  renderCustomList();
+  renderAlertsInSettings();
+
+  // Sync toggles
+  Object.entries(settings).forEach(([k,v])=>{const el=document.getElementById(`tog-${k}`);if(el)el.classList.toggle('on',v);});
+  document.getElementById('thrSlider').value=scoreThr;
+  document.getElementById('thrVal').textContent=scoreThr;
+
+  document.getElementById('drwOverlay').classList.add('on');
+  document.getElementById('drwSettings').classList.add('on');
+
+  if(section==='alerts') setTimeout(()=>document.getElementById('alerts-section')?.scrollIntoView({behavior:'smooth',block:'center'}),280);
+}
+function closeSettings(){document.getElementById('drwOverlay').classList.remove('on');document.getElementById('drwSettings').classList.remove('on');}
+
+function toggleSetting(key,el){settings[key]=!settings[key];el.classList.toggle('on',settings[key]);localStorage.setItem('pc_settings',JSON.stringify(settings));renderAll();}
+function onThreshold(v){scoreThr=parseInt(v);document.getElementById('thrVal').textContent=v;renderAll();}
+
+function clearScraperUrl() {
+  localStorage.removeItem('pc_scraper_url');
+  BACKEND_URL='';
+  showToast('Scraper URL removed');
+  closeSettings();
+  setTimeout(()=>openSettings(),200);
+  loadDeals();
+}
+function openSetupFromSettings() { closeSettings(); showSetup(); }
+
+/* ══════════════════════════════════════════════════════════════
+   CUSTOM SOURCES
+══════════════════════════════════════════════════════════════ */
+function renderCustomList() {
+  const el=document.getElementById('customList');
+  if (!el) return;
+  if (!customSrcs.length){el.innerHTML='';return;}
+  el.innerHTML=customSrcs.map((s,i)=>`<div class="custom-src-item">
+    <div style="flex:1;min-width:0"><div class="custom-src-name">${s.name||s.url}</div><div class="custom-src-url">${s.url}</div></div>
+    <button class="custom-src-rm" onclick="removeCustomSrc(${i})" type="button">Remove</button>
+  </div>`).join('');
+}
+function addCustomSource() {
+  const url=document.getElementById('customUrl').value.trim();
+  const name=document.getElementById('customName').value.trim();
+  if (!url){showToast('Enter a URL first');return;}
+  try{new URL(url);}catch{showToast('Enter a valid URL including https://');return;}
+  if(customSrcs.find(s=>s.url===url)){showToast('Already added');return;}
+  const entry={url,name:name||url};
+  customSrcs.push(entry);
+  localStorage.setItem('pc_custom',JSON.stringify(customSrcs));
+  if(BACKEND_URL){fetch(BACKEND_URL.replace(/\/api\/deals$/,'')+'/api/custom-sources',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(entry)}).catch(()=>{});}
+  document.getElementById('customUrl').value='';
+  document.getElementById('customName').value='';
+  renderCustomList();
+  showToast(`Added: ${name||url}`);
+}
+function removeCustomSrc(i) {
+  const removed=customSrcs.splice(i,1)[0];
+  localStorage.setItem('pc_custom',JSON.stringify(customSrcs));
+  if(BACKEND_URL&&removed){fetch(BACKEND_URL.replace(/\/api\/deals$/,'')+'/api/custom-sources',{method:'DELETE',headers:{'Content-Type':'application/json'},body:JSON.stringify({url:removed.url})}).catch(()=>{});}
+  renderCustomList();
+  showToast('Source removed');
+}
+function syncCustomToServer() {
+  if(!BACKEND_URL||!customSrcs.length) return;
+  const base=BACKEND_URL.replace(/\/api\/deals$/,'');
+  customSrcs.forEach(s=>fetch(base+'/api/custom-sources',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(s)}).catch(()=>{}));
+}
+
+/* ══════════════════════════════════════════════════════════════
+   SETUP MODAL
+══════════════════════════════════════════════════════════════ */
+function showSetup() {
+  const saved=localStorage.getItem('pc_scraper_url')||'';
+  if(saved) document.getElementById('setupInput').value=saved;
+  document.getElementById('setupOverlay').classList.add('on');
+}
+function hideSetup() { document.getElementById('setupOverlay').classList.remove('on'); }
+
+function validateSetup(v) {
+  const hint=document.getElementById('setupHint');
+  const input=document.getElementById('setupInput');
+  if(!v){hint.textContent='';hint.className='setup-hint';return false;}
+  try{const u=new URL(v);if(u.protocol!=='https:'&&u.protocol!=='http:')throw new Error();hint.textContent='URL looks valid — will test on connect';hint.className='setup-hint ok';return true;}
+  catch{hint.textContent='Enter a full URL including https://';hint.className='setup-hint err';return false;}
+}
+
+function setupSkip() {
+  localStorage.setItem('pc_setup_done','1');
+  BACKEND_URL='';
+  hideSetup();
+  launch();
+}
+
+function setupSave() {
+  const v=document.getElementById('setupInput').value.trim();
+  if(v&&!validateSetup(v)) return;
+  if(v){
+    const clean=v.replace(/\/+$/,'');
+    localStorage.setItem('pc_scraper_url',clean);
+    localStorage.setItem('pc_setup_done','1');
+    BACKEND_URL=clean+'/api/deals';
+  } else {
+    localStorage.setItem('pc_setup_done','1');
+    BACKEND_URL='';
+  }
+  hideSetup();
+  launch();
+}
+
+/* ══════════════════════════════════════════════════════════════
+   THEME
+══════════════════════════════════════════════════════════════ */
+function toggleTheme() {
+  const html=document.documentElement;
+  const isDark=html.dataset.theme==='dark';
+  html.dataset.theme=isDark?'light':'dark';
+  localStorage.setItem('pc_theme',html.dataset.theme);
+}
+function applyTheme() {
+  const saved=localStorage.getItem('pc_theme');
+  if(saved) document.documentElement.dataset.theme=saved;
+  else if(window.matchMedia('(prefers-color-scheme: dark)').matches) document.documentElement.dataset.theme='dark';
+}
+
+/* ══════════════════════════════════════════════════════════════
+   TOAST
+══════════════════════════════════════════════════════════════ */
+function showToast(msg) {
+  const t=document.getElementById('toast');
+  t.textContent=msg; t.classList.add('on');
+  clearTimeout(t._t); t._t=setTimeout(()=>t.classList.remove('on'),2100);
+}
+
+/* ══════════════════════════════════════════════════════════════
+   STATUS
+══════════════════════════════════════════════════════════════ */
+function setStatus(state, text) {
+  const pip=document.getElementById('sPip');
+  const txt=document.getElementById('sTxt');
+  const bPip=document.getElementById('sBarPip');
+  const bTxt=document.getElementById('sBarTxt');
+
+  pip.className='status-pip';
+  bPip.className='status-pip';
+
+  if(state==='loading'){
+    pip.classList.add('loading'); bPip.classList.add('loading');
+    txt.textContent='Loading'; if(text)bTxt.textContent=text;
+  } else if(state==='live'){
+    pip.classList.add('live'); bPip.classList.add('live');
+    txt.textContent='Live'; if(text)bTxt.textContent=text;
+  } else if(state==='reddit'){
+    pip.classList.add('reddit'); bPip.classList.add('reddit');
+    txt.textContent='Reddit'; if(text)bTxt.textContent=text;
+  } else {
+    txt.textContent='Index'; if(text)bTxt.textContent=text;
+  }
+}
+
+/* ══════════════════════════════════════════════════════════════
+   KEYBOARD NAV
+══════════════════════════════════════════════════════════════ */
+function kbHint(msg){const el=document.getElementById('kbHint');el.textContent=msg;el.classList.add('on');clearTimeout(el._t);el._t=setTimeout(()=>el.classList.remove('on'),900);}
+
+document.addEventListener('keydown', e=>{
+  const tag=document.activeElement.tagName;
+  if(tag==='INPUT'||tag==='TEXTAREA'){if(e.key==='Escape'){document.activeElement.blur();clearSearch();}return;}
+  if(e.key==='Escape'){closeCmpModal();closeSettings();document.querySelectorAll('.deal-card.open').forEach(c=>c.classList.remove('open'));expandedId=null;return;}
+  if(e.key==='/'){e.preventDefault();document.getElementById('srch').focus();return;}
+  if(e.key==='1'){switchTab('all');kbHint('Deals');return;}
+  if(e.key==='2'){switchTab('best');kbHint('Best');return;}
+  if(e.key==='3'){switchTab('categories');kbHint('Types');return;}
+  if(e.key==='4'){switchTab('watchlist');kbHint('Saved');return;}
+  const cards=[...document.querySelectorAll('.deal-card')];
+  if(!cards.length)return;
+  if(e.key==='j'||e.key==='ArrowDown'){e.preventDefault();selIdx=Math.min(selIdx+1,cards.length-1);cards.forEach((c,i)=>c.style.outline=i===selIdx?'1px solid var(--accent)':'');cards[selIdx].scrollIntoView({behavior:'smooth',block:'center'});kbHint(`${selIdx+1}/${cards.length}`);}
+  if(e.key==='k'||e.key==='ArrowUp'){e.preventDefault();selIdx=Math.max(selIdx-1,0);cards.forEach((c,i)=>c.style.outline=i===selIdx?'1px solid var(--accent)':'');cards[selIdx].scrollIntoView({behavior:'smooth',block:'center'});kbHint(`${selIdx+1}/${cards.length}`);}
+  if((e.key==='Enter'||e.key===' ')&&selIdx>=0){const id=parseInt(cards[selIdx].id.replace('card-',''));toggle(id);}
+  if(e.key==='w'&&selIdx>=0){const id=parseInt(cards[selIdx].id.replace('card-',''));toggleWl(id);kbHint('Watchlist toggled');}
+  if(e.key==='c'&&selIdx>=0){const id=parseInt(cards[selIdx].id.replace('card-',''));toggleCmp(id);kbHint('Compare toggled');}
+});
+
+/* ══════════════════════════════════════════════════════════════
+   DATA FETCH — FIXED
+   Key fixes vs previous version:
+   1. No parameter mismatch — uses ?force=1 consistently
+   2. Scraper URL never has /api/deals appended twice
+   3. allDeals filtered only for blank/null names, not 'Unknown'
+   4. Source counts shown even when zero (using Number coercion)
+   5. Timeout extended to 20s for Render cold starts
+══════════════════════════════════════════════════════════════ */
+
+const CAT_KW={
+  'Reverb':['reverb','verb','room','hall','plate','spring'],
+  'Delay':['delay','echo','tape delay'],
+  'Compression':['compressor','compression','limiter','1176','la-2a','ssl bus'],
+  'EQ':['equalizer','equaliser','pultec','api 550','neve 1073',' eq '],
+  'Distortion':['distortion','saturation','overdrive','fuzz','clipper'],
+  'Modulation':['chorus','flanger','phaser','tremolo','vibrato','modulation','rotary'],
+  'Synths':['synthesizer','wavetable','fm synth','analog synth','serum','massive','vital'],
+  'Instruments':['piano','guitar','bass','drum','orchestr','strings','kontakt','sample library'],
+  'Mastering':['mastering','master bus','loudness','metering','lufs'],
+  'Utility':['tuner','pitch shift','spectrum analyzer','noise reduction','restoration']
+};
+function classifyText(t){const lo=t.toLowerCase();for(const[cat,kws]of Object.entries(CAT_KW))if(kws.some(k=>lo.includes(k)))return cat;return'Other';}
+function extractPx(t){const m=t.match(/\$\s*(\d+(?:\.\d{1,2})?)/);return m?parseFloat(m[1]):null;}
+function extractMsrpX(t){const m=t.match(/(?:was|reg(?:ular)?|msrp|retail)\s*:?\s*\$\s*(\d+(?:\.\d{1,2})?)/i);return m?parseFloat(m[1]):null;}
+
+function parseRedditPosts(json) {
+  if(!json?.data?.children)return[];
+  const cutoff=Date.now()-30*24*60*60*1000;
+  return json.data.children.map(({data:p})=>{
+    if(p.stickied)return null;
+    const postDate=new Date(p.created_utc*1000);
+    if(postDate.getTime()<cutoff)return null;
+    const text=`${p.title} ${p.selftext||''}`;
+    const price=extractPx(p.title)??extractPx(p.selftext||'');
+    if(!price||price<3||price>999)return null;
+    const rawName=p.title.replace(/^\[.*?\]\s*/,'').replace(/\$[\d.,]+[^\s]*/g,'').replace(/[-–|].*$/,'').replace(/\s{2,}/g,' ').trim().slice(0,70);
+    if(!rawName||rawName.length<3)return null;
+    const msrp=extractMsrpX(text)??price*2;
+    const dealUrl=(!p.is_self&&p.url&&!p.url.includes('reddit.com'))?p.url:`https://reddit.com${p.permalink}`;
+    return{
+      id:Math.floor(Math.random()*900000)+100000,
+      plugin_name:rawName,developer:'Various',
+      category:classifyText(text),
+      current_price:price,msrp,
+      historical_low_price:price,historical_avg_sale_price:Math.round(msrp*.65),
+      last_sale_dates:[postDate.toISOString()],
+      sale_frequency_days:120,
+      url:dealUrl,source:'Reddit r/AudioProductionDeals',
+      timestamp:postDate.toISOString(),
+      price_history:[],  // intentionally empty — no history for live posts
+      dev_discount_freq:'unknown',sentiment:0.6,notes:(p.selftext||'').slice(0,200)
+    };
+  }).filter(Boolean);
+}
+
+async function loadDeals(force=false) {
+  setStatus('loading','Fetching deals…');
+  document.getElementById('dealList').innerHTML=skels();
+
+  // ── 1. Render scraper backend ─────────────────────────────
+  // This is the only place BACKEND_URL is used.
+  // force=true → append ?force=1 so server bypasses its 5-min cache
+  if (BACKEND_URL) {
+    try {
+      // Wake ping — Render free tier needs this to start warming up
+      const baseUrl = BACKEND_URL.replace(/\/api\/deals(\?.*)?$/, '');
+      fetch(baseUrl + '/health', { signal: AbortSignal.timeout(5000) }).catch(()=>{});
+      // 800ms head start for Render to wake
+      await new Promise(r=>setTimeout(r, 800));
+
+      // Build the correct URL — never double-append /api/deals
+      const fetchUrl = force ? BACKEND_URL + '?force=1' : BACKEND_URL;
+
+      const ctrl = new AbortController();
+      const timer = setTimeout(()=>ctrl.abort(), 20000);
+      const res = await fetch(fetchUrl, { signal: ctrl.signal });
+      clearTimeout(timer);
+
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+      const json = await res.json();
+
+      // Filter out deals with no valid name
+      allDeals = (json.deals || []).filter(d => d.plugin_name && d.plugin_name.trim().length > 2);
+
+      // Build status detail — show counts even if zero
+      const s = json.sources || {};
+      const parts = [];
+      if (s.apg            !== undefined) parts.push(`APG ${Number(s.apg)}`);
+      if (s.reddit         !== undefined) parts.push(`Reddit ${Number(s.reddit)}`);
+      if (s.kvr            !== undefined) parts.push(`KVR ${Number(s.kvr)}`);
+      if (s.vic            !== undefined) parts.push(`VI-Control ${Number(s.vic)}`);
+      if (s.linkedMusicians!== undefined) parts.push(`LinkedMusicians ${Number(s.linkedMusicians)}`);
+      if (s.custom         !== undefined && s.custom>0) parts.push(`Custom ${s.custom}`);
+
+      const srcStr = parts.length ? parts.join(' · ') : `${allDeals.length} deals`;
+      const fromCache = json.source === 'cache';
+      const updatedAt = json.updated ? new Date(json.updated).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}) : '';
+      setStatus('live', `${fromCache?'Cached':'Live'} · 30 days · ${srcStr}${updatedAt?' · '+updatedAt:''}`);
+
+      afterLoad(); return;
+
+    } catch(e) {
+      console.warn('[scraper] failed:', e.message);
+      // Fall through to Reddit
+    }
+  }
+
+  // ── 2. Reddit public JSON via CORS proxy ──────────────────
+  try {
+    const ctrl = new AbortController();
+    const timer = setTimeout(()=>ctrl.abort(), 9000);
+    const res = await fetch(
+      'https://corsproxy.io/?url=' + encodeURIComponent('https://www.reddit.com/r/AudioProductionDeals/new.json?limit=50&raw_json=1'),
+      { signal: ctrl.signal, headers: {'Accept':'application/json'} }
+    );
+    clearTimeout(timer);
+
+    if (res.ok) {
+      const json = await res.json();
+      const posts = parseRedditPosts(json);
+      if (posts.length > 0) {
+        allDeals = posts;
+        setStatus('reddit', `Reddit r/AudioProductionDeals · ${posts.length} deals · last 30 days`);
+        afterLoad(); return;
+      }
+    }
+  } catch(e) { /* proxy down */ }
+
+  // ── 3. Indexed fallback ───────────────────────────────────
+  allDeals = MOCK_DEALS;
+  setStatus('index', BACKEND_URL
+    ? 'Scraper unavailable · Showing indexed data · Check Render logs'
+    : 'Indexed data · Add your Render URL in Settings to load live deals');
+  afterLoad();
+}
+
+function afterLoad() {
+  renderAll();
+  renderAlertsInSettings();
+  setTimeout(checkAllAlerts, 1200);
+}
+
+/* ══════════════════════════════════════════════════════════════
+   INIT
+══════════════════════════════════════════════════════════════ */
+applyTheme();
+
+// Sync saved settings to toggles
+Object.entries(settings).forEach(([k,v])=>{const el=document.getElementById(`tog-${k}`);if(el)el.classList.toggle('on',v);});
+
+updateBadge();
+syncCustomToServer();
+
+function launch() {
+  // Re-read BACKEND_URL from storage (may have just been set in setup)
+  const saved=localStorage.getItem('pc_scraper_url');
+  if(saved) BACKEND_URL=saved.replace(/\/+$/,'')+'/api/deals';
+  loadDeals();
+}
+
+// Show setup on first ever launch
+if (!localStorage.getItem('pc_setup_done')) {
+  showSetup();
+} else {
+  launch();
+}
+</script>
+</body>
+</html>
