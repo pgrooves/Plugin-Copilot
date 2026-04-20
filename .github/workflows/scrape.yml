@@ -1,0 +1,40 @@
+name: Scrape Plugin Deals
+
+on:
+  schedule:
+    # Runs every day at 8:00 AM UTC
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+    # Also allows manual trigger from GitHub Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 lxml
+
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Commit and push deals.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add deals.json
+          # Only commit if deals.json actually changed
+          git diff --staged --quiet || git commit -m "chore: update deals $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
