@@ -2,6 +2,3706 @@
   "deals": [
     {
       "id": 1001,
+      "plugin_name": "ReContour",
+      "developer": "Stagecraft Software",
+      "category": "Other",
+      "current_price": 32.0,
+      "msrp": 64,
+      "historical_low_price": 32.0,
+      "historical_avg_sale_price": 32,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-02T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/stagecraft-software/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-02T00:00:00+00:00",
+      "deal_ends": "2026-05-29T00:00:00+00:00",
+      "price_history": [
+        32.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Stagecraft Software | Get 50% off ReContour by Stagecraft Software. The discounted price is $32. 🆕 NEW",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1002,
+      "plugin_name": "BollyX",
+      "developer": "BeatSkillz",
+      "category": "Other",
+      "current_price": 29.0,
+      "msrp": 97,
+      "historical_low_price": 29.0,
+      "historical_avg_sale_price": 29,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-02T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recbK79QTgcmrBP5S",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-02T00:00:00+00:00",
+      "deal_ends": "2026-05-03T00:00:00+00:00",
+      "price_history": [
+        29.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "BeatSkillz | Get 70% off BollyX by BeatSkillz. The discounted price is $29. ⏰ ENDS SOON! 🆕 NEW",
+      "comments": [],
+      "deal_score": 72,
+      "is_free": false
+    },
+    {
+      "id": 1003,
+      "plugin_name": "Vinylistik",
+      "developer": "BeatSkillz",
+      "category": "Other",
+      "current_price": 29.0,
+      "msrp": 97,
+      "historical_low_price": 29.0,
+      "historical_avg_sale_price": 29,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-02T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recbK79QTgcmrBP5S",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-02T00:00:00+00:00",
+      "deal_ends": "2026-05-03T00:00:00+00:00",
+      "price_history": [
+        29.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "BeatSkillz | Get 70% off Vinylistik by BeatSkillz. The discounted price is $29. ⏰ ENDS SOON! 🆕 NEW",
+      "comments": [],
+      "deal_score": 72,
+      "is_free": false
+    },
+    {
+      "id": 1004,
+      "plugin_name": "Attracktive Box Pro",
+      "developer": "Tracktion",
+      "category": "Other",
+      "current_price": 99.0,
+      "msrp": 248,
+      "historical_low_price": 99.0,
+      "historical_avg_sale_price": 99,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/tracktion/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-30T00:00:00+00:00",
+      "price_history": [
+        99.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Tracktion | Get 60% off Attracktive Box Pro by Tracktion. The discounted price is $99.",
+      "comments": [],
+      "deal_score": 69,
+      "is_free": false
+    },
+    {
+      "id": 1005,
+      "plugin_name": "Attracktive Box Essential",
+      "developer": "Tracktion",
+      "category": "Other",
+      "current_price": 69.0,
+      "msrp": 138,
+      "historical_low_price": 69.0,
+      "historical_avg_sale_price": 69,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/tracktion/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-30T00:00:00+00:00",
+      "price_history": [
+        69.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Tracktion | Get 50% off Attracktive Box Essential by Tracktion. The discounted price is $69.",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1006,
+      "plugin_name": "RetroMod Collection",
+      "developer": "Tracktion",
+      "category": "Other",
+      "current_price": 249.0,
+      "msrp": 519,
+      "historical_low_price": 249.0,
+      "historical_avg_sale_price": 249,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/tracktion/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        249.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Tracktion | Get 52% off RetroMod Collection by Tracktion. The discounted price is $249.",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1007,
+      "plugin_name": "APX 351",
+      "developer": "Tone Empire",
+      "category": "Other",
+      "current_price": 29.0,
+      "msrp": 58,
+      "historical_low_price": 29.0,
+      "historical_avg_sale_price": 29,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/tone-empire/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        29.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Tone Empire | Get 50% off APX 351 by Tone Empire. The discounted price is $29.",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1008,
+      "plugin_name": "Loc-Ness V3",
+      "developer": "Tone Empire",
+      "category": "Other",
+      "current_price": 29.0,
+      "msrp": 97,
+      "historical_low_price": 29.0,
+      "historical_avg_sale_price": 29,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/tone-empire/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        29.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Tone Empire | Get 70% off Loc-Ness V3 by Tone Empire. The discounted price is $29.",
+      "comments": [],
+      "deal_score": 72,
+      "is_free": false
+    },
+    {
+      "id": 1009,
+      "plugin_name": "Model 5000",
+      "developer": "Tone Empire",
+      "category": "Other",
+      "current_price": 39.0,
+      "msrp": 98,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/tone-empire/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Tone Empire | Get 60% off Model 5000 by Tone Empire. The discounted price is $39.",
+      "comments": [],
+      "deal_score": 69,
+      "is_free": false
+    },
+    {
+      "id": 1010,
+      "plugin_name": "dime Bundle",
+      "developer": "time off audio",
+      "category": "Other",
+      "current_price": 99.0,
+      "msrp": 118,
+      "historical_low_price": 99.0,
+      "historical_avg_sale_price": 99,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recjaRUbdgh1vxgw9",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        99.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "time off audio | Get 16% off dime Bundle by time off audio. The discounted price is $99.",
+      "comments": [],
+      "deal_score": 55,
+      "is_free": false
+    },
+    {
+      "id": 1011,
+      "plugin_name": "UNMASK",
+      "developer": "Three-Body Technology",
+      "category": "Other",
+      "current_price": 59.0,
+      "msrp": 128,
+      "historical_low_price": 59.0,
+      "historical_avg_sale_price": 59,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/three-body-technology/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-07-29T00:00:00+00:00",
+      "price_history": [
+        59.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Three-Body Technology | Get 54% off UNMASK by Three-Body Technology. The discounted price is $59.",
+      "comments": [],
+      "deal_score": 67,
+      "is_free": false
+    },
+    {
+      "id": 1012,
+      "plugin_name": "dime[mb]",
+      "developer": "time off audio",
+      "category": "Other",
+      "current_price": 59.0,
+      "msrp": 79,
+      "historical_low_price": 59.0,
+      "historical_avg_sale_price": 59,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recjaRUbdgh1vxgw9",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        59.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "time off audio | Get 25% off dime[mb] by time off audio. The discounted price is $59.",
+      "comments": [],
+      "deal_score": 58,
+      "is_free": false
+    },
+    {
+      "id": 1013,
+      "plugin_name": "EMISYNTH",
+      "developer": "Strix Instruments",
+      "category": "Instruments",
+      "current_price": 12.99,
+      "msrp": 93,
+      "historical_low_price": 12.99,
+      "historical_avg_sale_price": 13,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recFvP8MIrbaSjuky",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-07-31T00:00:00+00:00",
+      "price_history": [
+        12.99
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Strix Instruments | Get 86% off EMISYNTH by Strix Instruments (Kontakt Instrument). The discounted price is $12.99. 💰 SAVE BIG!",
+      "comments": [],
+      "deal_score": 76,
+      "is_free": false
+    },
+    {
+      "id": 1014,
+      "plugin_name": "PRIPYAT Pianos",
+      "developer": "Strix Instruments",
+      "category": "Instruments",
+      "current_price": 14.99,
+      "msrp": 187,
+      "historical_low_price": 14.99,
+      "historical_avg_sale_price": 15,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recFvP8MIrbaSjuky",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-07-31T00:00:00+00:00",
+      "price_history": [
+        14.99
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Strix Instruments | Get 92% off PRIPYAT Pianos by Strix Instruments (Kontakt Instrument). The discounted price is $14.99. 💰 SAVE BIG!",
+      "comments": [],
+      "deal_score": 78,
+      "is_free": false
+    },
+    {
+      "id": 1015,
+      "plugin_name": "Parity EQ",
+      "developer": "Stagecraft Software",
+      "category": "EQ",
+      "current_price": 37.0,
+      "msrp": 74,
+      "historical_low_price": 37.0,
+      "historical_avg_sale_price": 37,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/stagecraft-software/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-29T00:00:00+00:00",
+      "price_history": [
+        37.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Stagecraft Software | Get 50% off Parity EQ by Stagecraft Software. The discounted price is $37.",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1016,
+      "plugin_name": "Compressor",
+      "developer": "Stagecraft Software",
+      "category": "Compression",
+      "current_price": 15.0,
+      "msrp": 50,
+      "historical_low_price": 15.0,
+      "historical_avg_sale_price": 15,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/stagecraft-software/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-29T00:00:00+00:00",
+      "price_history": [
+        15.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Stagecraft Software | Get 70% off Compressor by Stagecraft Software. The discounted price is $15.",
+      "comments": [],
+      "deal_score": 72,
+      "is_free": false
+    },
+    {
+      "id": 1017,
+      "plugin_name": "Solid State Logic SSL Fusion Bundle",
+      "developer": "Solid State Logic",
+      "category": "Other",
+      "current_price": 75.0,
+      "msrp": 938,
+      "historical_low_price": 75.0,
+      "historical_avg_sale_price": 75,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/solid-state-logic/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-14T00:00:00+00:00",
+      "price_history": [
+        75.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Solid State Logic | Get 92% off Solid State Logic SSL Fusion Bundle by Solid State Logic. The discounted price is $75. 🔥 HOT! 💰 SAVE BIG!",
+      "comments": [],
+      "deal_score": 78,
+      "is_free": false
+    },
+    {
+      "id": 1018,
+      "plugin_name": "Weiss Deess",
+      "developer": "Softube",
+      "category": "Other",
+      "current_price": 69.0,
+      "msrp": 197,
+      "historical_low_price": 69.0,
+      "historical_avg_sale_price": 69,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/softube/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        69.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Softube | Get 65% off Weiss Deess by Softube. The discounted price is $69. 🔥 HOT!",
+      "comments": [],
+      "deal_score": 70,
+      "is_free": false
+    },
+    {
+      "id": 1019,
+      "plugin_name": "Weiss MM-1",
+      "developer": "Softube",
+      "category": "Other",
+      "current_price": 69.0,
+      "msrp": 197,
+      "historical_low_price": 69.0,
+      "historical_avg_sale_price": 69,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/softube/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        69.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Softube | Get 65% off Weiss MM-1 by Softube. The discounted price is $69. 🔥 HOT!",
+      "comments": [],
+      "deal_score": 70,
+      "is_free": false
+    },
+    {
+      "id": 1020,
+      "plugin_name": "Chandler Limited® Curve Bender Mastering EQ",
+      "developer": "Softube",
+      "category": "EQ",
+      "current_price": 79.0,
+      "msrp": 293,
+      "historical_low_price": 79.0,
+      "historical_avg_sale_price": 79,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/softube/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        79.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Softube | Get 73% off Chandler Limited® Curve Bender Mastering EQ by Softube. The discounted price is $79. 🔥 HOT!",
+      "comments": [],
+      "deal_score": 72,
+      "is_free": false
+    },
+    {
+      "id": 1021,
+      "plugin_name": "Chandler Limited® Germanium Compressor",
+      "developer": "Softube",
+      "category": "Compression",
+      "current_price": 79.0,
+      "msrp": 247,
+      "historical_low_price": 79.0,
+      "historical_avg_sale_price": 79,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/softube/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        79.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Softube | Get 68% off Chandler Limited® Germanium Compressor by Softube. The discounted price is $79. 🔥 HOT!",
+      "comments": [],
+      "deal_score": 71,
+      "is_free": false
+    },
+    {
+      "id": 1022,
+      "plugin_name": "Scaler EQ",
+      "developer": "Scaler Music",
+      "category": "EQ",
+      "current_price": 39.0,
+      "msrp": 58,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recMtz0Wt9aCfgGKn",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Scaler Music | Get 33% off Scaler EQ by Scaler Music. The discounted price is $39.",
+      "comments": [],
+      "deal_score": 60,
+      "is_free": false
+    },
+    {
+      "id": 1023,
+      "plugin_name": "DELTA",
+      "developer": "NEST Acoustics",
+      "category": "Other",
+      "current_price": 39.0,
+      "msrp": 58,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recEwZSLGBIN8rt4G",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "NEST Acoustics | Get 33% off DELTA by NEST Acoustics. The discounted price is $39.",
+      "comments": [],
+      "deal_score": 60,
+      "is_free": false
+    },
+    {
+      "id": 1024,
+      "plugin_name": "Advanced Mastering Course",
+      "developer": "Mastering The Mix",
+      "category": "Mastering",
+      "current_price": 19.0,
+      "msrp": 95,
+      "historical_low_price": 19.0,
+      "historical_avg_sale_price": 19,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/mastering-the-mix/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        19.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Mastering The Mix | Get 80% off Advanced Mastering Course by Mastering The Mix. The discounted price is $19. 🔥 HOT! 💰 SAVE BIG!",
+      "comments": [],
+      "deal_score": 75,
+      "is_free": false
+    },
+    {
+      "id": 1025,
+      "plugin_name": "thEQorange",
+      "developer": "MAAT",
+      "category": "Other",
+      "current_price": 412.3,
+      "msrp": 589,
+      "historical_low_price": 412.3,
+      "historical_avg_sale_price": 412,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/maat/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        412.3
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "MAAT | Get 30% off thEQorange by MAAT. The discounted price is $412.30.",
+      "comments": [],
+      "deal_score": 60,
+      "is_free": false
+    },
+    {
+      "id": 1026,
+      "plugin_name": "MAATgo",
+      "developer": "MAAT",
+      "category": "Other",
+      "current_price": 16.8,
+      "msrp": 24,
+      "historical_low_price": 16.8,
+      "historical_avg_sale_price": 17,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/maat/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        16.8
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "MAAT | Get 30% off MAATgo by MAAT. The discounted price is $16.80.",
+      "comments": [],
+      "deal_score": 60,
+      "is_free": false
+    },
+    {
+      "id": 1027,
+      "plugin_name": "LANDR Mastering Plugin PRO",
+      "developer": "LANDR",
+      "category": "Mastering",
+      "current_price": 199.0,
+      "msrp": 297,
+      "historical_low_price": 199.0,
+      "historical_avg_sale_price": 199,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/landr/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        199.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "LANDR | Get 33% off LANDR Mastering Plugin PRO by LANDR. The discounted price is $199.",
+      "comments": [],
+      "deal_score": 60,
+      "is_free": false
+    },
+    {
+      "id": 1028,
+      "plugin_name": "Ozone 12 Standard",
+      "developer": "iZotope",
+      "category": "Other",
+      "current_price": 169.0,
+      "msrp": 217,
+      "historical_low_price": 169.0,
+      "historical_avg_sale_price": 169,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/izotope/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        169.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "iZotope | Get 22% off Ozone 12 Standard by iZotope. The discounted price is $169. 🔥 HOT!",
+      "comments": [],
+      "deal_score": 57,
+      "is_free": false
+    },
+    {
+      "id": 1029,
+      "plugin_name": "Ozone 12 Elements",
+      "developer": "iZotope",
+      "category": "Other",
+      "current_price": 26.0,
+      "msrp": 54,
+      "historical_low_price": 26.0,
+      "historical_avg_sale_price": 26,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/izotope/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        26.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "iZotope | Get 52% off Ozone 12 Elements by iZotope. The discounted price is $26. 🔥 HOT!",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1030,
+      "plugin_name": "Notes",
+      "developer": "Future Audio Workshop",
+      "category": "Other",
+      "current_price": 50.0,
+      "msrp": 79,
+      "historical_low_price": 50.0,
+      "historical_avg_sale_price": 50,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=reclVzZiDKLoD0vEn",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        50.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Future Audio Workshop | Get 37% off Notes by Future Audio Workshop. The discounted price is $50.",
+      "comments": [],
+      "deal_score": 62,
+      "is_free": false
+    },
+    {
+      "id": 1031,
+      "plugin_name": "SubLab XL",
+      "developer": "Future Audio Workshop",
+      "category": "Other",
+      "current_price": 50.0,
+      "msrp": 79,
+      "historical_low_price": 50.0,
+      "historical_avg_sale_price": 50,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=reclVzZiDKLoD0vEn",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        50.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Future Audio Workshop | Get 37% off SubLab XL by Future Audio Workshop. The discounted price is $50.",
+      "comments": [],
+      "deal_score": 62,
+      "is_free": false
+    },
+    {
+      "id": 1032,
+      "plugin_name": "SubLab",
+      "developer": "Future Audio Workshop",
+      "category": "Other",
+      "current_price": 40.0,
+      "msrp": 69,
+      "historical_low_price": 40.0,
+      "historical_avg_sale_price": 40,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=reclVzZiDKLoD0vEn",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        40.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Future Audio Workshop | Get 42% off SubLab by Future Audio Workshop. The discounted price is $40.",
+      "comments": [],
+      "deal_score": 63,
+      "is_free": false
+    },
+    {
+      "id": 1033,
+      "plugin_name": "Realphones 2 Ultimate",
+      "developer": "dSONIQ",
+      "category": "Other",
+      "current_price": 142.0,
+      "msrp": 218,
+      "historical_low_price": 142.0,
+      "historical_avg_sale_price": 142,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/dsoniq/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        142.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "dSONIQ | Get 35% off Realphones 2 Ultimate by dSONIQ. The discounted price is $142.",
+      "comments": [],
+      "deal_score": 61,
+      "is_free": false
+    },
+    {
+      "id": 1034,
+      "plugin_name": "Realphones 2 Professional",
+      "developer": "dSONIQ",
+      "category": "Other",
+      "current_price": 97.0,
+      "msrp": 147,
+      "historical_low_price": 97.0,
+      "historical_avg_sale_price": 97,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/dsoniq/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        97.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "dSONIQ | Get 34% off Realphones 2 Professional by dSONIQ. The discounted price is $97.",
+      "comments": [],
+      "deal_score": 61,
+      "is_free": false
+    },
+    {
+      "id": 1035,
+      "plugin_name": "Realphones 2 Standard",
+      "developer": "dSONIQ",
+      "category": "Other",
+      "current_price": 64.0,
+      "msrp": 98,
+      "historical_low_price": 64.0,
+      "historical_avg_sale_price": 64,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/dsoniq/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        64.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "dSONIQ | Get 35% off Realphones 2 Standard by dSONIQ. The discounted price is $64.",
+      "comments": [],
+      "deal_score": 61,
+      "is_free": false
+    },
+    {
+      "id": 1036,
+      "plugin_name": "Bass Engine 1",
+      "developer": "DopeSONIX",
+      "category": "Other",
+      "current_price": 39.0,
+      "msrp": 80,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=rec3tX1V5Rpm5ayIP",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "DopeSONIX | Get 51% off Bass Engine 1 by DopeSONIX. The discounted price is $39.",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1037,
+      "plugin_name": "Bass Engine 2",
+      "developer": "DopeSONIX",
+      "category": "Other",
+      "current_price": 39.0,
+      "msrp": 80,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=rec3tX1V5Rpm5ayIP",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "DopeSONIX | Get 51% off Bass Engine 2 by DopeSONIX. The discounted price is $39.",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1038,
+      "plugin_name": "Mercury Synthesizer Collection Bundle",
+      "developer": "Cherry Audio",
+      "category": "Synths",
+      "current_price": 129.0,
+      "msrp": 187,
+      "historical_low_price": 129.0,
+      "historical_avg_sale_price": 129,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/cherry-audio/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        129.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Cherry Audio | Get 31% off Mercury Synthesizer Collection Bundle by Cherry Audio. The discounted price is $129.",
+      "comments": [],
+      "deal_score": 60,
+      "is_free": false
+    },
+    {
+      "id": 1039,
+      "plugin_name": "P-10 Synthesizer",
+      "developer": "Cherry Audio",
+      "category": "Synths",
+      "current_price": 39.0,
+      "msrp": 68,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/cherry-audio/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-06-01T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Cherry Audio | Get 43% off P-10 Synthesizer by Cherry Audio. The discounted price is $39.",
+      "comments": [],
+      "deal_score": 63,
+      "is_free": false
+    },
+    {
+      "id": 1040,
+      "plugin_name": "Trident Mk III Synthesizer",
+      "developer": "Cherry Audio",
+      "category": "Synths",
+      "current_price": 39.0,
+      "msrp": 68,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/cherry-audio/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-06-01T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Cherry Audio | Get 43% off Trident Mk III Synthesizer by Cherry Audio. The discounted price is $39.",
+      "comments": [],
+      "deal_score": 63,
+      "is_free": false
+    },
+    {
+      "id": 1041,
+      "plugin_name": "Control Room Bundle",
+      "developer": "Black Rooster Audio",
+      "category": "Other",
+      "current_price": 49.0,
+      "msrp": 129,
+      "historical_low_price": 49.0,
+      "historical_avg_sale_price": 49,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/black-rooster-audio/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        49.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Black Rooster Audio | Get 62% off Control Room Bundle by Black Rooster Audio. The discounted price is $49.",
+      "comments": [],
+      "deal_score": 69,
+      "is_free": false
+    },
+    {
+      "id": 1042,
+      "plugin_name": "KH-EQ1",
+      "developer": "Black Rooster Audio",
+      "category": "Other",
+      "current_price": 19.0,
+      "msrp": 58,
+      "historical_low_price": 19.0,
+      "historical_avg_sale_price": 19,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/black-rooster-audio/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        19.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Black Rooster Audio | Get 67% off KH-EQ1 by Black Rooster Audio. The discounted price is $19.",
+      "comments": [],
+      "deal_score": 71,
+      "is_free": false
+    },
+    {
+      "id": 1043,
+      "plugin_name": "GR-X",
+      "developer": "BeatSkillz",
+      "category": "Other",
+      "current_price": 39.0,
+      "msrp": 78,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recbK79QTgcmrBP5S",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-03T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "BeatSkillz | Get 50% off GR-X by BeatSkillz. The discounted price is $39. ⏰ ENDS SOON!",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1044,
+      "plugin_name": "Synthwave Drums V3",
+      "developer": "BeatSkillz",
+      "category": "Other",
+      "current_price": 39.0,
+      "msrp": 98,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recbK79QTgcmrBP5S",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-03T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "BeatSkillz | Get 60% off Synthwave Drums V3 by BeatSkillz. The discounted price is $39. ⏰ ENDS SOON!",
+      "comments": [],
+      "deal_score": 69,
+      "is_free": false
+    },
+    {
+      "id": 1045,
+      "plugin_name": "Chiptune Trilogy",
+      "developer": "Baby Audio",
+      "category": "Other",
+      "current_price": 24.5,
+      "msrp": 49,
+      "historical_low_price": 24.5,
+      "historical_avg_sale_price": 24,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/baby-audio/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-13T00:00:00+00:00",
+      "price_history": [
+        24.5
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Baby Audio | Get 50% off Chiptune Trilogy by Baby Audio. The discounted price is $24.50. 🔥 HOT!",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1046,
+      "plugin_name": "Humanoid",
+      "developer": "Baby Audio",
+      "category": "Other",
+      "current_price": 69.0,
+      "msrp": 128,
+      "historical_low_price": 69.0,
+      "historical_avg_sale_price": 69,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/baby-audio/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-13T00:00:00+00:00",
+      "price_history": [
+        69.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Baby Audio | Get 46% off Humanoid by Baby Audio. The discounted price is $69. 🔥 HOT!",
+      "comments": [],
+      "deal_score": 64,
+      "is_free": false
+    },
+    {
+      "id": 1047,
+      "plugin_name": "Baby Audio Complete Bundle",
+      "developer": "Baby Audio",
+      "category": "Other",
+      "current_price": 299.0,
+      "msrp": 399,
+      "historical_low_price": 299.0,
+      "historical_avg_sale_price": 299,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/baby-audio/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-13T00:00:00+00:00",
+      "price_history": [
+        299.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Baby Audio | Get 25% off Baby Audio Complete Bundle by Baby Audio. The discounted price is $299.",
+      "comments": [],
+      "deal_score": 58,
+      "is_free": false
+    },
+    {
+      "id": 1048,
+      "plugin_name": "Smooth Operator Pro",
+      "developer": "Baby Audio",
+      "category": "Other",
+      "current_price": 79.0,
+      "msrp": 127,
+      "historical_low_price": 79.0,
+      "historical_avg_sale_price": 79,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/baby-audio/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-13T00:00:00+00:00",
+      "price_history": [
+        79.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Baby Audio | Get 38% off Smooth Operator Pro by Baby Audio. The discounted price is $79. 🔥 HOT!",
+      "comments": [],
+      "deal_score": 62,
+      "is_free": false
+    },
+    {
+      "id": 1049,
+      "plugin_name": "BA-1",
+      "developer": "Baby Audio",
+      "category": "Other",
+      "current_price": 49.0,
+      "msrp": 98,
+      "historical_low_price": 49.0,
+      "historical_avg_sale_price": 49,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/baby-audio/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-13T00:00:00+00:00",
+      "price_history": [
+        49.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Baby Audio | Get 50% off BA-1 by Baby Audio. The discounted price is $49. 🔥 HOT!",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1050,
+      "plugin_name": "Grainferno",
+      "developer": "Baby Audio",
+      "category": "Other",
+      "current_price": 79.0,
+      "msrp": 127,
+      "historical_low_price": 79.0,
+      "historical_avg_sale_price": 79,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/baby-audio/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-13T00:00:00+00:00",
+      "price_history": [
+        79.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Baby Audio | Get 38% off Grainferno by Baby Audio. The discounted price is $79. 🔥 HOT!",
+      "comments": [],
+      "deal_score": 62,
+      "is_free": false
+    },
+    {
+      "id": 1051,
+      "plugin_name": "1A Equalizer",
+      "developer": "Audified",
+      "category": "EQ",
+      "current_price": 39.0,
+      "msrp": 98,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recJ4BLCLRgOpv17T",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-30T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Audified | Get 60% off 1A Equalizer by Audified. The discounted price is $39.",
+      "comments": [],
+      "deal_score": 69,
+      "is_free": false
+    },
+    {
+      "id": 1052,
+      "plugin_name": "Lens",
+      "developer": "Auburn Sounds",
+      "category": "Other",
+      "current_price": 20.0,
+      "msrp": 49,
+      "historical_low_price": 20.0,
+      "historical_avg_sale_price": 20,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/auburn-sounds/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-30T00:00:00+00:00",
+      "price_history": [
+        20.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Auburn Sounds | Get 59% off Lens by Auburn Sounds. The discounted price is $20.",
+      "comments": [],
+      "deal_score": 68,
+      "is_free": false
+    },
+    {
+      "id": 1053,
+      "plugin_name": "Mixcraft 10",
+      "developer": "Acoustica",
+      "category": "Other",
+      "current_price": 59.0,
+      "msrp": 148,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 49,
+      "sale_frequency_days": 0,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/acoustica/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-30T00:00:00+00:00",
+      "price_history": [
+        59.0,
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Acoustica | Get 60% off Mixcraft 10.6 Pro Studio by Acoustica. The discounted price is $59.",
+      "comments": [],
+      "deal_score": 45,
+      "is_free": false
+    },
+    {
+      "id": 1055,
+      "plugin_name": "Reelight PRO",
+      "developer": "Tone Empire",
+      "category": "Other",
+      "current_price": 39.0,
+      "msrp": 98,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/tone-empire/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Tone Empire | Get 60% off Reelight PRO by Tone Empire. The discounted price is $39.",
+      "comments": [],
+      "deal_score": 69,
+      "is_free": false
+    },
+    {
+      "id": 1056,
+      "plugin_name": "Goliath V2",
+      "developer": "Tone Empire",
+      "category": "Other",
+      "current_price": 29.0,
+      "msrp": 78,
+      "historical_low_price": 29.0,
+      "historical_avg_sale_price": 29,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/tone-empire/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        29.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Tone Empire | Get 63% off Goliath V2 by Tone Empire. The discounted price is $29.",
+      "comments": [],
+      "deal_score": 69,
+      "is_free": false
+    },
+    {
+      "id": 1057,
+      "plugin_name": "Black Q – V3",
+      "developer": "Tone Empire",
+      "category": "Other",
+      "current_price": 29.0,
+      "msrp": 78,
+      "historical_low_price": 29.0,
+      "historical_avg_sale_price": 29,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/tone-empire/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        29.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Tone Empire | Get 63% off Black Q – V3 by Tone Empire. The discounted price is $29.",
+      "comments": [],
+      "deal_score": 69,
+      "is_free": false
+    },
+    {
+      "id": 1058,
+      "plugin_name": "E-LUX",
+      "developer": "Tone Empire",
+      "category": "Other",
+      "current_price": 29.0,
+      "msrp": 97,
+      "historical_low_price": 29.0,
+      "historical_avg_sale_price": 29,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/tone-empire/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        29.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Tone Empire | Get 70% off E-LUX by Tone Empire. The discounted price is $29.",
+      "comments": [],
+      "deal_score": 72,
+      "is_free": false
+    },
+    {
+      "id": 1059,
+      "plugin_name": "Pythor V2",
+      "developer": "Tone Empire",
+      "category": "Other",
+      "current_price": 39.0,
+      "msrp": 98,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/tone-empire/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Tone Empire | Get 60% off Pythor V2 by Tone Empire. The discounted price is $39.",
+      "comments": [],
+      "deal_score": 69,
+      "is_free": false
+    },
+    {
+      "id": 1060,
+      "plugin_name": "FireChild",
+      "developer": "Tone Empire",
+      "category": "Other",
+      "current_price": 39.0,
+      "msrp": 98,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/tone-empire/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Tone Empire | Get 60% off FireChild by Tone Empire. The discounted price is $39.",
+      "comments": [],
+      "deal_score": 69,
+      "is_free": false
+    },
+    {
+      "id": 1061,
+      "plugin_name": "dime[ms]",
+      "developer": "time off audio",
+      "category": "Other",
+      "current_price": 19.0,
+      "msrp": 29,
+      "historical_low_price": 19.0,
+      "historical_avg_sale_price": 19,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recjaRUbdgh1vxgw9",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        19.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "time off audio | Get 34% off dime[ms] by time off audio. The discounted price is $19.",
+      "comments": [],
+      "deal_score": 61,
+      "is_free": false
+    },
+    {
+      "id": 1062,
+      "plugin_name": "Fractiv",
+      "developer": "Sync Audio",
+      "category": "Other",
+      "current_price": 79.0,
+      "msrp": 127,
+      "historical_low_price": 79.0,
+      "historical_avg_sale_price": 79,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=rec2mIBrh2IPw6rjf",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-17T00:00:00+00:00",
+      "price_history": [
+        79.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Sync Audio | Get 38% off Fractiv by Sync Audio. The discounted price is $79.",
+      "comments": [],
+      "deal_score": 62,
+      "is_free": false
+    },
+    {
+      "id": 1063,
+      "plugin_name": "MegaMod",
+      "developer": "Sync Audio",
+      "category": "Other",
+      "current_price": 19.99,
+      "msrp": 30,
+      "historical_low_price": 19.99,
+      "historical_avg_sale_price": 20,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=rec2mIBrh2IPw6rjf",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-17T00:00:00+00:00",
+      "price_history": [
+        19.99
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Sync Audio | Get 33% off MegaMod by Sync Audio. The discounted price is $19.99.",
+      "comments": [],
+      "deal_score": 61,
+      "is_free": false
+    },
+    {
+      "id": 1064,
+      "plugin_name": "Overdrive 5",
+      "developer": "Stagecraft Software",
+      "category": "Distortion",
+      "current_price": 19.0,
+      "msrp": 44,
+      "historical_low_price": 19.0,
+      "historical_avg_sale_price": 19,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/stagecraft-software/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        19.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Stagecraft Software | Get 57% off Overdrive 5 by Stagecraft Software. The discounted price is $19.",
+      "comments": [],
+      "deal_score": 68,
+      "is_free": false
+    },
+    {
+      "id": 1065,
+      "plugin_name": "DropZone",
+      "developer": "Stagecraft Software",
+      "category": "Other",
+      "current_price": 29.0,
+      "msrp": 97,
+      "historical_low_price": 29.0,
+      "historical_avg_sale_price": 29,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/stagecraft-software/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-09T00:00:00+00:00",
+      "price_history": [
+        29.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Stagecraft Software | Get 70% off DropZone by Stagecraft Software. The discounted price is $29.",
+      "comments": [],
+      "deal_score": 72,
+      "is_free": false
+    },
+    {
+      "id": 1066,
+      "plugin_name": "Sonnox Mastering Essentials Bundle",
+      "developer": "Sonnox",
+      "category": "Mastering",
+      "current_price": 79.0,
+      "msrp": 658,
+      "historical_low_price": 79.0,
+      "historical_avg_sale_price": 79,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/sonnox/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        79.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Sonnox | Get 88% off Sonnox Mastering Essentials Bundle by Sonnox. The discounted price is $79. 🔥 HOT! 💰 SAVE BIG!",
+      "comments": [],
+      "deal_score": 77,
+      "is_free": false
+    },
+    {
+      "id": 1067,
+      "plugin_name": "SSL G3 MultiBusComp",
+      "developer": "Solid State Logic",
+      "category": "Other",
+      "current_price": 29.0,
+      "msrp": 97,
+      "historical_low_price": 29.0,
+      "historical_avg_sale_price": 29,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/solid-state-logic/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-08T00:00:00+00:00",
+      "price_history": [
+        29.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Solid State Logic | Get 70% off SSL G3 MultiBusComp by Solid State Logic. The discounted price is $29. 🔥 HOT!",
+      "comments": [],
+      "deal_score": 72,
+      "is_free": false
+    },
+    {
+      "id": 1068,
+      "plugin_name": "SSL autoSeries Bundle",
+      "developer": "Solid State Logic",
+      "category": "Other",
+      "current_price": 99.0,
+      "msrp": 148,
+      "historical_low_price": 99.0,
+      "historical_avg_sale_price": 99,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/solid-state-logic/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-03T00:00:00+00:00",
+      "price_history": [
+        99.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Solid State Logic | Get 33% off SSL autoSeries Bundle by Solid State Logic. The discounted price is $99. ⏰ ENDS SOON! 🔥 HOT!",
+      "comments": [],
+      "deal_score": 61,
+      "is_free": false
+    },
+    {
+      "id": 1069,
+      "plugin_name": "Weiss Exciter",
+      "developer": "Softube",
+      "category": "Other",
+      "current_price": 99.0,
+      "msrp": 198,
+      "historical_low_price": 99.0,
+      "historical_avg_sale_price": 99,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/softube/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        99.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Softube | Get 50% off Weiss Exciter by Softube. The discounted price is $99. 🔥 HOT!",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1070,
+      "plugin_name": "Weiss Compressor/Limiter",
+      "developer": "Softube",
+      "category": "Compression",
+      "current_price": 99.0,
+      "msrp": 291,
+      "historical_low_price": 99.0,
+      "historical_avg_sale_price": 99,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/softube/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        99.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Softube | Get 66% off Weiss Compressor/Limiter by Softube. The discounted price is $99. 🔥 HOT!",
+      "comments": [],
+      "deal_score": 70,
+      "is_free": false
+    },
+    {
+      "id": 1071,
+      "plugin_name": "Drawmer S73 Intelligent Master Processor",
+      "developer": "Softube",
+      "category": "Other",
+      "current_price": 49.0,
+      "msrp": 87,
+      "historical_low_price": 49.0,
+      "historical_avg_sale_price": 49,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/softube/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        49.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Softube | Get 44% off Drawmer S73 Intelligent Master Processor by Softube. The discounted price is $49. 🔥 HOT!",
+      "comments": [],
+      "deal_score": 64,
+      "is_free": false
+    },
+    {
+      "id": 1072,
+      "plugin_name": "Storch Filter",
+      "developer": "Slate Digital",
+      "category": "Other",
+      "current_price": 24.5,
+      "msrp": 49,
+      "historical_low_price": 24.5,
+      "historical_avg_sale_price": 24,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/slate-digital/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        24.5
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Slate Digital | Get 50% off Storch Filter by Slate Digital. The discounted price is $24.50.",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1073,
+      "plugin_name": "Submerge",
+      "developer": "Slate Digital",
+      "category": "Other",
+      "current_price": 24.5,
+      "msrp": 49,
+      "historical_low_price": 24.5,
+      "historical_avg_sale_price": 24,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/slate-digital/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        24.5
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Slate Digital | Get 50% off Submerge by Slate Digital. The discounted price is $24.50.",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1074,
+      "plugin_name": "FG-X 2",
+      "developer": "Slate Digital",
+      "category": "Other",
+      "current_price": 99.0,
+      "msrp": 148,
+      "historical_low_price": 99.0,
+      "historical_avg_sale_price": 99,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/slate-digital/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-14T00:00:00+00:00",
+      "price_history": [
+        99.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Slate Digital | Get 33% off FG-X 2 by Slate Digital. The discounted price is $99.",
+      "comments": [],
+      "deal_score": 61,
+      "is_free": false
+    },
+    {
+      "id": 1075,
+      "plugin_name": "ZENOLOGY PRO",
+      "developer": "Roland",
+      "category": "Other",
+      "current_price": 99.0,
+      "msrp": 225,
+      "historical_low_price": 99.0,
+      "historical_avg_sale_price": 99,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/roland/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-30T00:00:00+00:00",
+      "price_history": [
+        99.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Roland | Get 56% off ZENOLOGY PRO by Roland. The discounted price is $99.",
+      "comments": [],
+      "deal_score": 67,
+      "is_free": false
+    },
+    {
+      "id": 1076,
+      "plugin_name": "Rhodes Chroma",
+      "developer": "Cherry Audio by Rhodes",
+      "category": "Other",
+      "current_price": 39.0,
+      "msrp": 68,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/rhodes/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Rhodes | Get 43% off Rhodes Chroma by Cherry Audio by Rhodes. The discounted price is $39.",
+      "comments": [],
+      "deal_score": 63,
+      "is_free": false
+    },
+    {
+      "id": 1077,
+      "plugin_name": "Maselec MLA-4",
+      "developer": "Relab Development",
+      "category": "Other",
+      "current_price": 149.0,
+      "msrp": 199,
+      "historical_low_price": 149.0,
+      "historical_avg_sale_price": 149,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/relab-development/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        149.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Relab Development | Get 25% off Maselec MLA-4 by Relab Development. The discounted price is $149.",
+      "comments": [],
+      "deal_score": 58,
+      "is_free": false
+    },
+    {
+      "id": 1078,
+      "plugin_name": "Color Drive",
+      "developer": "Relab Development",
+      "category": "Other",
+      "current_price": 39.0,
+      "msrp": 78,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/relab-development/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Relab Development | Get 50% off Color Drive by Relab Development. The discounted price is $39.",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1079,
+      "plugin_name": "Sonsig ACE",
+      "developer": "Relab Development",
+      "category": "Other",
+      "current_price": 49.0,
+      "msrp": 98,
+      "historical_low_price": 49.0,
+      "historical_avg_sale_price": 49,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/relab-development/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        49.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Relab Development | Get 50% off Sonsig ACE by Relab Development. The discounted price is $49.",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1080,
+      "plugin_name": "Maselec MEA-2",
+      "developer": "Relab Development",
+      "category": "Other",
+      "current_price": 149.0,
+      "msrp": 199,
+      "historical_low_price": 149.0,
+      "historical_avg_sale_price": 149,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/relab-development/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        149.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Relab Development | Get 25% off Maselec MEA-2 by Relab Development. The discounted price is $149.",
+      "comments": [],
+      "deal_score": 58,
+      "is_free": false
+    },
+    {
+      "id": 1081,
+      "plugin_name": "Murst Instruments: Instrument Bundle",
+      "developer": "Murst Instruments",
+      "category": "Other",
+      "current_price": 41.7,
+      "msrp": 139,
+      "historical_low_price": 41.7,
+      "historical_avg_sale_price": 42,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/murst-instruments/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-06-30T00:00:00+00:00",
+      "price_history": [
+        41.7
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Murst Instruments | Get 70% off Murst Instruments: Instrument Bundle by Murst Instruments. The discounted price is $41.70.",
+      "comments": [],
+      "deal_score": 72,
+      "is_free": false
+    },
+    {
+      "id": 1082,
+      "plugin_name": "Glass",
+      "developer": "Murst Instruments",
+      "category": "Instruments",
+      "current_price": 23.7,
+      "msrp": 79,
+      "historical_low_price": 23.7,
+      "historical_avg_sale_price": 24,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/murst-instruments/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-06-30T00:00:00+00:00",
+      "price_history": [
+        23.7
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Murst Instruments | Get 70% off Glass by Murst Instruments (Kontakt Instrument). The discounted price is $23.70.",
+      "comments": [],
+      "deal_score": 72,
+      "is_free": false
+    },
+    {
+      "id": 1083,
+      "plugin_name": "Stone",
+      "developer": "Murst Instruments",
+      "category": "Instruments",
+      "current_price": 14.7,
+      "msrp": 49,
+      "historical_low_price": 14.7,
+      "historical_avg_sale_price": 15,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/murst-instruments/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-06-30T00:00:00+00:00",
+      "price_history": [
+        14.7
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Murst Instruments | Get 70% off Stone by Murst Instruments (Kontakt Instrument). The discounted price is $14.70.",
+      "comments": [],
+      "deal_score": 72,
+      "is_free": false
+    },
+    {
+      "id": 1084,
+      "plugin_name": "Chord Prism 2",
+      "developer": "Mozaic Beats",
+      "category": "Other",
+      "current_price": 34.99,
+      "msrp": 59,
+      "historical_low_price": 34.99,
+      "historical_avg_sale_price": 35,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recwOOLHGbY49Yz7r",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        34.99
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Mozaic Beats | Get 41% off Chord Prism 2 by Mozaic Beats. The discounted price is $34.99.",
+      "comments": [],
+      "deal_score": 63,
+      "is_free": false
+    },
+    {
+      "id": 1085,
+      "plugin_name": "Fuse Compressor",
+      "developer": "Minimal Audio",
+      "category": "Compression",
+      "current_price": 29.0,
+      "msrp": 48,
+      "historical_low_price": 29.0,
+      "historical_avg_sale_price": 29,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/minimal-audio/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-15T00:00:00+00:00",
+      "price_history": [
+        29.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Minimal Audio | Get 40% off Fuse Compressor by Minimal Audio. The discounted price is $29.",
+      "comments": [],
+      "deal_score": 62,
+      "is_free": false
+    },
+    {
+      "id": 1086,
+      "plugin_name": "Retro Pack Native v7",
+      "developer": "McDSP",
+      "category": "Other",
+      "current_price": 79.0,
+      "msrp": 146,
+      "historical_low_price": 79.0,
+      "historical_avg_sale_price": 79,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/mcdsp/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-06-30T00:00:00+00:00",
+      "price_history": [
+        79.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "McDSP | Get 46% off Retro Pack Native v7 by McDSP. The discounted price is $79.",
+      "comments": [],
+      "deal_score": 64,
+      "is_free": false
+    },
+    {
+      "id": 1087,
+      "plugin_name": "ML4000 Mastering Limiter Native v7",
+      "developer": "McDSP",
+      "category": "Compression",
+      "current_price": 79.0,
+      "msrp": 146,
+      "historical_low_price": 79.0,
+      "historical_avg_sale_price": 79,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/mcdsp/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        79.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "McDSP | Get 46% off ML4000 Mastering Limiter Native v7 by McDSP. The discounted price is $79.",
+      "comments": [],
+      "deal_score": 64,
+      "is_free": false
+    },
+    {
+      "id": 1088,
+      "plugin_name": "ML8000 Advanced Limiter Native v7",
+      "developer": "McDSP",
+      "category": "Compression",
+      "current_price": 79.0,
+      "msrp": 127,
+      "historical_low_price": 79.0,
+      "historical_avg_sale_price": 79,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/mcdsp/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        79.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "McDSP | Get 38% off ML8000 Advanced Limiter Native v7 by McDSP. The discounted price is $79.",
+      "comments": [],
+      "deal_score": 62,
+      "is_free": false
+    },
+    {
+      "id": 1089,
+      "plugin_name": "AE600 Active EQ Native v7",
+      "developer": "McDSP",
+      "category": "EQ",
+      "current_price": 79.0,
+      "msrp": 146,
+      "historical_low_price": 79.0,
+      "historical_avg_sale_price": 79,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/mcdsp/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        79.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "McDSP | Get 46% off AE600 Active EQ Native v7 by McDSP. The discounted price is $79.",
+      "comments": [],
+      "deal_score": 64,
+      "is_free": false
+    },
+    {
+      "id": 1090,
+      "plugin_name": "Mastering Essentials Bundle",
+      "developer": "Mastering The Mix",
+      "category": "Mastering",
+      "current_price": 79.0,
+      "msrp": 118,
+      "historical_low_price": 79.0,
+      "historical_avg_sale_price": 79,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/mastering-the-mix/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        79.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Mastering The Mix | Get 33% off Mastering Essentials Bundle by Mastering The Mix. The discounted price is $79.",
+      "comments": [],
+      "deal_score": 60,
+      "is_free": false
+    },
+    {
+      "id": 1091,
+      "plugin_name": "LIMITER",
+      "developer": "Mastering The Mix",
+      "category": "Compression",
+      "current_price": 49.0,
+      "msrp": 79,
+      "historical_low_price": 49.0,
+      "historical_avg_sale_price": 49,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/mastering-the-mix/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        49.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Mastering The Mix | Get 38% off LIMITER by Mastering The Mix. The discounted price is $49.",
+      "comments": [],
+      "deal_score": 62,
+      "is_free": false
+    },
+    {
+      "id": 1092,
+      "plugin_name": "DRMeter MkII",
+      "developer": "MAAT",
+      "category": "Other",
+      "current_price": 90.0,
+      "msrp": 129,
+      "historical_low_price": 90.0,
+      "historical_avg_sale_price": 90,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/maat/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        90.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "MAAT | Get 30% off DRMeter MkII by MAAT. The discounted price is $90.",
+      "comments": [],
+      "deal_score": 60,
+      "is_free": false
+    },
+    {
+      "id": 1093,
+      "plugin_name": "LINone",
+      "developer": "MAAT",
+      "category": "Other",
+      "current_price": 13.0,
+      "msrp": 19,
+      "historical_low_price": 13.0,
+      "historical_avg_sale_price": 13,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/maat/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        13.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "MAAT | Get 31% off LINone by MAAT. The discounted price is $13.",
+      "comments": [],
+      "deal_score": 60,
+      "is_free": false
+    },
+    {
+      "id": 1095,
+      "plugin_name": "Cloudmax 3",
+      "developer": "Karanyi Sounds",
+      "category": "Other",
+      "current_price": 49.0,
+      "msrp": 78,
+      "historical_low_price": 49.0,
+      "historical_avg_sale_price": 49,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/karanyi-sounds/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-07T00:00:00+00:00",
+      "price_history": [
+        49.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Karanyi Sounds | Get 37% off Cloudmax 3 by Karanyi Sounds. The discounted price is $49.",
+      "comments": [],
+      "deal_score": 62,
+      "is_free": false
+    },
+    {
+      "id": 1096,
+      "plugin_name": "Just 4 Kicks",
+      "developer": "Just 4 Noise",
+      "category": "Other",
+      "current_price": 49.5,
+      "msrp": 99,
+      "historical_low_price": 49.5,
+      "historical_avg_sale_price": 50,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recPSn0RIFRVbZkZG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        49.5
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Just 4 Noise | Get 50% off Just 4 Kicks by Just 4 Noise. The discounted price is $49.50.",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1097,
+      "plugin_name": "Total Tapes 2026",
+      "developer": "IK Multimedia",
+      "category": "Other",
+      "current_price": 79.99,
+      "msrp": 800,
+      "historical_low_price": 79.99,
+      "historical_avg_sale_price": 80,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/ik-multimedia/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        79.99
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "IK Multimedia | Get 90% off Total Tapes 2026 by IK Multimedia. The discounted price is $79.99. 🔥 HOT! 💰 SAVE BIG!",
+      "comments": [],
+      "deal_score": 78,
+      "is_free": false
+    },
+    {
+      "id": 1098,
+      "plugin_name": "The Master Bus Collection",
+      "developer": "Heritage Audio",
+      "category": "Mastering",
+      "current_price": 99.0,
+      "msrp": 148,
+      "historical_low_price": 99.0,
+      "historical_avg_sale_price": 99,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recs0PDOsYh60JoEA",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        99.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Heritage Audio | Get 33% off The Master Bus Collection by Heritage Audio. The discounted price is $99.",
+      "comments": [],
+      "deal_score": 61,
+      "is_free": false
+    },
+    {
+      "id": 1099,
+      "plugin_name": "LANG PEQ-2",
+      "developer": "Heritage Audio",
+      "category": "Other",
+      "current_price": 74.0,
+      "msrp": 99,
+      "historical_low_price": 74.0,
+      "historical_avg_sale_price": 74,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recs0PDOsYh60JoEA",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        74.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Heritage Audio | Get 25% off LANG PEQ-2 by Heritage Audio. The discounted price is $74.",
+      "comments": [],
+      "deal_score": 58,
+      "is_free": false
+    },
+    {
+      "id": 1100,
+      "plugin_name": "OCELOT Bundle",
+      "developer": "Fuse Audio Labs",
+      "category": "Other",
+      "current_price": 69.0,
+      "msrp": 276,
+      "historical_low_price": 69.0,
+      "historical_avg_sale_price": 69,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/fuse-audio-labs/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        69.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Fuse Audio Labs | Get 75% off OCELOT Bundle by Fuse Audio Labs. The discounted price is $69.",
+      "comments": [],
+      "deal_score": 73,
+      "is_free": false
+    },
+    {
+      "id": 1101,
+      "plugin_name": "OCELOT Octaver",
+      "developer": "Fuse Audio Labs",
+      "category": "Other",
+      "current_price": 29.0,
+      "msrp": 67,
+      "historical_low_price": 29.0,
+      "historical_avg_sale_price": 29,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/fuse-audio-labs/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        29.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Fuse Audio Labs | Get 57% off OCELOT Octaver by Fuse Audio Labs. The discounted price is $29.",
+      "comments": [],
+      "deal_score": 68,
+      "is_free": false
+    },
+    {
+      "id": 1102,
+      "plugin_name": "OCELOT Upmixer",
+      "developer": "Fuse Audio Labs",
+      "category": "Other",
+      "current_price": 29.0,
+      "msrp": 67,
+      "historical_low_price": 29.0,
+      "historical_avg_sale_price": 29,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/fuse-audio-labs/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        29.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Fuse Audio Labs | Get 57% off OCELOT Upmixer by Fuse Audio Labs. The discounted price is $29.",
+      "comments": [],
+      "deal_score": 68,
+      "is_free": false
+    },
+    {
+      "id": 1103,
+      "plugin_name": "OCELOT Clipper",
+      "developer": "Fuse Audio Labs",
+      "category": "Other",
+      "current_price": 29.0,
+      "msrp": 67,
+      "historical_low_price": 29.0,
+      "historical_avg_sale_price": 29,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/fuse-audio-labs/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        29.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Fuse Audio Labs | Get 57% off OCELOT Clipper by Fuse Audio Labs. The discounted price is $29.",
+      "comments": [],
+      "deal_score": 68,
+      "is_free": false
+    },
+    {
+      "id": 1104,
+      "plugin_name": "OCELOT Limiter – True Peak Limiter",
+      "developer": "Fuse Audio Labs",
+      "category": "Compression",
+      "current_price": 29.0,
+      "msrp": 67,
+      "historical_low_price": 29.0,
+      "historical_avg_sale_price": 29,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/fuse-audio-labs/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        29.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Fuse Audio Labs | Get 57% off OCELOT Limiter – True Peak Limiter by Fuse Audio Labs. The discounted price is $29.",
+      "comments": [],
+      "deal_score": 68,
+      "is_free": false
+    },
+    {
+      "id": 1105,
+      "plugin_name": "SplitEQ",
+      "developer": "Eventide",
+      "category": "Other",
+      "current_price": 79.0,
+      "msrp": 146,
+      "historical_low_price": 79.0,
+      "historical_avg_sale_price": 79,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/eventide/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-18T00:00:00+00:00",
+      "price_history": [
+        79.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Eventide | Get 46% off SplitEQ by Eventide. The discounted price is $79. 🔥 HOT!",
+      "comments": [],
+      "deal_score": 64,
+      "is_free": false
+    },
+    {
+      "id": 1106,
+      "plugin_name": "Infiltrator 2",
+      "developer": "Devious Machines",
+      "category": "Other",
+      "current_price": 97.0,
+      "msrp": 129,
+      "historical_low_price": 97.0,
+      "historical_avg_sale_price": 97,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/devious-machines/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        97.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Devious Machines | Get 25% off Infiltrator 2 by Devious Machines . The discounted price is $97.",
+      "comments": [],
+      "deal_score": 58,
+      "is_free": false
+    },
+    {
+      "id": 1107,
+      "plugin_name": "Rackmode Signal Processors",
+      "developer": "Cherry Audio",
+      "category": "Other",
+      "current_price": 39.0,
+      "msrp": 98,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/cherry-audio/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-06-01T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Cherry Audio | Get 60% off Rackmode Signal Processors by Cherry Audio. The discounted price is $39. 🔥 HOT!",
+      "comments": [],
+      "deal_score": 69,
+      "is_free": false
+    },
+    {
+      "id": 1108,
+      "plugin_name": "Mercury-8",
+      "developer": "Cherry Audio",
+      "category": "Other",
+      "current_price": 39.0,
+      "msrp": 68,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/cherry-audio/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-06-01T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Cherry Audio | Get 43% off Mercury-8 by Cherry Audio. The discounted price is $39.",
+      "comments": [],
+      "deal_score": 63,
+      "is_free": false
+    },
+    {
+      "id": 1109,
+      "plugin_name": "GX-80 Synthesizer",
+      "developer": "Cherry Audio",
+      "category": "Synths",
+      "current_price": 39.0,
+      "msrp": 68,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/cherry-audio/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-06-01T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Cherry Audio | Get 43% off GX-80 Synthesizer by Cherry Audio. The discounted price is $39.",
+      "comments": [],
+      "deal_score": 63,
+      "is_free": false
+    },
+    {
+      "id": 1110,
+      "plugin_name": "Blue Cat’s FreqAnalyst Pro",
+      "developer": "Blue Cat Audio",
+      "category": "Other",
+      "current_price": 79.0,
+      "msrp": 99,
+      "historical_low_price": 79.0,
+      "historical_avg_sale_price": 79,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/blue-cat-audio/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        79.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Blue Cat Audio | Get 20% off Blue Cat’s FreqAnalyst Pro by Blue Cat Audio. The discounted price is $79.",
+      "comments": [],
+      "deal_score": 57,
+      "is_free": false
+    },
+    {
+      "id": 1111,
+      "plugin_name": "Blue Cat’s FreqAnalyst Multi",
+      "developer": "Blue Cat Audio",
+      "category": "Other",
+      "current_price": 79.0,
+      "msrp": 99,
+      "historical_low_price": 79.0,
+      "historical_avg_sale_price": 79,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/blue-cat-audio/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        79.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Blue Cat Audio | Get 20% off Blue Cat’s FreqAnalyst Multi by Blue Cat Audio. The discounted price is $79.",
+      "comments": [],
+      "deal_score": 57,
+      "is_free": false
+    },
+    {
+      "id": 1112,
+      "plugin_name": "Blue Cat’s DP Meter Pro",
+      "developer": "Blue Cat Audio",
+      "category": "Other",
+      "current_price": 69.0,
+      "msrp": 99,
+      "historical_low_price": 69.0,
+      "historical_avg_sale_price": 69,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/blue-cat-audio/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        69.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Blue Cat Audio | Get 30% off Blue Cat’s DP Meter Pro by Blue Cat Audio. The discounted price is $69.",
+      "comments": [],
+      "deal_score": 60,
+      "is_free": false
+    },
+    {
+      "id": 1113,
+      "plugin_name": "Blue Cat’s MB-7 Mixer",
+      "developer": "Blue Cat Audio",
+      "category": "Other",
+      "current_price": 79.0,
+      "msrp": 127,
+      "historical_low_price": 79.0,
+      "historical_avg_sale_price": 79,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/blue-cat-audio/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        79.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Blue Cat Audio | Get 38% off Blue Cat’s MB-7 Mixer by Blue Cat Audio. The discounted price is $79.",
+      "comments": [],
+      "deal_score": 62,
+      "is_free": false
+    },
+    {
+      "id": 1114,
+      "plugin_name": "Black Salt Audio Dynamics Bundle",
+      "developer": "Black Salt Audio",
+      "category": "Other",
+      "current_price": 99.0,
+      "msrp": 171,
+      "historical_low_price": 99.0,
+      "historical_avg_sale_price": 99,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=receYX4QxX09F4xwo",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-17T00:00:00+00:00",
+      "price_history": [
+        99.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Black Salt Audio | Get 42% off Black Salt Audio Dynamics Bundle by Black Salt Audio. The discounted price is $99.",
+      "comments": [],
+      "deal_score": 63,
+      "is_free": false
+    },
+    {
+      "id": 1115,
+      "plugin_name": "Low Control",
+      "developer": "Black Salt Audio",
+      "category": "Other",
+      "current_price": 49.0,
+      "msrp": 78,
+      "historical_low_price": 49.0,
+      "historical_avg_sale_price": 49,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=receYX4QxX09F4xwo",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-17T00:00:00+00:00",
+      "price_history": [
+        49.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Black Salt Audio | Get 37% off Low Control by Black Salt Audio. The discounted price is $49.",
+      "comments": [],
+      "deal_score": 62,
+      "is_free": false
+    },
+    {
+      "id": 1116,
+      "plugin_name": "BSAClipper",
+      "developer": "Black Salt Audio",
+      "category": "Other",
+      "current_price": 39.0,
+      "msrp": 58,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=receYX4QxX09F4xwo",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-17T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Black Salt Audio | Get 33% off BSAClipper by Black Salt Audio. The discounted price is $39.",
+      "comments": [],
+      "deal_score": 60,
+      "is_free": false
+    },
+    {
+      "id": 1117,
+      "plugin_name": "VPRE-73",
+      "developer": "Black Rooster Audio",
+      "category": "Other",
+      "current_price": 19.0,
+      "msrp": 39,
+      "historical_low_price": 19.0,
+      "historical_avg_sale_price": 19,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/black-rooster-audio/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        19.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Black Rooster Audio | Get 51% off VPRE-73 by Black Rooster Audio. The discounted price is $19.",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1118,
+      "plugin_name": "VWB-1X",
+      "developer": "Black Rooster Audio",
+      "category": "Other",
+      "current_price": 39.0,
+      "msrp": 78,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://www.audiopluginguy.com/black-rooster-audio/",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Black Rooster Audio | Get 50% off VWB-1X by Black Rooster Audio. The discounted price is $39.",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1119,
+      "plugin_name": "Boutique Studio Bundle",
+      "developer": "Audified",
+      "category": "Other",
+      "current_price": 99.0,
+      "msrp": 225,
+      "historical_low_price": 99.0,
+      "historical_avg_sale_price": 99,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recJ4BLCLRgOpv17T",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-30T00:00:00+00:00",
+      "price_history": [
+        99.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Audified | Get 56% off Boutique Studio Bundle by Audified. The discounted price is $99.",
+      "comments": [],
+      "deal_score": 67,
+      "is_free": false
+    },
+    {
+      "id": 1120,
+      "plugin_name": "U78 Saturator",
+      "developer": "Audified",
+      "category": "Other",
+      "current_price": 29.0,
+      "msrp": 67,
+      "historical_low_price": 29.0,
+      "historical_avg_sale_price": 29,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recJ4BLCLRgOpv17T",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-30T00:00:00+00:00",
+      "price_history": [
+        29.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Audified | Get 57% off U78 Saturator by Audified. The discounted price is $29.",
+      "comments": [],
+      "deal_score": 68,
+      "is_free": false
+    },
+    {
+      "id": 1121,
+      "plugin_name": "RZ062 Equalizer",
+      "developer": "Audified",
+      "category": "EQ",
+      "current_price": 39.0,
+      "msrp": 98,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recJ4BLCLRgOpv17T",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-30T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Audified | Get 60% off RZ062 Equalizer by Audified. The discounted price is $39.",
+      "comments": [],
+      "deal_score": 69,
+      "is_free": false
+    },
+    {
+      "id": 1122,
+      "plugin_name": "U73b Compressor",
+      "developer": "Audified",
+      "category": "Compression",
+      "current_price": 29.0,
+      "msrp": 67,
+      "historical_low_price": 29.0,
+      "historical_avg_sale_price": 29,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recJ4BLCLRgOpv17T",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-30T00:00:00+00:00",
+      "price_history": [
+        29.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Audified | Get 57% off U73b Compressor by Audified. The discounted price is $29.",
+      "comments": [],
+      "deal_score": 68,
+      "is_free": false
+    },
+    {
+      "id": 1123,
+      "plugin_name": "Modeling Collection",
+      "developer": "Applied Acoustics Systems",
+      "category": "Other",
+      "current_price": 249.0,
+      "msrp": 498,
+      "historical_low_price": 249.0,
+      "historical_avg_sale_price": 249,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recp854Z94d2gcunq",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        249.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Applied Acoustics Systems | Get 50% off Modeling Collection by Applied Acoustics Systems. The discounted price is $249.",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1124,
+      "plugin_name": "The Integral Bundle",
+      "developer": "Applied Acoustics Systems",
+      "category": "Other",
+      "current_price": 449.0,
+      "msrp": 898,
+      "historical_low_price": 449.0,
+      "historical_avg_sale_price": 449,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recp854Z94d2gcunq",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        449.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Applied Acoustics Systems | Get 50% off The Integral Bundle by Applied Acoustics Systems. The discounted price is $449.",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1125,
+      "plugin_name": "AAS Libraries Bundle",
+      "developer": "Applied Acoustics Systems",
+      "category": "Other",
+      "current_price": 249.0,
+      "msrp": 498,
+      "historical_low_price": 249.0,
+      "historical_avg_sale_price": 249,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recp854Z94d2gcunq",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        249.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "Applied Acoustics Systems | Get 50% off AAS Libraries Bundle by Applied Acoustics Systems. The discounted price is $249.",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1126,
+      "plugin_name": "SEQUND",
+      "developer": "510k",
+      "category": "Other",
+      "current_price": 39.0,
+      "msrp": 58,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recdlYUuOgN8lLKyI",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "510k | Get 33% off SEQUND by 510k. The discounted price is $39.",
+      "comments": [],
+      "deal_score": 60,
+      "is_free": false
+    },
+    {
+      "id": 1127,
+      "plugin_name": "Sonnox Claro at Audio Deluxe",
+      "developer": "Various",
+      "category": "Other",
+      "current_price": 29.0,
+      "msrp": 132,
+      "historical_low_price": 29.0,
+      "historical_avg_sale_price": 29,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/sonnox-claro?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        29.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 78% off Sonnox Claro at Audio Deluxe. The discounted price is $29.",
+      "comments": [],
+      "deal_score": 74,
+      "is_free": false
+    },
+    {
+      "id": 1128,
+      "plugin_name": "Cherry Audio Polymode Synthesizer at Audio Deluxe",
+      "developer": "Various",
+      "category": "Synths",
+      "current_price": 19.0,
+      "msrp": 39,
+      "historical_low_price": 19.0,
+      "historical_avg_sale_price": 19,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/cherry-audio-polymode-synthesizer?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-15T00:00:00+00:00",
+      "price_history": [
+        19.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 51% off Cherry Audio Polymode Synthesizer at Audio Deluxe. The discounted price is $19.",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1129,
+      "plugin_name": "Sonnox Essential Bundle Native at Audio Deluxe",
+      "developer": "Various",
+      "category": "Other",
+      "current_price": 119.0,
+      "msrp": 744,
+      "historical_low_price": 119.0,
+      "historical_avg_sale_price": 119,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/sonnox-essential-bundle-native?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        119.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 84% off Sonnox Essential Bundle Native at Audio Deluxe. The discounted price is $119. 💰 SAVE BIG!",
+      "comments": [],
+      "deal_score": 76,
+      "is_free": false
+    },
+    {
+      "id": 1130,
+      "plugin_name": "Sonnox Oxford Envolution at Audio Deluxe",
+      "developer": "Various",
+      "category": "Other",
+      "current_price": 59.0,
+      "msrp": 227,
+      "historical_low_price": 59.0,
+      "historical_avg_sale_price": 59,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/sonnox-oxford-envolution?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        59.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 74% off Sonnox Oxford Envolution at Audio Deluxe. The discounted price is $59.",
+      "comments": [],
+      "deal_score": 73,
+      "is_free": false
+    },
+    {
+      "id": 1131,
+      "plugin_name": "Sonnox Oxford TransMod Native at Audio Deluxe",
+      "developer": "Various",
+      "category": "Other",
+      "current_price": 39.0,
+      "msrp": 156,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/sonnox-oxford-transient-modulator-native?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 75% off Sonnox Oxford TransMod Native at Audio Deluxe. The discounted price is $39.",
+      "comments": [],
+      "deal_score": 73,
+      "is_free": false
+    },
+    {
+      "id": 1132,
+      "plugin_name": "Sonnox VoxDoubler at Audio Deluxe",
+      "developer": "Various",
+      "category": "Other",
+      "current_price": 24.99,
+      "msrp": 93,
+      "historical_low_price": 24.99,
+      "historical_avg_sale_price": 25,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/sonnox-toolbox-voxdoubler?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        24.99
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 73% off Sonnox VoxDoubler at Audio Deluxe. The discounted price is $24.99.",
+      "comments": [],
+      "deal_score": 73,
+      "is_free": false
+    },
+    {
+      "id": 1133,
+      "plugin_name": "Sonnox ListenHub at Audio Deluxe",
+      "developer": "Various",
+      "category": "Other",
+      "current_price": 19.0,
+      "msrp": 79,
+      "historical_low_price": 19.0,
+      "historical_avg_sale_price": 19,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/sonnox-toolbox-listenhub?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        19.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 76% off Sonnox ListenHub at Audio Deluxe. The discounted price is $19.",
+      "comments": [],
+      "deal_score": 73,
+      "is_free": false
+    },
+    {
+      "id": 1134,
+      "plugin_name": "Sonnox Voca at Audio Deluxe",
+      "developer": "Various",
+      "category": "Other",
+      "current_price": 29.0,
+      "msrp": 116,
+      "historical_low_price": 29.0,
+      "historical_avg_sale_price": 29,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/sonnox-voca?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        29.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 75% off Sonnox Voca at Audio Deluxe. The discounted price is $29.",
+      "comments": [],
+      "deal_score": 73,
+      "is_free": false
+    },
+    {
+      "id": 1135,
+      "plugin_name": "Universal Audio Brigade Chorus Pedal at Audio Deluxe",
+      "developer": "Various",
+      "category": "Modulation",
+      "current_price": 29.0,
+      "msrp": 48,
+      "historical_low_price": 29.0,
+      "historical_avg_sale_price": 29,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/universal-audio-brigade-chorus-pedal?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-25T00:00:00+00:00",
+      "price_history": [
+        29.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 40% off Universal Audio Brigade Chorus Pedal at Audio Deluxe. The discounted price is $29.",
+      "comments": [],
+      "deal_score": 62,
+      "is_free": false
+    },
+    {
+      "id": 1136,
+      "plugin_name": "Tokyo Dawn Labs TDR Special Filters Bundle at Audio Deluxe",
+      "developer": "Various",
+      "category": "Other",
+      "current_price": 49.0,
+      "msrp": 100,
+      "historical_low_price": 49.0,
+      "historical_avg_sale_price": 49,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/tokyo-dawn-labs-tdr-special-filters-bundle?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-31T00:00:00+00:00",
+      "price_history": [
+        49.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 51% off Tokyo Dawn Labs TDR Special Filters Bundle at Audio Deluxe. The discounted price is $49.",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1137,
+      "plugin_name": "UVI Prime 8+ at Audio Deluxe",
+      "developer": "Various",
+      "category": "Other",
+      "current_price": 19.0,
+      "msrp": 39,
+      "historical_low_price": 19.0,
+      "historical_avg_sale_price": 19,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/uvi-prime-8?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-11T00:00:00+00:00",
+      "price_history": [
+        19.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 51% off UVI Prime 8+ at Audio Deluxe. The discounted price is $19.",
+      "comments": [],
+      "deal_score": 66,
+      "is_free": false
+    },
+    {
+      "id": 1138,
+      "plugin_name": "Universal Audio Galaxy Tape Echo at Audio Deluxe",
+      "developer": "Various",
+      "category": "Delay",
+      "current_price": 29.0,
+      "msrp": 48,
+      "historical_low_price": 29.0,
+      "historical_avg_sale_price": 29,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/universal-audio-galaxy-tape-echo?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-25T00:00:00+00:00",
+      "price_history": [
+        29.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 40% off Universal Audio Galaxy Tape Echo at Audio Deluxe. The discounted price is $29.",
+      "comments": [],
+      "deal_score": 62,
+      "is_free": false
+    },
+    {
+      "id": 1139,
+      "plugin_name": "Sonarworks SoundID VoiceAI at Audio Deluxe",
+      "developer": "Various",
+      "category": "Other",
+      "current_price": 59.0,
+      "msrp": 98,
+      "historical_low_price": 59.0,
+      "historical_avg_sale_price": 59,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-01T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/sonarworks-soundid-voiceai?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-01T00:00:00+00:00",
+      "deal_ends": "2026-05-15T00:00:00+00:00",
+      "price_history": [
+        59.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 40% off Sonarworks SoundID VoiceAI at Audio Deluxe. The discounted price is $59.",
+      "comments": [],
+      "deal_score": 63,
+      "is_free": false
+    },
+    {
+      "id": 1144,
       "plugin_name": "Martinic",
       "developer": "Martinic",
       "category": "Other",
@@ -20,13 +3720,13 @@
       "price_history": [],
       "dev_discount_freq": "unknown",
       "sentiment": 0.7,
-      "notes": "Martinic | Martinic AX73 Lucid Mechanics Collection 100% off. 🆕 NEW 🎁 FREEBIE! 💰 SAVE BIG!",
+      "notes": "Martinic | Martinic AX73 Lucid Mechanics Collection 100% off. 🎁 FREEBIE! 💰 SAVE BIG!",
       "comments": [],
       "deal_score": 51,
       "is_free": true
     },
     {
-      "id": 1002,
+      "id": 1145,
       "plugin_name": "Relooper",
       "developer": "United Plugins",
       "category": "Other",
@@ -47,13 +3747,13 @@
       ],
       "dev_discount_freq": "unknown",
       "sentiment": 0.7,
-      "notes": "United Plugins | Get 77% off Relooper by United Plugins. The discounted price is $18. 🆕 NEW 🔥 HOT!",
+      "notes": "United Plugins | Get 77% off Relooper by United Plugins. The discounted price is $18. 🔥 HOT!",
       "comments": [],
       "deal_score": 74,
       "is_free": false
     },
     {
-      "id": 1003,
+      "id": 1146,
       "plugin_name": "Particle Pie",
       "developer": "W. A. Production",
       "category": "Other",
@@ -80,7 +3780,7 @@
       "is_free": false
     },
     {
-      "id": 1004,
+      "id": 1147,
       "plugin_name": "Function Loops Urban Bundle",
       "developer": "Function Loops",
       "category": "Other",
@@ -101,13 +3801,13 @@
       ],
       "dev_discount_freq": "unknown",
       "sentiment": 0.7,
-      "notes": "Function Loops | Get 90% off Function Loops Urban Bundle by Function Loops for $25 (Normally $251.40). 💰 SAVE BIG!",
+      "notes": "Function Loops | Get 90% off Function Loops Urban Bundle by Function Loops for $25 (Normally $251.40). ⏰ ENDS SOON! 💰 SAVE BIG!",
       "comments": [],
       "deal_score": 78,
       "is_free": false
     },
     {
-      "id": 1005,
+      "id": 1148,
       "plugin_name": "Cinematic Alpha",
       "developer": "Cinematic Alpha",
       "category": "Instruments",
@@ -134,7 +3834,7 @@
       "is_free": false
     },
     {
-      "id": 1006,
+      "id": 1149,
       "plugin_name": "SkyGlow: Light Atmosphere Designer",
       "developer": "Vir2 Instruments",
       "category": "Instruments",
@@ -161,7 +3861,7 @@
       "is_free": false
     },
     {
-      "id": 1007,
+      "id": 1150,
       "plugin_name": "Excite Audio Bundle",
       "developer": "Excite Audio",
       "category": "Other",
@@ -188,7 +3888,7 @@
       "is_free": false
     },
     {
-      "id": 1008,
+      "id": 1151,
       "plugin_name": "Bloom Drums Bundle",
       "developer": "Excite Audio",
       "category": "Other",
@@ -215,7 +3915,7 @@
       "is_free": false
     },
     {
-      "id": 1009,
+      "id": 1152,
       "plugin_name": "Bloom Bundle",
       "developer": "Excite Audio",
       "category": "Other",
@@ -242,7 +3942,7 @@
       "is_free": false
     },
     {
-      "id": 1010,
+      "id": 1153,
       "plugin_name": "Bloom Drum Kits Lite",
       "developer": "Excite Audio",
       "category": "Drums",
@@ -269,7 +3969,7 @@
       "is_free": false
     },
     {
-      "id": 1011,
+      "id": 1154,
       "plugin_name": "Bloom Drum Kits",
       "developer": "Excite Audio",
       "category": "Drums",
@@ -296,7 +3996,7 @@
       "is_free": false
     },
     {
-      "id": 1012,
+      "id": 1155,
       "plugin_name": "Symphonic Elements CHOOIR [Pre Order]",
       "developer": "UJAM",
       "category": "Other",
@@ -323,7 +4023,7 @@
       "is_free": false
     },
     {
-      "id": 1013,
+      "id": 1156,
       "plugin_name": "Collab Gem Bundle 300 for (Normally )",
       "developer": "Audio Plugin Deals",
       "category": "Other",
@@ -350,7 +4050,7 @@
       "is_free": false
     },
     {
-      "id": 1014,
+      "id": 1157,
       "plugin_name": "GSamples Full Collection for",
       "developer": "GSamples",
       "category": "Other",
@@ -377,7 +4077,7 @@
       "is_free": false
     },
     {
-      "id": 1015,
+      "id": 1158,
       "plugin_name": "Zynergy Soundbank for Dawesome Zyklop Synth",
       "developer": "Damon Armani",
       "category": "Synths",
@@ -404,7 +4104,7 @@
       "is_free": false
     },
     {
-      "id": 1016,
+      "id": 1159,
       "plugin_name": "PSP auralControl",
       "developer": "PSP Audioware",
       "category": "Other",
@@ -431,7 +4131,7 @@
       "is_free": false
     },
     {
-      "id": 1017,
+      "id": 1160,
       "plugin_name": "PSP auralComp",
       "developer": "PSP Audioware",
       "category": "Other",
@@ -458,7 +4158,7 @@
       "is_free": false
     },
     {
-      "id": 1018,
+      "id": 1161,
       "plugin_name": "Concert Strings Adaptive",
       "developer": "Kirk Hunter Studios",
       "category": "Instruments",
@@ -485,7 +4185,7 @@
       "is_free": false
     },
     {
-      "id": 1019,
+      "id": 1162,
       "plugin_name": "FireMaster",
       "developer": "United Plugins",
       "category": "Other",
@@ -512,7 +4212,7 @@
       "is_free": false
     },
     {
-      "id": 1020,
+      "id": 1163,
       "plugin_name": "DUST",
       "developer": "SoundMorph",
       "category": "Other",
@@ -539,7 +4239,7 @@
       "is_free": false
     },
     {
-      "id": 1021,
+      "id": 1164,
       "plugin_name": "Dynamics Bundle",
       "developer": "sonible",
       "category": "Other",
@@ -566,7 +4266,7 @@
       "is_free": false
     },
     {
-      "id": 1022,
+      "id": 1165,
       "plugin_name": "Studio Bundle",
       "developer": "sonible",
       "category": "Other",
@@ -593,7 +4293,7 @@
       "is_free": false
     },
     {
-      "id": 1023,
+      "id": 1166,
       "plugin_name": "smart:bundle",
       "developer": "sonible",
       "category": "Other",
@@ -620,7 +4320,7 @@
       "is_free": false
     },
     {
-      "id": 1024,
+      "id": 1167,
       "plugin_name": "smart:comp 3",
       "developer": "sonible",
       "category": "Compression",
@@ -647,7 +4347,7 @@
       "is_free": false
     },
     {
-      "id": 1025,
+      "id": 1168,
       "plugin_name": "smart:deess",
       "developer": "sonible",
       "category": "Other",
@@ -674,7 +4374,7 @@
       "is_free": false
     },
     {
-      "id": 1026,
+      "id": 1169,
       "plugin_name": "MSpectralDynamicsLE",
       "developer": "MeldaProduction",
       "category": "Other",
@@ -701,7 +4401,7 @@
       "is_free": false
     },
     {
-      "id": 1027,
+      "id": 1170,
       "plugin_name": "MSuperLooper",
       "developer": "MeldaProduction",
       "category": "Other",
@@ -728,7 +4428,7 @@
       "is_free": false
     },
     {
-      "id": 1028,
+      "id": 1171,
       "plugin_name": "MFreqShifterMB",
       "developer": "MeldaProduction",
       "category": "Other",
@@ -755,7 +4455,7 @@
       "is_free": false
     },
     {
-      "id": 1029,
+      "id": 1172,
       "plugin_name": "MStereoProcessor",
       "developer": "MeldaProduction",
       "category": "Other",
@@ -782,7 +4482,7 @@
       "is_free": false
     },
     {
-      "id": 1030,
+      "id": 1173,
       "plugin_name": "Skaka",
       "developer": "Klevgrand",
       "category": "Other",
@@ -809,7 +4509,7 @@
       "is_free": false
     },
     {
-      "id": 1031,
+      "id": 1174,
       "plugin_name": "Symphonic Destruction Redux",
       "developer": "Heavyocity",
       "category": "Instruments",
@@ -830,13 +4530,13 @@
       ],
       "dev_discount_freq": "unknown",
       "sentiment": 0.7,
-      "notes": "Heavyocity | Get 16% off Symphonic Destruction Redux by Heavyocity (Kontakt Instrument). The discounted price is $99.",
+      "notes": "Heavyocity | Get 16% off Symphonic Destruction Redux by Heavyocity (Kontakt Instrument). The discounted price is $99. ⏰ ENDS SOON!",
       "comments": [],
       "deal_score": 55,
       "is_free": false
     },
     {
-      "id": 1032,
+      "id": 1175,
       "plugin_name": "Bark24",
       "developer": "FSK Audio",
       "category": "Other",
@@ -863,7 +4563,7 @@
       "is_free": false
     },
     {
-      "id": 1033,
+      "id": 1176,
       "plugin_name": "ModPlay",
       "developer": "FSK Audio",
       "category": "Other",
@@ -890,7 +4590,7 @@
       "is_free": false
     },
     {
-      "id": 1034,
+      "id": 1177,
       "plugin_name": "BassKnob STD",
       "developer": "Bogren Digital",
       "category": "Other",
@@ -917,7 +4617,7 @@
       "is_free": false
     },
     {
-      "id": 1035,
+      "id": 1178,
       "plugin_name": "AmpKnob RevC",
       "developer": "Bogren Digital",
       "category": "Other",
@@ -944,7 +4644,7 @@
       "is_free": false
     },
     {
-      "id": 1036,
+      "id": 1179,
       "plugin_name": "SpaceWolf",
       "developer": "BeatSkillz",
       "category": "Other",
@@ -971,7 +4671,7 @@
       "is_free": false
     },
     {
-      "id": 1037,
+      "id": 1180,
       "plugin_name": "Everything Bundle",
       "developer": "Aha Sound",
       "category": "Other",
@@ -998,7 +4698,7 @@
       "is_free": false
     },
     {
-      "id": 1038,
+      "id": 1181,
       "plugin_name": "Crocus Soundware",
       "developer": "Crocus Soundware",
       "category": "Instruments",
@@ -1025,7 +4725,7 @@
       "is_free": false
     },
     {
-      "id": 1039,
+      "id": 1182,
       "plugin_name": "Native Instruments",
       "developer": "Native Instruments",
       "category": "Other",
@@ -1052,7 +4752,7 @@
       "is_free": false
     },
     {
-      "id": 1040,
+      "id": 1183,
       "plugin_name": "Aubit Sound",
       "developer": "Aubit Sound for free",
       "category": "Other",
@@ -1079,7 +4779,7 @@
       "is_free": true
     },
     {
-      "id": 1041,
+      "id": 1184,
       "plugin_name": "The Ultimate 30k Loop Bundle for (Normally )",
       "developer": "Audio Plugin Deals",
       "category": "Other",
@@ -1106,7 +4806,7 @@
       "is_free": false
     },
     {
-      "id": 1042,
+      "id": 1185,
       "plugin_name": "Leviathan 4",
       "developer": "Black Octopus Sound",
       "category": "Other",
@@ -1133,7 +4833,7 @@
       "is_free": false
     },
     {
-      "id": 1043,
+      "id": 1186,
       "plugin_name": "The MIDI Collection",
       "developer": "UNDRGRND Sounds",
       "category": "Other",
@@ -1160,7 +4860,7 @@
       "is_free": false
     },
     {
-      "id": 1044,
+      "id": 1187,
       "plugin_name": "NovelSimple",
       "developer": "NovelSimple",
       "category": "Mastering",
@@ -1187,7 +4887,7 @@
       "is_free": false
     },
     {
-      "id": 1045,
+      "id": 1188,
       "plugin_name": "House Producer Vault",
       "developer": "Vanilla Groove Studios",
       "category": "Other",
@@ -1214,7 +4914,7 @@
       "is_free": false
     },
     {
-      "id": 1046,
+      "id": 1189,
       "plugin_name": "Addictive Drums 2: Metal & Heavy Collection",
       "developer": "XLN Audio",
       "category": "Other",
@@ -1235,13 +4935,13 @@
       ],
       "dev_discount_freq": "unknown",
       "sentiment": 0.7,
-      "notes": "XLN Audio | Get 40% off Addictive Drums 2: Metal & Heavy Collection by XLN Audio. The discounted price is $101.40. 🔥 HOT!",
+      "notes": "XLN Audio | Get 40% off Addictive Drums 2: Metal & Heavy Collection by XLN Audio. The discounted price is $101.40. ⏰ ENDS SOON! 🔥 HOT!",
       "comments": [],
       "deal_score": 63,
       "is_free": false
     },
     {
-      "id": 1047,
+      "id": 1190,
       "plugin_name": "XLN Audio",
       "developer": "XLN Audio",
       "category": "Other",
@@ -1262,13 +4962,13 @@
       ],
       "dev_discount_freq": "unknown",
       "sentiment": 0.7,
-      "notes": "XLN Audio | Get 40% off XO by XLN Audio. The discounted price is $89. 🔥 HOT!",
+      "notes": "XLN Audio | Get 40% off XO by XLN Audio. The discounted price is $89. ⏰ ENDS SOON! 🔥 HOT!",
       "comments": [],
       "deal_score": 63,
       "is_free": false
     },
     {
-      "id": 1048,
+      "id": 1191,
       "plugin_name": "Addictive Drums 2: Dead & Dry Collection",
       "developer": "XLN Audio",
       "category": "Other",
@@ -1289,13 +4989,13 @@
       ],
       "dev_discount_freq": "unknown",
       "sentiment": 0.7,
-      "notes": "XLN Audio | Get 40% off Addictive Drums 2: Dead & Dry Collection by XLN Audio. The discounted price is $101.40. 🔥 HOT!",
+      "notes": "XLN Audio | Get 40% off Addictive Drums 2: Dead & Dry Collection by XLN Audio. The discounted price is $101.40. ⏰ ENDS SOON! 🔥 HOT!",
       "comments": [],
       "deal_score": 63,
       "is_free": false
     },
     {
-      "id": 1049,
+      "id": 1192,
       "plugin_name": "Addictive Drums 2: Custom XXL Collection",
       "developer": "XLN Audio",
       "category": "Other",
@@ -1316,13 +5016,13 @@
       ],
       "dev_discount_freq": "unknown",
       "sentiment": 0.7,
-      "notes": "XLN Audio | Get 40% off Addictive Drums 2: Custom XXL Collection by XLN Audio. The discounted price is $329.40. 🔥 HOT!",
+      "notes": "XLN Audio | Get 40% off Addictive Drums 2: Custom XXL Collection by XLN Audio. The discounted price is $329.40. ⏰ ENDS SOON! 🔥 HOT!",
       "comments": [],
       "deal_score": 63,
       "is_free": false
     },
     {
-      "id": 1052,
+      "id": 1195,
       "plugin_name": "Sonnox Producer Power Bundle – Oxford Inflator & Oxford Limiter",
       "developer": "Sonnox",
       "category": "Compression",
@@ -1349,7 +5049,7 @@
       "is_free": false
     },
     {
-      "id": 1053,
+      "id": 1196,
       "plugin_name": "The Ultimate Tech House Bundle",
       "developer": "Banger Samples",
       "category": "Other",
@@ -1376,7 +5076,7 @@
       "is_free": false
     },
     {
-      "id": 1054,
+      "id": 1197,
       "plugin_name": "ELECTRO CITY",
       "developer": "Sample Logic",
       "category": "Other",
@@ -1397,13 +5097,13 @@
       ],
       "dev_discount_freq": "unknown",
       "sentiment": 0.7,
-      "notes": "Sample Logic | Get 80% off ELECTRO CITY by Sample Logic for $59.99 (Normally $299.99). 💰 SAVE BIG!",
+      "notes": "Sample Logic | Get 80% off ELECTRO CITY by Sample Logic for $59.99 (Normally $299.99). ⏰ ENDS SOON! 💰 SAVE BIG!",
       "comments": [],
       "deal_score": 75,
       "is_free": false
     },
     {
-      "id": 1055,
+      "id": 1198,
       "plugin_name": "FLTRS",
       "developer": "MNTRA Instruments",
       "category": "Other",
@@ -1430,34 +5130,7 @@
       "is_free": false
     },
     {
-      "id": 1056,
-      "plugin_name": "Golden Screw Studio",
-      "developer": "Golden Screw Studio",
-      "category": "Other",
-      "current_price": 14.0,
-      "msrp": 28.0,
-      "historical_low_price": 14.0,
-      "historical_avg_sale_price": 14,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-21T00:00:00+00:00"
-      ],
-      "url": "https://www.audiopluginguy.com/golden-screw-studio/",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-21T00:00:00+00:00",
-      "deal_ends": "2026-05-02T00:00:00+00:00",
-      "price_history": [
-        14.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Golden Screw Studio | Golden Screw Studio – Spend $14 get 1 free pack. ⏰ ENDS SOON! 🎁 FREEBIE! 💰 SAVE BIG!",
-      "comments": [],
-      "deal_score": 66,
-      "is_free": true
-    },
-    {
-      "id": 1057,
+      "id": 1199,
       "plugin_name": "Mirror",
       "developer": "United Plugins",
       "category": "Other",
@@ -1484,7 +5157,7 @@
       "is_free": false
     },
     {
-      "id": 1058,
+      "id": 1200,
       "plugin_name": "MicDrop Classic",
       "developer": "Soundlabs.ai",
       "category": "Other",
@@ -1505,13 +5178,13 @@
       ],
       "dev_discount_freq": "unknown",
       "sentiment": 0.7,
-      "notes": "Soundlabs.ai | Get 38% off MicDrop Classic by Soundlabs.ai. The discounted price is $49.",
+      "notes": "Soundlabs.ai | Get 38% off MicDrop Classic by Soundlabs.ai. The discounted price is $49. ⏰ ENDS SOON!",
       "comments": [],
       "deal_score": 62,
       "is_free": false
     },
     {
-      "id": 1059,
+      "id": 1201,
       "plugin_name": "Basic Audio Programming",
       "developer": "pointblank",
       "category": "Other",
@@ -1538,7 +5211,7 @@
       "is_free": false
     },
     {
-      "id": 1060,
+      "id": 1202,
       "plugin_name": "Texture Lab Bundle",
       "developer": "Minimal Audio",
       "category": "Other",
@@ -1565,7 +5238,7 @@
       "is_free": false
     },
     {
-      "id": 1061,
+      "id": 1203,
       "plugin_name": "Melody Sauce 3",
       "developer": "EVAbeat",
       "category": "Other",
@@ -1592,7 +5265,7 @@
       "is_free": false
     },
     {
-      "id": 1062,
+      "id": 1204,
       "plugin_name": "Building Blocks 1 & 2 Bundle",
       "developer": "Audible Genius",
       "category": "Other",
@@ -1619,7 +5292,7 @@
       "is_free": false
     },
     {
-      "id": 1063,
+      "id": 1205,
       "plugin_name": "Syntorial 2",
       "developer": "Audible Genius",
       "category": "Other",
@@ -1646,7 +5319,7 @@
       "is_free": false
     },
     {
-      "id": 1064,
+      "id": 1206,
       "plugin_name": "Building Blocks 2",
       "developer": "Audible Genius",
       "category": "Other",
@@ -1673,7 +5346,7 @@
       "is_free": false
     },
     {
-      "id": 1065,
+      "id": 1207,
       "plugin_name": "Building Blocks 1",
       "developer": "Audible Genius",
       "category": "Other",
@@ -1700,7 +5373,7 @@
       "is_free": false
     },
     {
-      "id": 1066,
+      "id": 1208,
       "plugin_name": "Insta Series 2 Bundle",
       "developer": "W. A. Production",
       "category": "Other",
@@ -1727,7 +5400,7 @@
       "is_free": false
     },
     {
-      "id": 1067,
+      "id": 1209,
       "plugin_name": "Jazz Guitar Octaves",
       "developer": "Have Audio",
       "category": "Instruments",
@@ -1754,7 +5427,7 @@
       "is_free": false
     },
     {
-      "id": 1068,
+      "id": 1210,
       "plugin_name": "VocalSynth 2",
       "developer": "iZotope",
       "category": "Other",
@@ -1781,7 +5454,7 @@
       "is_free": false
     },
     {
-      "id": 1069,
+      "id": 1211,
       "plugin_name": "Wired: Soundbox Instrument",
       "developer": "Audiomodern",
       "category": "Other",
@@ -1808,7 +5481,7 @@
       "is_free": false
     },
     {
-      "id": 1070,
+      "id": 1212,
       "plugin_name": "8Dio",
       "developer": "8Dio",
       "category": "Instruments",
@@ -1833,7 +5506,7 @@
       "is_free": true
     },
     {
-      "id": 1071,
+      "id": 1213,
       "plugin_name": "Master Bundle II",
       "developer": "Zynaptiq",
       "category": "Other",
@@ -1860,7 +5533,7 @@
       "is_free": false
     },
     {
-      "id": 1072,
+      "id": 1214,
       "plugin_name": "UNMIX::DRUMS",
       "developer": "Zynaptiq",
       "category": "Other",
@@ -1887,7 +5560,7 @@
       "is_free": false
     },
     {
-      "id": 1073,
+      "id": 1215,
       "plugin_name": "UNFILTER",
       "developer": "Zynaptiq",
       "category": "Other",
@@ -1914,7 +5587,7 @@
       "is_free": false
     },
     {
-      "id": 1074,
+      "id": 1216,
       "plugin_name": "INTENSITY 2",
       "developer": "Zynaptiq",
       "category": "Other",
@@ -1941,7 +5614,7 @@
       "is_free": false
     },
     {
-      "id": 1075,
+      "id": 1217,
       "plugin_name": "PUNCH",
       "developer": "Zynaptiq",
       "category": "Other",
@@ -1968,7 +5641,7 @@
       "is_free": false
     },
     {
-      "id": 1076,
+      "id": 1218,
       "plugin_name": "BALANCE",
       "developer": "Zynaptiq",
       "category": "Other",
@@ -1995,7 +5668,7 @@
       "is_free": false
     },
     {
-      "id": 1077,
+      "id": 1219,
       "plugin_name": "The Judge",
       "developer": "Antelope Audio",
       "category": "Other",
@@ -2022,7 +5695,7 @@
       "is_free": false
     },
     {
-      "id": 1078,
+      "id": 1220,
       "plugin_name": "Fabric Vintage Synths Vol",
       "developer": "AIR Music Technology",
       "category": "Other",
@@ -2049,7 +5722,7 @@
       "is_free": false
     },
     {
-      "id": 1079,
+      "id": 1221,
       "plugin_name": "Groove Shaper",
       "developer": "Pitch Innovations",
       "category": "Other",
@@ -2070,13 +5743,13 @@
       ],
       "dev_discount_freq": "unknown",
       "sentiment": 0.7,
-      "notes": "Pitch Innovations | Get 40% off Groove Shaper by Pitch Innovations. The discounted price is $29.",
+      "notes": "Pitch Innovations | Get 40% off Groove Shaper by Pitch Innovations. The discounted price is $29. ⏰ ENDS SOON!",
       "comments": [],
       "deal_score": 62,
       "is_free": false
     },
     {
-      "id": 1080,
+      "id": 1222,
       "plugin_name": "Sapphire Drive",
       "developer": "Three-Body Technology",
       "category": "Other",
@@ -2103,7 +5776,34 @@
       "is_free": false
     },
     {
-      "id": 1081,
+      "id": 1232,
+      "plugin_name": "Cherry Audio Mercury-4, Memorymode, PS-20, DCO-106, and Polymode, starting at",
+      "developer": "Various",
+      "category": "Other",
+      "current_price": 14.5,
+      "msrp": 29.0,
+      "historical_low_price": 14.5,
+      "historical_avg_sale_price": 19,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-04-06T17:20:14+00:00"
+      ],
+      "url": "https://www.jrrshop.com/cherry-audio?dir=desc&order=special_from_date",
+      "source": "KVR Audio",
+      "timestamp": "2026-04-06T17:20:14+00:00",
+      "deal_ends": null,
+      "price_history": [],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.6,
+      "notes": "50% off Cherry Audio Mercury-4, Memorymode, PS-20, DCO-106, and Polymode, starting at $14.50, plus preset packs for $4.99 each: https://www.jrrshop.com/cherry-audio?di ... _from_date 40% off Tracktion",
+      "comments": [
+        "50% off Cherry Audio Mercury-4, Memorymode, PS-20, DCO-106, and Polymode, starting at $14.50, plus preset packs for $4.99 each: https://www.jrrshop.com/cherry-audio?di ... _from_da"
+      ],
+      "deal_score": 64,
+      "is_free": false
+    },
+    {
+      "id": 1223,
       "plugin_name": "GENOME",
       "developer": "Two Notes Audio Engineering",
       "category": "Other",
@@ -2124,40 +5824,40 @@
       ],
       "dev_discount_freq": "unknown",
       "sentiment": 0.7,
-      "notes": "Two Notes Audio Engineering | Get 25% off GENOME by Two Notes Audio Engineering. The discounted price is $59.99.",
+      "notes": "Two Notes Audio Engineering | Get 25% off GENOME by Two Notes Audio Engineering. The discounted price is $59.99. ⏰ ENDS SOON!",
       "comments": [],
       "deal_score": 58,
       "is_free": false
     },
     {
-      "id": 1082,
-      "plugin_name": "Drum & Bass for Serum 2 Bundle",
-      "developer": "The Tone Foundry",
-      "category": "Synths",
-      "current_price": 19.0,
-      "msrp": 136,
-      "historical_low_price": 19.0,
-      "historical_avg_sale_price": 19,
+      "id": 1231,
+      "plugin_name": "u-he Repro, now",
+      "developer": "Various",
+      "category": "Modulation",
+      "current_price": 105.0,
+      "msrp": 210.0,
+      "historical_low_price": 105.0,
+      "historical_avg_sale_price": 136,
       "sale_frequency_days": 120,
       "last_sale_dates": [
-        "2026-04-03T00:00:00+00:00"
+        "2026-04-03T04:47:03+00:00"
       ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=rect9krwtMpfMQsvi",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-03T00:00:00+00:00",
-      "deal_ends": "2026-05-04T00:00:00+00:00",
-      "price_history": [
-        19.0
-      ],
+      "url": "https://www.jrrshop.com/u-he?dir=desc&order=special_from_date",
+      "source": "KVR Audio",
+      "timestamp": "2026-04-03T04:47:03+00:00",
+      "deal_ends": null,
+      "price_history": [],
       "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "The Tone Foundry | Get 86% off Drum & Bass for Serum 2 Bundle by The Tone Foundry. The discounted price is $19. 💰 SAVE BIG!",
-      "comments": [],
-      "deal_score": 76,
+      "sentiment": 0.6,
+      "notes": "30% off u-he Repro, now $105: https://www.jrrshop.com/u-he?dir=desc&o ... _from_date 80% off Martinic AX Chorus, now $9.80: https://www.jrrshop.com/martinic?dir=de ... _from_date 20% off Blue Cat Audi",
+      "comments": [
+        "30% off u-he Repro, now $105: https://www.jrrshop.com/u-he?dir=desc&o ... _from_date 80% off Martinic AX Chorus, now $9.80: https://www.jrrshop.com/martinic?dir=de ... _from_date 2"
+      ],
+      "deal_score": 64,
       "is_free": false
     },
     {
-      "id": 1083,
+      "id": 1224,
       "plugin_name": "Korneff Audio",
       "developer": "Korneff Audio",
       "category": "Other",
@@ -2182,7 +5882,34 @@
       "is_free": true
     },
     {
-      "id": 1084,
+      "id": 1230,
+      "plugin_name": "the new SSL x sonible Synergy Bundle, now",
+      "developer": "Various",
+      "category": "Other",
+      "current_price": 179.0,
+      "msrp": 358.0,
+      "historical_low_price": 179.0,
+      "historical_avg_sale_price": 233,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-04-02T23:29:27+00:00"
+      ],
+      "url": "https://www.jrrshop.com/ssl?dir=desc&order=special_from_date",
+      "source": "KVR Audio",
+      "timestamp": "2026-04-02T23:29:27+00:00",
+      "deal_ends": null,
+      "price_history": [],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.6,
+      "notes": "70% off the new SSL x sonible Synergy Bundle, now $179: https://www.jrrshop.com/ssl?dir=desc&or ... _from_date",
+      "comments": [
+        "70% off the new SSL x sonible Synergy Bundle, now $179: https://www.jrrshop.com/ssl?dir=desc&or ... _from_date"
+      ],
+      "deal_score": 64,
+      "is_free": false
+    },
+    {
+      "id": 1225,
       "plugin_name": "Safari Audio",
       "developer": "Safari Audio",
       "category": "Other",
@@ -2209,204 +5936,123 @@
       "is_free": false
     },
     {
-      "id": 1085,
-      "plugin_name": "Kings of Clean",
-      "developer": "Two Notes Audio Engineering",
+      "id": 1229,
+      "plugin_name": "SSL Fusion Full Bundle, now",
+      "developer": "Various",
       "category": "Other",
-      "current_price": 63.99,
-      "msrp": 80,
-      "historical_low_price": 63.99,
+      "current_price": 49.0,
+      "msrp": 98.0,
+      "historical_low_price": 49.0,
       "historical_avg_sale_price": 64,
       "sale_frequency_days": 120,
       "last_sale_dates": [
-        "2026-04-02T00:00:00+00:00"
+        "2026-04-01T23:04:52+00:00"
       ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=rec863uVmvxX5Pc2Z",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-02T00:00:00+00:00",
-      "deal_ends": "2026-05-04T00:00:00+00:00",
-      "price_history": [
-        63.99
-      ],
+      "url": "https://www.jrrshop.com/ssl?dir=desc&order=special_from_date",
+      "source": "KVR Audio",
+      "timestamp": "2026-04-01T23:04:52+00:00",
+      "deal_ends": null,
+      "price_history": [],
       "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Two Notes Audio Engineering | Get 20% off Kings of Clean | DynIR Cabinet Collection by Two Notes Audio Engineering. The discounted price is $63.99.",
-      "comments": [],
-      "deal_score": 57,
+      "sentiment": 0.6,
+      "notes": "63% off SSL Fusion Full Bundle, now $75 for all 5 Fusion plugins: https://www.jrrshop.com/ssl?dir=desc&or ... _from_date Up to 50% off Sugar Bytes, including Graindad for $49: https://www.jrrshop.com/",
+      "comments": [
+        "63% off SSL Fusion Full Bundle, now $75 for all 5 Fusion plugins: https://www.jrrshop.com/ssl?dir=desc&or ... _from_date Up to 50% off Sugar Bytes, including Graindad for $49: http"
+      ],
+      "deal_score": 64,
       "is_free": false
     },
     {
-      "id": 1086,
-      "plugin_name": "Blues Masters",
-      "developer": "Two Notes Audio Engineering",
-      "category": "Other",
-      "current_price": 63.99,
-      "msrp": 80,
-      "historical_low_price": 63.99,
-      "historical_avg_sale_price": 64,
+      "id": 1228,
+      "plugin_name": "Up to UJAM, including Usynth Deluxe and Finisher FLUXX for",
+      "developer": "Various",
+      "category": "Modulation",
+      "current_price": 25.0,
+      "msrp": 50.0,
+      "historical_low_price": 25.0,
+      "historical_avg_sale_price": 32,
       "sale_frequency_days": 120,
       "last_sale_dates": [
-        "2026-04-02T00:00:00+00:00"
+        "2026-04-01T15:21:25+00:00"
       ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=rec863uVmvxX5Pc2Z",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-02T00:00:00+00:00",
-      "deal_ends": "2026-05-04T00:00:00+00:00",
-      "price_history": [
-        63.99
-      ],
+      "url": "https://www.jrrshop.com/ujam?dir=desc&order=special_from_date",
+      "source": "KVR Audio",
+      "timestamp": "2026-04-01T15:21:25+00:00",
+      "deal_ends": null,
+      "price_history": [],
       "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Two Notes Audio Engineering | Get 20% off Blues Masters | DynIR Cabinet Collection by Two Notes Audio Engineering. The discounted price is $63.99.",
-      "comments": [],
-      "deal_score": 57,
+      "sentiment": 0.6,
+      "notes": "Up to 85% off UJAM, including Usynth Deluxe and Finisher FLUXX for $9 each, and Virtual Pianist Relic for $25: https://www.jrrshop.com/ujam?dir=desc&o ... _from_date 80% off Roland Vintage FX Collecti",
+      "comments": [
+        "Up to 85% off UJAM, including Usynth Deluxe and Finisher FLUXX for $9 each, and Virtual Pianist Relic for $25: https://www.jrrshop.com/ujam?dir=desc&o ... _from_date 80% off Roland"
+      ],
+      "deal_score": 64,
       "is_free": false
     },
     {
-      "id": 1087,
-      "plugin_name": "The Bass Collective",
-      "developer": "Two Notes Audio Engineering",
+      "id": 1227,
+      "plugin_name": "Also Eventide Anthology XII for",
+      "developer": "Various",
       "category": "Other",
-      "current_price": 63.99,
-      "msrp": 80,
-      "historical_low_price": 63.99,
-      "historical_avg_sale_price": 64,
+      "current_price": 388.0,
+      "msrp": 776.0,
+      "historical_low_price": 388.0,
+      "historical_avg_sale_price": 504,
       "sale_frequency_days": 120,
       "last_sale_dates": [
-        "2026-04-02T00:00:00+00:00"
+        "2026-04-01T14:54:11+00:00"
       ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=rec863uVmvxX5Pc2Z",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-02T00:00:00+00:00",
-      "deal_ends": "2026-05-04T00:00:00+00:00",
-      "price_history": [
-        63.99
-      ],
+      "url": "https://www.thomannmusic.com/eventide_anthology_xii.htm?affid=2780",
+      "source": "KVR Audio",
+      "timestamp": "2026-04-01T14:54:11+00:00",
+      "deal_ends": null,
+      "price_history": [],
       "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Two Notes Audio Engineering | Get 20% off The Bass Collective | DynIR Cabinet Collection by Two Notes Audio Engineering. The discounted price is $63.99.",
-      "comments": [],
-      "deal_score": 57,
+      "sentiment": 0.6,
+      "notes": "Also Eventide Anthology XII for $388 https://www.thomannmusic.com/eventide_anthology_xii.htm",
+      "comments": [
+        "Also Eventide Anthology XII for $388 https://www.thomannmusic.com/eventide_anthology_xii.htm"
+      ],
+      "deal_score": 64,
       "is_free": false
     },
     {
-      "id": 1088,
-      "plugin_name": "Metal Essentials",
-      "developer": "Two Notes Audio Engineering",
+      "id": 1226,
+      "plugin_name": "u-he Bazille USD",
+      "developer": "Various",
       "category": "Other",
-      "current_price": 63.99,
-      "msrp": 80,
-      "historical_low_price": 63.99,
-      "historical_avg_sale_price": 64,
+      "current_price": 57.0,
+      "msrp": 114.0,
+      "historical_low_price": 57.0,
+      "historical_avg_sale_price": 74,
       "sale_frequency_days": 120,
       "last_sale_dates": [
-        "2026-04-02T00:00:00+00:00"
+        "2026-04-01T14:35:44+00:00"
       ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=rec863uVmvxX5Pc2Z",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-02T00:00:00+00:00",
-      "deal_ends": "2026-05-04T00:00:00+00:00",
-      "price_history": [
-        63.99
-      ],
+      "url": "https://www.thomannmusic.com/u_he_bazille.htm?affid=2780",
+      "source": "KVR Audio",
+      "timestamp": "2026-04-01T14:35:44+00:00",
+      "deal_ends": null,
+      "price_history": [],
       "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Two Notes Audio Engineering | Get 20% off Metal Essentials | DynIR Cabinet Collection by Two Notes Audio Engineering. The discounted price is $63.99.",
-      "comments": [],
-      "deal_score": 57,
-      "is_free": false
-    },
-    {
-      "id": 1089,
-      "plugin_name": "Torpedo Wall of Sound",
-      "developer": "Two Notes Audio Engineering",
-      "category": "Other",
-      "current_price": 29.99,
-      "msrp": 40,
-      "historical_low_price": 29.99,
-      "historical_avg_sale_price": 30,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-02T00:00:00+00:00"
+      "sentiment": 0.6,
+      "notes": "u-he Bazille USD$ 57 at Thomann Music. https://www.thomannmusic.com/u_he_bazille.htm",
+      "comments": [
+        "u-he Bazille USD$ 57 at Thomann Music. https://www.thomannmusic.com/u_he_bazille.htm"
       ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=rec863uVmvxX5Pc2Z",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-02T00:00:00+00:00",
-      "deal_ends": "2026-05-04T00:00:00+00:00",
-      "price_history": [
-        29.99
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Two Notes Audio Engineering | Get 25% off Torpedo Wall of Sound | Plugin Boutique Edition by Two Notes Audio Engineering. The discounted price is $29.99.",
-      "comments": [],
-      "deal_score": 58,
-      "is_free": false
-    },
-    {
-      "id": 1090,
-      "plugin_name": "Rock ‘n Roll Classics",
-      "developer": "Two Notes Audio Engineering",
-      "category": "Other",
-      "current_price": 63.99,
-      "msrp": 80,
-      "historical_low_price": 63.99,
-      "historical_avg_sale_price": 64,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-02T00:00:00+00:00"
-      ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=rec863uVmvxX5Pc2Z",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-02T00:00:00+00:00",
-      "deal_ends": "2026-05-04T00:00:00+00:00",
-      "price_history": [
-        63.99
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Two Notes Audio Engineering | Get 20% off Rock ‘n Roll Classics | DynIR Cabinet Collection by Two Notes Audio Engineering. The discounted price is $63.99.",
-      "comments": [],
-      "deal_score": 57,
-      "is_free": false
-    },
-    {
-      "id": 1091,
-      "plugin_name": "Tube Lab",
-      "developer": "Fuse Audio Labs",
-      "category": "Other",
-      "current_price": 29.0,
-      "msrp": 67,
-      "historical_low_price": 29.0,
-      "historical_avg_sale_price": 29,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-02T00:00:00+00:00"
-      ],
-      "url": "https://www.audiopluginguy.com/fuse-audio-labs/",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-02T00:00:00+00:00",
-      "deal_ends": "2026-05-02T00:00:00+00:00",
-      "price_history": [
-        29.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Fuse Audio Labs | Get 57% off Tube Lab by Fuse Audio Labs. The discounted price is $29. ⏰ ENDS SOON!",
-      "comments": [],
-      "deal_score": 68,
+      "deal_score": 64,
       "is_free": false
     }
   ],
   "sources": {
-    "apg": 91,
+    "apg": 225,
     "reddit": 0,
-    "kvr": 0,
+    "kvr": 7,
     "vic": 0,
     "linkedMusicians": 0,
     "cakewalk": 0,
-    "total": 89
+    "total": 224
   },
-  "updated": "2026-05-01T11:42:52.092118+00:00",
+  "updated": "2026-05-02T10:38:52.058522+00:00",
   "source": "live"
 }
