@@ -2,6 +2,303 @@
   "deals": [
     {
       "id": 1001,
+      "plugin_name": "IK Multimedia Lurssen Mastering Console at Audio Deluxe",
+      "developer": "Various",
+      "category": "Mastering",
+      "current_price": 29.99,
+      "msrp": 100,
+      "historical_low_price": 29.99,
+      "historical_avg_sale_price": 30,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-02T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/ik-multimedia-lurssen-mastering-console?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-02T00:00:00+00:00",
+      "deal_ends": "2026-05-15T00:00:00+00:00",
+      "price_history": [
+        29.99
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 70% off IK Multimedia Lurssen Mastering Console at Audio Deluxe. The discounted price is $29.99.",
+      "comments": [],
+      "deal_score": 72,
+      "is_free": false
+    },
+    {
+      "id": 1002,
+      "plugin_name": "Softube Chandler Limited Zener-Bender for Console 1 at Audio Deluxe",
+      "developer": "Various",
+      "category": "Other",
+      "current_price": 89.0,
+      "msrp": 198,
+      "historical_low_price": 89.0,
+      "historical_avg_sale_price": 89,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-02T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/softube-chandler-limited-zener-bender-console-1?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-02T00:00:00+00:00",
+      "deal_ends": "2026-05-15T00:00:00+00:00",
+      "price_history": [
+        89.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 55% off Softube Chandler Limited Zener-Bender for Console 1 at Audio Deluxe. The discounted price is $89.",
+      "comments": [],
+      "deal_score": 67,
+      "is_free": false
+    },
+    {
+      "id": 1003,
+      "plugin_name": "Softube Fix Flanger and Doubler at Audio Deluxe",
+      "developer": "Various",
+      "category": "Modulation",
+      "current_price": 29.0,
+      "msrp": 78,
+      "historical_low_price": 29.0,
+      "historical_avg_sale_price": 29,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-02T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/softube-fix-flanger-and-doubler?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-02T00:00:00+00:00",
+      "deal_ends": "2026-05-15T00:00:00+00:00",
+      "price_history": [
+        29.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 63% off Softube Fix Flanger and Doubler at Audio Deluxe. The discounted price is $29.",
+      "comments": [],
+      "deal_score": 69,
+      "is_free": false
+    },
+    {
+      "id": 1004,
+      "plugin_name": "Softube Model 82 Sequencing Mono Synth at Audio Deluxe",
+      "developer": "Various",
+      "category": "Synths",
+      "current_price": 59.0,
+      "msrp": 98,
+      "historical_low_price": 59.0,
+      "historical_avg_sale_price": 59,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-02T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/softube-model-82-sequencing-mono-synth?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-02T00:00:00+00:00",
+      "deal_ends": "2026-05-15T00:00:00+00:00",
+      "price_history": [
+        59.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 40% off Softube Model 82 Sequencing Mono Synth at Audio Deluxe. The discounted price is $59.",
+      "comments": [],
+      "deal_score": 63,
+      "is_free": false
+    },
+    {
+      "id": 1005,
+      "plugin_name": "Softube Drawmer S73 Intelligent Master Processor at Audio Deluxe",
+      "developer": "Various",
+      "category": "Other",
+      "current_price": 39.0,
+      "msrp": 89,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-02T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/softube-drawmer-s73-intelligent-master-processor?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-02T00:00:00+00:00",
+      "deal_ends": "2026-05-15T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 56% off Softube Drawmer S73 Intelligent Master Processor at Audio Deluxe. The discounted price is $39.",
+      "comments": [],
+      "deal_score": 67,
+      "is_free": false
+    },
+    {
+      "id": 1007,
+      "plugin_name": "Softube Spring Reverb at Audio Deluxe",
+      "developer": "Various",
+      "category": "Reverb",
+      "current_price": 29.0,
+      "msrp": 88,
+      "historical_low_price": 29.0,
+      "historical_avg_sale_price": 29,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-02T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/softube-spring-reverb?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-02T00:00:00+00:00",
+      "deal_ends": "2026-05-15T00:00:00+00:00",
+      "price_history": [
+        29.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 67% off Softube Spring Reverb at Audio Deluxe. The discounted price is $29.",
+      "comments": [],
+      "deal_score": 71,
+      "is_free": false
+    },
+    {
+      "id": 1008,
+      "plugin_name": "Softube Layers at Audio Deluxe",
+      "developer": "Various",
+      "category": "Other",
+      "current_price": 99.0,
+      "msrp": 148,
+      "historical_low_price": 99.0,
+      "historical_avg_sale_price": 99,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-02T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/softube-layers?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-02T00:00:00+00:00",
+      "deal_ends": "2026-05-15T00:00:00+00:00",
+      "price_history": [
+        99.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 33% off Softube Layers at Audio Deluxe. The discounted price is $99.",
+      "comments": [],
+      "deal_score": 61,
+      "is_free": false
+    },
+    {
+      "id": 1009,
+      "plugin_name": "Softube Vocal Tuner and Deesser Bundle at Audio Deluxe",
+      "developer": "Various",
+      "category": "Utility",
+      "current_price": 99.0,
+      "msrp": 275,
+      "historical_low_price": 99.0,
+      "historical_avg_sale_price": 99,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-02T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/softube-vocal-tuner-and-deesser-bundle?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-02T00:00:00+00:00",
+      "deal_ends": "2026-05-15T00:00:00+00:00",
+      "price_history": [
+        99.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 64% off Softube Vocal Tuner and Deesser Bundle at Audio Deluxe. The discounted price is $99.",
+      "comments": [],
+      "deal_score": 70,
+      "is_free": false
+    },
+    {
+      "id": 1010,
+      "plugin_name": "Softube Tube-Tech SMC 2B at Audio Deluxe",
+      "developer": "Various",
+      "category": "Other",
+      "current_price": 179.0,
+      "msrp": 298,
+      "historical_low_price": 179.0,
+      "historical_avg_sale_price": 179,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-02T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/softube-tube-tech-smc-2b?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-02T00:00:00+00:00",
+      "deal_ends": "2026-05-15T00:00:00+00:00",
+      "price_history": [
+        179.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 40% off Softube Tube-Tech SMC 2B at Audio Deluxe. The discounted price is $179.",
+      "comments": [],
+      "deal_score": 63,
+      "is_free": false
+    },
+    {
+      "id": 1011,
+      "plugin_name": "Softube Model 80 Five Voice Synthesizer at Audio Deluxe",
+      "developer": "Various",
+      "category": "Synths",
+      "current_price": 59.0,
+      "msrp": 155,
+      "historical_low_price": 59.0,
+      "historical_avg_sale_price": 59,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-02T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/softube-model-80-five-voice-synthesizer?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-02T00:00:00+00:00",
+      "deal_ends": "2026-05-15T00:00:00+00:00",
+      "price_history": [
+        59.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 62% off Softube Model 80 Five Voice Synthesizer at Audio Deluxe. The discounted price is $59.",
+      "comments": [],
+      "deal_score": 69,
+      "is_free": false
+    },
+    {
+      "id": 1012,
+      "plugin_name": "Softube Harmonics at Audio Deluxe",
+      "developer": "Various",
+      "category": "Other",
+      "current_price": 39.0,
+      "msrp": 144,
+      "historical_low_price": 39.0,
+      "historical_avg_sale_price": 39,
+      "sale_frequency_days": 120,
+      "last_sale_dates": [
+        "2026-05-02T00:00:00+00:00"
+      ],
+      "url": "https://audiodeluxe.com/collections/software/products/softube-harmonics?sca_ref=8652346.POlMzknLq02of5K&sca_source=APG",
+      "source": "AudioPluginGuy",
+      "timestamp": "2026-05-02T00:00:00+00:00",
+      "deal_ends": "2026-05-15T00:00:00+00:00",
+      "price_history": [
+        39.0
+      ],
+      "dev_discount_freq": "unknown",
+      "sentiment": 0.7,
+      "notes": "| Get 73% off Softube Harmonics at Audio Deluxe. The discounted price is $39.",
+      "comments": [],
+      "deal_score": 72,
+      "is_free": false
+    },
+    {
+      "id": 1013,
       "plugin_name": "ReContour",
       "developer": "Stagecraft Software",
       "category": "Other",
@@ -22,67 +319,13 @@
       ],
       "dev_discount_freq": "unknown",
       "sentiment": 0.7,
-      "notes": "Stagecraft Software | Get 50% off ReContour by Stagecraft Software. The discounted price is $32. 🆕 NEW",
+      "notes": "Stagecraft Software | Get 50% off ReContour by Stagecraft Software. The discounted price is $32.",
       "comments": [],
       "deal_score": 66,
       "is_free": false
     },
     {
-      "id": 1002,
-      "plugin_name": "BollyX",
-      "developer": "BeatSkillz",
-      "category": "Other",
-      "current_price": 29.0,
-      "msrp": 97,
-      "historical_low_price": 29.0,
-      "historical_avg_sale_price": 29,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-05-02T00:00:00+00:00"
-      ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recbK79QTgcmrBP5S",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-05-02T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        29.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "BeatSkillz | Get 70% off BollyX by BeatSkillz. The discounted price is $29. ⏰ ENDS SOON! 🆕 NEW",
-      "comments": [],
-      "deal_score": 72,
-      "is_free": false
-    },
-    {
-      "id": 1003,
-      "plugin_name": "Vinylistik",
-      "developer": "BeatSkillz",
-      "category": "Other",
-      "current_price": 29.0,
-      "msrp": 97,
-      "historical_low_price": 29.0,
-      "historical_avg_sale_price": 29,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-05-02T00:00:00+00:00"
-      ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recbK79QTgcmrBP5S",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-05-02T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        29.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "BeatSkillz | Get 70% off Vinylistik by BeatSkillz. The discounted price is $29. ⏰ ENDS SOON! 🆕 NEW",
-      "comments": [],
-      "deal_score": 72,
-      "is_free": false
-    },
-    {
-      "id": 1004,
+      "id": 1014,
       "plugin_name": "Attracktive Box Pro",
       "developer": "Tracktion",
       "category": "Other",
@@ -109,7 +352,7 @@
       "is_free": false
     },
     {
-      "id": 1005,
+      "id": 1015,
       "plugin_name": "Attracktive Box Essential",
       "developer": "Tracktion",
       "category": "Other",
@@ -136,7 +379,7 @@
       "is_free": false
     },
     {
-      "id": 1006,
+      "id": 1016,
       "plugin_name": "RetroMod Collection",
       "developer": "Tracktion",
       "category": "Other",
@@ -163,7 +406,7 @@
       "is_free": false
     },
     {
-      "id": 1007,
+      "id": 1017,
       "plugin_name": "APX 351",
       "developer": "Tone Empire",
       "category": "Other",
@@ -190,7 +433,7 @@
       "is_free": false
     },
     {
-      "id": 1008,
+      "id": 1018,
       "plugin_name": "Loc-Ness V3",
       "developer": "Tone Empire",
       "category": "Other",
@@ -217,7 +460,7 @@
       "is_free": false
     },
     {
-      "id": 1009,
+      "id": 1019,
       "plugin_name": "Model 5000",
       "developer": "Tone Empire",
       "category": "Other",
@@ -244,7 +487,7 @@
       "is_free": false
     },
     {
-      "id": 1010,
+      "id": 1020,
       "plugin_name": "dime Bundle",
       "developer": "time off audio",
       "category": "Other",
@@ -271,7 +514,7 @@
       "is_free": false
     },
     {
-      "id": 1011,
+      "id": 1021,
       "plugin_name": "UNMASK",
       "developer": "Three-Body Technology",
       "category": "Other",
@@ -298,7 +541,7 @@
       "is_free": false
     },
     {
-      "id": 1012,
+      "id": 1022,
       "plugin_name": "dime[mb]",
       "developer": "time off audio",
       "category": "Other",
@@ -325,7 +568,7 @@
       "is_free": false
     },
     {
-      "id": 1013,
+      "id": 1023,
       "plugin_name": "EMISYNTH",
       "developer": "Strix Instruments",
       "category": "Instruments",
@@ -352,7 +595,7 @@
       "is_free": false
     },
     {
-      "id": 1014,
+      "id": 1024,
       "plugin_name": "PRIPYAT Pianos",
       "developer": "Strix Instruments",
       "category": "Instruments",
@@ -379,7 +622,7 @@
       "is_free": false
     },
     {
-      "id": 1015,
+      "id": 1025,
       "plugin_name": "Parity EQ",
       "developer": "Stagecraft Software",
       "category": "EQ",
@@ -406,7 +649,7 @@
       "is_free": false
     },
     {
-      "id": 1016,
+      "id": 1026,
       "plugin_name": "Compressor",
       "developer": "Stagecraft Software",
       "category": "Compression",
@@ -433,7 +676,7 @@
       "is_free": false
     },
     {
-      "id": 1017,
+      "id": 1027,
       "plugin_name": "Solid State Logic SSL Fusion Bundle",
       "developer": "Solid State Logic",
       "category": "Other",
@@ -460,7 +703,7 @@
       "is_free": false
     },
     {
-      "id": 1018,
+      "id": 1028,
       "plugin_name": "Weiss Deess",
       "developer": "Softube",
       "category": "Other",
@@ -487,7 +730,7 @@
       "is_free": false
     },
     {
-      "id": 1019,
+      "id": 1029,
       "plugin_name": "Weiss MM-1",
       "developer": "Softube",
       "category": "Other",
@@ -514,7 +757,7 @@
       "is_free": false
     },
     {
-      "id": 1020,
+      "id": 1030,
       "plugin_name": "Chandler Limited® Curve Bender Mastering EQ",
       "developer": "Softube",
       "category": "EQ",
@@ -541,7 +784,7 @@
       "is_free": false
     },
     {
-      "id": 1021,
+      "id": 1031,
       "plugin_name": "Chandler Limited® Germanium Compressor",
       "developer": "Softube",
       "category": "Compression",
@@ -568,7 +811,7 @@
       "is_free": false
     },
     {
-      "id": 1022,
+      "id": 1032,
       "plugin_name": "Scaler EQ",
       "developer": "Scaler Music",
       "category": "EQ",
@@ -595,7 +838,7 @@
       "is_free": false
     },
     {
-      "id": 1023,
+      "id": 1033,
       "plugin_name": "DELTA",
       "developer": "NEST Acoustics",
       "category": "Other",
@@ -622,7 +865,7 @@
       "is_free": false
     },
     {
-      "id": 1024,
+      "id": 1034,
       "plugin_name": "Advanced Mastering Course",
       "developer": "Mastering The Mix",
       "category": "Mastering",
@@ -649,7 +892,7 @@
       "is_free": false
     },
     {
-      "id": 1025,
+      "id": 1035,
       "plugin_name": "thEQorange",
       "developer": "MAAT",
       "category": "Other",
@@ -676,7 +919,7 @@
       "is_free": false
     },
     {
-      "id": 1026,
+      "id": 1036,
       "plugin_name": "MAATgo",
       "developer": "MAAT",
       "category": "Other",
@@ -703,7 +946,7 @@
       "is_free": false
     },
     {
-      "id": 1027,
+      "id": 1037,
       "plugin_name": "LANDR Mastering Plugin PRO",
       "developer": "LANDR",
       "category": "Mastering",
@@ -730,7 +973,7 @@
       "is_free": false
     },
     {
-      "id": 1028,
+      "id": 1038,
       "plugin_name": "Ozone 12 Standard",
       "developer": "iZotope",
       "category": "Other",
@@ -757,7 +1000,7 @@
       "is_free": false
     },
     {
-      "id": 1029,
+      "id": 1039,
       "plugin_name": "Ozone 12 Elements",
       "developer": "iZotope",
       "category": "Other",
@@ -784,7 +1027,7 @@
       "is_free": false
     },
     {
-      "id": 1030,
+      "id": 1040,
       "plugin_name": "Notes",
       "developer": "Future Audio Workshop",
       "category": "Other",
@@ -811,7 +1054,7 @@
       "is_free": false
     },
     {
-      "id": 1031,
+      "id": 1041,
       "plugin_name": "SubLab XL",
       "developer": "Future Audio Workshop",
       "category": "Other",
@@ -838,7 +1081,7 @@
       "is_free": false
     },
     {
-      "id": 1032,
+      "id": 1042,
       "plugin_name": "SubLab",
       "developer": "Future Audio Workshop",
       "category": "Other",
@@ -865,7 +1108,7 @@
       "is_free": false
     },
     {
-      "id": 1033,
+      "id": 1043,
       "plugin_name": "Realphones 2 Ultimate",
       "developer": "dSONIQ",
       "category": "Other",
@@ -892,7 +1135,7 @@
       "is_free": false
     },
     {
-      "id": 1034,
+      "id": 1044,
       "plugin_name": "Realphones 2 Professional",
       "developer": "dSONIQ",
       "category": "Other",
@@ -919,7 +1162,7 @@
       "is_free": false
     },
     {
-      "id": 1035,
+      "id": 1045,
       "plugin_name": "Realphones 2 Standard",
       "developer": "dSONIQ",
       "category": "Other",
@@ -946,7 +1189,7 @@
       "is_free": false
     },
     {
-      "id": 1036,
+      "id": 1046,
       "plugin_name": "Bass Engine 1",
       "developer": "DopeSONIX",
       "category": "Other",
@@ -973,7 +1216,7 @@
       "is_free": false
     },
     {
-      "id": 1037,
+      "id": 1047,
       "plugin_name": "Bass Engine 2",
       "developer": "DopeSONIX",
       "category": "Other",
@@ -1000,7 +1243,7 @@
       "is_free": false
     },
     {
-      "id": 1038,
+      "id": 1048,
       "plugin_name": "Mercury Synthesizer Collection Bundle",
       "developer": "Cherry Audio",
       "category": "Synths",
@@ -1027,7 +1270,7 @@
       "is_free": false
     },
     {
-      "id": 1039,
+      "id": 1049,
       "plugin_name": "P-10 Synthesizer",
       "developer": "Cherry Audio",
       "category": "Synths",
@@ -1054,7 +1297,7 @@
       "is_free": false
     },
     {
-      "id": 1040,
+      "id": 1050,
       "plugin_name": "Trident Mk III Synthesizer",
       "developer": "Cherry Audio",
       "category": "Synths",
@@ -1081,7 +1324,7 @@
       "is_free": false
     },
     {
-      "id": 1041,
+      "id": 1051,
       "plugin_name": "Control Room Bundle",
       "developer": "Black Rooster Audio",
       "category": "Other",
@@ -1108,7 +1351,7 @@
       "is_free": false
     },
     {
-      "id": 1042,
+      "id": 1052,
       "plugin_name": "KH-EQ1",
       "developer": "Black Rooster Audio",
       "category": "Other",
@@ -1135,61 +1378,7 @@
       "is_free": false
     },
     {
-      "id": 1043,
-      "plugin_name": "GR-X",
-      "developer": "BeatSkillz",
-      "category": "Other",
-      "current_price": 39.0,
-      "msrp": 78,
-      "historical_low_price": 39.0,
-      "historical_avg_sale_price": 39,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-05-01T00:00:00+00:00"
-      ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recbK79QTgcmrBP5S",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-05-01T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        39.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "BeatSkillz | Get 50% off GR-X by BeatSkillz. The discounted price is $39. ⏰ ENDS SOON!",
-      "comments": [],
-      "deal_score": 66,
-      "is_free": false
-    },
-    {
-      "id": 1044,
-      "plugin_name": "Synthwave Drums V3",
-      "developer": "BeatSkillz",
-      "category": "Other",
-      "current_price": 39.0,
-      "msrp": 98,
-      "historical_low_price": 39.0,
-      "historical_avg_sale_price": 39,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-05-01T00:00:00+00:00"
-      ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recbK79QTgcmrBP5S",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-05-01T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        39.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "BeatSkillz | Get 60% off Synthwave Drums V3 by BeatSkillz. The discounted price is $39. ⏰ ENDS SOON!",
-      "comments": [],
-      "deal_score": 69,
-      "is_free": false
-    },
-    {
-      "id": 1045,
+      "id": 1053,
       "plugin_name": "Chiptune Trilogy",
       "developer": "Baby Audio",
       "category": "Other",
@@ -1216,7 +1405,7 @@
       "is_free": false
     },
     {
-      "id": 1046,
+      "id": 1054,
       "plugin_name": "Humanoid",
       "developer": "Baby Audio",
       "category": "Other",
@@ -1243,7 +1432,7 @@
       "is_free": false
     },
     {
-      "id": 1047,
+      "id": 1055,
       "plugin_name": "Baby Audio Complete Bundle",
       "developer": "Baby Audio",
       "category": "Other",
@@ -1270,7 +1459,7 @@
       "is_free": false
     },
     {
-      "id": 1048,
+      "id": 1056,
       "plugin_name": "Smooth Operator Pro",
       "developer": "Baby Audio",
       "category": "Other",
@@ -1297,7 +1486,7 @@
       "is_free": false
     },
     {
-      "id": 1049,
+      "id": 1057,
       "plugin_name": "BA-1",
       "developer": "Baby Audio",
       "category": "Other",
@@ -1324,7 +1513,7 @@
       "is_free": false
     },
     {
-      "id": 1050,
+      "id": 1058,
       "plugin_name": "Grainferno",
       "developer": "Baby Audio",
       "category": "Other",
@@ -1351,7 +1540,7 @@
       "is_free": false
     },
     {
-      "id": 1051,
+      "id": 1059,
       "plugin_name": "1A Equalizer",
       "developer": "Audified",
       "category": "EQ",
@@ -1378,7 +1567,7 @@
       "is_free": false
     },
     {
-      "id": 1052,
+      "id": 1060,
       "plugin_name": "Lens",
       "developer": "Auburn Sounds",
       "category": "Other",
@@ -1405,7 +1594,7 @@
       "is_free": false
     },
     {
-      "id": 1053,
+      "id": 1061,
       "plugin_name": "Mixcraft 10",
       "developer": "Acoustica",
       "category": "Other",
@@ -1433,7 +1622,7 @@
       "is_free": false
     },
     {
-      "id": 1055,
+      "id": 1063,
       "plugin_name": "Reelight PRO",
       "developer": "Tone Empire",
       "category": "Other",
@@ -1460,7 +1649,7 @@
       "is_free": false
     },
     {
-      "id": 1056,
+      "id": 1064,
       "plugin_name": "Goliath V2",
       "developer": "Tone Empire",
       "category": "Other",
@@ -1487,7 +1676,7 @@
       "is_free": false
     },
     {
-      "id": 1057,
+      "id": 1065,
       "plugin_name": "Black Q – V3",
       "developer": "Tone Empire",
       "category": "Other",
@@ -1514,7 +1703,7 @@
       "is_free": false
     },
     {
-      "id": 1058,
+      "id": 1066,
       "plugin_name": "E-LUX",
       "developer": "Tone Empire",
       "category": "Other",
@@ -1541,7 +1730,7 @@
       "is_free": false
     },
     {
-      "id": 1059,
+      "id": 1067,
       "plugin_name": "Pythor V2",
       "developer": "Tone Empire",
       "category": "Other",
@@ -1568,7 +1757,7 @@
       "is_free": false
     },
     {
-      "id": 1060,
+      "id": 1068,
       "plugin_name": "FireChild",
       "developer": "Tone Empire",
       "category": "Other",
@@ -1595,7 +1784,7 @@
       "is_free": false
     },
     {
-      "id": 1061,
+      "id": 1069,
       "plugin_name": "dime[ms]",
       "developer": "time off audio",
       "category": "Other",
@@ -1622,7 +1811,7 @@
       "is_free": false
     },
     {
-      "id": 1062,
+      "id": 1070,
       "plugin_name": "Fractiv",
       "developer": "Sync Audio",
       "category": "Other",
@@ -1649,7 +1838,7 @@
       "is_free": false
     },
     {
-      "id": 1063,
+      "id": 1071,
       "plugin_name": "MegaMod",
       "developer": "Sync Audio",
       "category": "Other",
@@ -1676,7 +1865,7 @@
       "is_free": false
     },
     {
-      "id": 1064,
+      "id": 1072,
       "plugin_name": "Overdrive 5",
       "developer": "Stagecraft Software",
       "category": "Distortion",
@@ -1703,7 +1892,7 @@
       "is_free": false
     },
     {
-      "id": 1065,
+      "id": 1073,
       "plugin_name": "DropZone",
       "developer": "Stagecraft Software",
       "category": "Other",
@@ -1730,7 +1919,7 @@
       "is_free": false
     },
     {
-      "id": 1066,
+      "id": 1074,
       "plugin_name": "Sonnox Mastering Essentials Bundle",
       "developer": "Sonnox",
       "category": "Mastering",
@@ -1757,7 +1946,7 @@
       "is_free": false
     },
     {
-      "id": 1067,
+      "id": 1075,
       "plugin_name": "SSL G3 MultiBusComp",
       "developer": "Solid State Logic",
       "category": "Other",
@@ -1784,34 +1973,7 @@
       "is_free": false
     },
     {
-      "id": 1068,
-      "plugin_name": "SSL autoSeries Bundle",
-      "developer": "Solid State Logic",
-      "category": "Other",
-      "current_price": 99.0,
-      "msrp": 148,
-      "historical_low_price": 99.0,
-      "historical_avg_sale_price": 99,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-05-01T00:00:00+00:00"
-      ],
-      "url": "https://www.audiopluginguy.com/solid-state-logic/",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-05-01T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        99.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Solid State Logic | Get 33% off SSL autoSeries Bundle by Solid State Logic. The discounted price is $99. ⏰ ENDS SOON! 🔥 HOT!",
-      "comments": [],
-      "deal_score": 61,
-      "is_free": false
-    },
-    {
-      "id": 1069,
+      "id": 1076,
       "plugin_name": "Weiss Exciter",
       "developer": "Softube",
       "category": "Other",
@@ -1838,7 +2000,7 @@
       "is_free": false
     },
     {
-      "id": 1070,
+      "id": 1077,
       "plugin_name": "Weiss Compressor/Limiter",
       "developer": "Softube",
       "category": "Compression",
@@ -1865,7 +2027,7 @@
       "is_free": false
     },
     {
-      "id": 1071,
+      "id": 1078,
       "plugin_name": "Drawmer S73 Intelligent Master Processor",
       "developer": "Softube",
       "category": "Other",
@@ -1892,7 +2054,7 @@
       "is_free": false
     },
     {
-      "id": 1072,
+      "id": 1079,
       "plugin_name": "Storch Filter",
       "developer": "Slate Digital",
       "category": "Other",
@@ -1919,7 +2081,7 @@
       "is_free": false
     },
     {
-      "id": 1073,
+      "id": 1080,
       "plugin_name": "Submerge",
       "developer": "Slate Digital",
       "category": "Other",
@@ -1946,7 +2108,7 @@
       "is_free": false
     },
     {
-      "id": 1074,
+      "id": 1081,
       "plugin_name": "FG-X 2",
       "developer": "Slate Digital",
       "category": "Other",
@@ -1973,7 +2135,7 @@
       "is_free": false
     },
     {
-      "id": 1075,
+      "id": 1082,
       "plugin_name": "ZENOLOGY PRO",
       "developer": "Roland",
       "category": "Other",
@@ -2000,7 +2162,7 @@
       "is_free": false
     },
     {
-      "id": 1076,
+      "id": 1083,
       "plugin_name": "Rhodes Chroma",
       "developer": "Cherry Audio by Rhodes",
       "category": "Other",
@@ -2027,7 +2189,7 @@
       "is_free": false
     },
     {
-      "id": 1077,
+      "id": 1084,
       "plugin_name": "Maselec MLA-4",
       "developer": "Relab Development",
       "category": "Other",
@@ -2054,7 +2216,7 @@
       "is_free": false
     },
     {
-      "id": 1078,
+      "id": 1085,
       "plugin_name": "Color Drive",
       "developer": "Relab Development",
       "category": "Other",
@@ -2081,7 +2243,7 @@
       "is_free": false
     },
     {
-      "id": 1079,
+      "id": 1086,
       "plugin_name": "Sonsig ACE",
       "developer": "Relab Development",
       "category": "Other",
@@ -2108,7 +2270,7 @@
       "is_free": false
     },
     {
-      "id": 1080,
+      "id": 1087,
       "plugin_name": "Maselec MEA-2",
       "developer": "Relab Development",
       "category": "Other",
@@ -2135,7 +2297,7 @@
       "is_free": false
     },
     {
-      "id": 1081,
+      "id": 1088,
       "plugin_name": "Murst Instruments: Instrument Bundle",
       "developer": "Murst Instruments",
       "category": "Other",
@@ -2162,7 +2324,7 @@
       "is_free": false
     },
     {
-      "id": 1082,
+      "id": 1089,
       "plugin_name": "Glass",
       "developer": "Murst Instruments",
       "category": "Instruments",
@@ -2189,7 +2351,7 @@
       "is_free": false
     },
     {
-      "id": 1083,
+      "id": 1090,
       "plugin_name": "Stone",
       "developer": "Murst Instruments",
       "category": "Instruments",
@@ -2216,7 +2378,7 @@
       "is_free": false
     },
     {
-      "id": 1084,
+      "id": 1091,
       "plugin_name": "Chord Prism 2",
       "developer": "Mozaic Beats",
       "category": "Other",
@@ -2243,7 +2405,7 @@
       "is_free": false
     },
     {
-      "id": 1085,
+      "id": 1092,
       "plugin_name": "Fuse Compressor",
       "developer": "Minimal Audio",
       "category": "Compression",
@@ -2270,7 +2432,7 @@
       "is_free": false
     },
     {
-      "id": 1086,
+      "id": 1093,
       "plugin_name": "Retro Pack Native v7",
       "developer": "McDSP",
       "category": "Other",
@@ -2297,7 +2459,7 @@
       "is_free": false
     },
     {
-      "id": 1087,
+      "id": 1094,
       "plugin_name": "ML4000 Mastering Limiter Native v7",
       "developer": "McDSP",
       "category": "Compression",
@@ -2324,7 +2486,7 @@
       "is_free": false
     },
     {
-      "id": 1088,
+      "id": 1095,
       "plugin_name": "ML8000 Advanced Limiter Native v7",
       "developer": "McDSP",
       "category": "Compression",
@@ -2351,7 +2513,7 @@
       "is_free": false
     },
     {
-      "id": 1089,
+      "id": 1096,
       "plugin_name": "AE600 Active EQ Native v7",
       "developer": "McDSP",
       "category": "EQ",
@@ -2378,7 +2540,7 @@
       "is_free": false
     },
     {
-      "id": 1090,
+      "id": 1097,
       "plugin_name": "Mastering Essentials Bundle",
       "developer": "Mastering The Mix",
       "category": "Mastering",
@@ -2405,7 +2567,7 @@
       "is_free": false
     },
     {
-      "id": 1091,
+      "id": 1098,
       "plugin_name": "LIMITER",
       "developer": "Mastering The Mix",
       "category": "Compression",
@@ -2432,7 +2594,7 @@
       "is_free": false
     },
     {
-      "id": 1092,
+      "id": 1099,
       "plugin_name": "DRMeter MkII",
       "developer": "MAAT",
       "category": "Other",
@@ -2459,7 +2621,7 @@
       "is_free": false
     },
     {
-      "id": 1093,
+      "id": 1100,
       "plugin_name": "LINone",
       "developer": "MAAT",
       "category": "Other",
@@ -2486,7 +2648,7 @@
       "is_free": false
     },
     {
-      "id": 1095,
+      "id": 1102,
       "plugin_name": "Cloudmax 3",
       "developer": "Karanyi Sounds",
       "category": "Other",
@@ -2513,7 +2675,7 @@
       "is_free": false
     },
     {
-      "id": 1096,
+      "id": 1103,
       "plugin_name": "Just 4 Kicks",
       "developer": "Just 4 Noise",
       "category": "Other",
@@ -2540,7 +2702,7 @@
       "is_free": false
     },
     {
-      "id": 1097,
+      "id": 1104,
       "plugin_name": "Total Tapes 2026",
       "developer": "IK Multimedia",
       "category": "Other",
@@ -2567,7 +2729,7 @@
       "is_free": false
     },
     {
-      "id": 1098,
+      "id": 1105,
       "plugin_name": "The Master Bus Collection",
       "developer": "Heritage Audio",
       "category": "Mastering",
@@ -2594,7 +2756,7 @@
       "is_free": false
     },
     {
-      "id": 1099,
+      "id": 1106,
       "plugin_name": "LANG PEQ-2",
       "developer": "Heritage Audio",
       "category": "Other",
@@ -2621,7 +2783,7 @@
       "is_free": false
     },
     {
-      "id": 1100,
+      "id": 1107,
       "plugin_name": "OCELOT Bundle",
       "developer": "Fuse Audio Labs",
       "category": "Other",
@@ -2648,7 +2810,7 @@
       "is_free": false
     },
     {
-      "id": 1101,
+      "id": 1108,
       "plugin_name": "OCELOT Octaver",
       "developer": "Fuse Audio Labs",
       "category": "Other",
@@ -2675,7 +2837,7 @@
       "is_free": false
     },
     {
-      "id": 1102,
+      "id": 1109,
       "plugin_name": "OCELOT Upmixer",
       "developer": "Fuse Audio Labs",
       "category": "Other",
@@ -2702,7 +2864,7 @@
       "is_free": false
     },
     {
-      "id": 1103,
+      "id": 1110,
       "plugin_name": "OCELOT Clipper",
       "developer": "Fuse Audio Labs",
       "category": "Other",
@@ -2729,7 +2891,7 @@
       "is_free": false
     },
     {
-      "id": 1104,
+      "id": 1111,
       "plugin_name": "OCELOT Limiter – True Peak Limiter",
       "developer": "Fuse Audio Labs",
       "category": "Compression",
@@ -2756,7 +2918,7 @@
       "is_free": false
     },
     {
-      "id": 1105,
+      "id": 1112,
       "plugin_name": "SplitEQ",
       "developer": "Eventide",
       "category": "Other",
@@ -2783,7 +2945,7 @@
       "is_free": false
     },
     {
-      "id": 1106,
+      "id": 1113,
       "plugin_name": "Infiltrator 2",
       "developer": "Devious Machines",
       "category": "Other",
@@ -2810,7 +2972,7 @@
       "is_free": false
     },
     {
-      "id": 1107,
+      "id": 1114,
       "plugin_name": "Rackmode Signal Processors",
       "developer": "Cherry Audio",
       "category": "Other",
@@ -2837,7 +2999,7 @@
       "is_free": false
     },
     {
-      "id": 1108,
+      "id": 1115,
       "plugin_name": "Mercury-8",
       "developer": "Cherry Audio",
       "category": "Other",
@@ -2864,7 +3026,7 @@
       "is_free": false
     },
     {
-      "id": 1109,
+      "id": 1116,
       "plugin_name": "GX-80 Synthesizer",
       "developer": "Cherry Audio",
       "category": "Synths",
@@ -2891,7 +3053,7 @@
       "is_free": false
     },
     {
-      "id": 1110,
+      "id": 1117,
       "plugin_name": "Blue Cat’s FreqAnalyst Pro",
       "developer": "Blue Cat Audio",
       "category": "Other",
@@ -2918,7 +3080,7 @@
       "is_free": false
     },
     {
-      "id": 1111,
+      "id": 1118,
       "plugin_name": "Blue Cat’s FreqAnalyst Multi",
       "developer": "Blue Cat Audio",
       "category": "Other",
@@ -2945,7 +3107,7 @@
       "is_free": false
     },
     {
-      "id": 1112,
+      "id": 1119,
       "plugin_name": "Blue Cat’s DP Meter Pro",
       "developer": "Blue Cat Audio",
       "category": "Other",
@@ -2972,7 +3134,7 @@
       "is_free": false
     },
     {
-      "id": 1113,
+      "id": 1120,
       "plugin_name": "Blue Cat’s MB-7 Mixer",
       "developer": "Blue Cat Audio",
       "category": "Other",
@@ -2999,7 +3161,7 @@
       "is_free": false
     },
     {
-      "id": 1114,
+      "id": 1121,
       "plugin_name": "Black Salt Audio Dynamics Bundle",
       "developer": "Black Salt Audio",
       "category": "Other",
@@ -3026,7 +3188,7 @@
       "is_free": false
     },
     {
-      "id": 1115,
+      "id": 1122,
       "plugin_name": "Low Control",
       "developer": "Black Salt Audio",
       "category": "Other",
@@ -3053,7 +3215,7 @@
       "is_free": false
     },
     {
-      "id": 1116,
+      "id": 1123,
       "plugin_name": "BSAClipper",
       "developer": "Black Salt Audio",
       "category": "Other",
@@ -3080,7 +3242,7 @@
       "is_free": false
     },
     {
-      "id": 1117,
+      "id": 1124,
       "plugin_name": "VPRE-73",
       "developer": "Black Rooster Audio",
       "category": "Other",
@@ -3107,7 +3269,7 @@
       "is_free": false
     },
     {
-      "id": 1118,
+      "id": 1125,
       "plugin_name": "VWB-1X",
       "developer": "Black Rooster Audio",
       "category": "Other",
@@ -3134,7 +3296,7 @@
       "is_free": false
     },
     {
-      "id": 1119,
+      "id": 1126,
       "plugin_name": "Boutique Studio Bundle",
       "developer": "Audified",
       "category": "Other",
@@ -3161,7 +3323,7 @@
       "is_free": false
     },
     {
-      "id": 1120,
+      "id": 1127,
       "plugin_name": "U78 Saturator",
       "developer": "Audified",
       "category": "Other",
@@ -3188,7 +3350,7 @@
       "is_free": false
     },
     {
-      "id": 1121,
+      "id": 1128,
       "plugin_name": "RZ062 Equalizer",
       "developer": "Audified",
       "category": "EQ",
@@ -3215,7 +3377,7 @@
       "is_free": false
     },
     {
-      "id": 1122,
+      "id": 1129,
       "plugin_name": "U73b Compressor",
       "developer": "Audified",
       "category": "Compression",
@@ -3242,7 +3404,7 @@
       "is_free": false
     },
     {
-      "id": 1123,
+      "id": 1130,
       "plugin_name": "Modeling Collection",
       "developer": "Applied Acoustics Systems",
       "category": "Other",
@@ -3269,7 +3431,7 @@
       "is_free": false
     },
     {
-      "id": 1124,
+      "id": 1131,
       "plugin_name": "The Integral Bundle",
       "developer": "Applied Acoustics Systems",
       "category": "Other",
@@ -3296,7 +3458,7 @@
       "is_free": false
     },
     {
-      "id": 1125,
+      "id": 1132,
       "plugin_name": "AAS Libraries Bundle",
       "developer": "Applied Acoustics Systems",
       "category": "Other",
@@ -3323,7 +3485,7 @@
       "is_free": false
     },
     {
-      "id": 1126,
+      "id": 1133,
       "plugin_name": "SEQUND",
       "developer": "510k",
       "category": "Other",
@@ -3350,7 +3512,7 @@
       "is_free": false
     },
     {
-      "id": 1127,
+      "id": 1134,
       "plugin_name": "Sonnox Claro at Audio Deluxe",
       "developer": "Various",
       "category": "Other",
@@ -3377,7 +3539,7 @@
       "is_free": false
     },
     {
-      "id": 1128,
+      "id": 1135,
       "plugin_name": "Cherry Audio Polymode Synthesizer at Audio Deluxe",
       "developer": "Various",
       "category": "Synths",
@@ -3404,7 +3566,7 @@
       "is_free": false
     },
     {
-      "id": 1129,
+      "id": 1136,
       "plugin_name": "Sonnox Essential Bundle Native at Audio Deluxe",
       "developer": "Various",
       "category": "Other",
@@ -3431,7 +3593,7 @@
       "is_free": false
     },
     {
-      "id": 1130,
+      "id": 1137,
       "plugin_name": "Sonnox Oxford Envolution at Audio Deluxe",
       "developer": "Various",
       "category": "Other",
@@ -3458,7 +3620,7 @@
       "is_free": false
     },
     {
-      "id": 1131,
+      "id": 1138,
       "plugin_name": "Sonnox Oxford TransMod Native at Audio Deluxe",
       "developer": "Various",
       "category": "Other",
@@ -3485,7 +3647,7 @@
       "is_free": false
     },
     {
-      "id": 1132,
+      "id": 1139,
       "plugin_name": "Sonnox VoxDoubler at Audio Deluxe",
       "developer": "Various",
       "category": "Other",
@@ -3512,7 +3674,7 @@
       "is_free": false
     },
     {
-      "id": 1133,
+      "id": 1140,
       "plugin_name": "Sonnox ListenHub at Audio Deluxe",
       "developer": "Various",
       "category": "Other",
@@ -3539,7 +3701,7 @@
       "is_free": false
     },
     {
-      "id": 1134,
+      "id": 1141,
       "plugin_name": "Sonnox Voca at Audio Deluxe",
       "developer": "Various",
       "category": "Other",
@@ -3566,7 +3728,7 @@
       "is_free": false
     },
     {
-      "id": 1135,
+      "id": 1142,
       "plugin_name": "Universal Audio Brigade Chorus Pedal at Audio Deluxe",
       "developer": "Various",
       "category": "Modulation",
@@ -3593,7 +3755,7 @@
       "is_free": false
     },
     {
-      "id": 1136,
+      "id": 1143,
       "plugin_name": "Tokyo Dawn Labs TDR Special Filters Bundle at Audio Deluxe",
       "developer": "Various",
       "category": "Other",
@@ -3620,7 +3782,7 @@
       "is_free": false
     },
     {
-      "id": 1137,
+      "id": 1144,
       "plugin_name": "UVI Prime 8+ at Audio Deluxe",
       "developer": "Various",
       "category": "Other",
@@ -3647,7 +3809,7 @@
       "is_free": false
     },
     {
-      "id": 1138,
+      "id": 1145,
       "plugin_name": "Universal Audio Galaxy Tape Echo at Audio Deluxe",
       "developer": "Various",
       "category": "Delay",
@@ -3674,7 +3836,7 @@
       "is_free": false
     },
     {
-      "id": 1139,
+      "id": 1146,
       "plugin_name": "Sonarworks SoundID VoiceAI at Audio Deluxe",
       "developer": "Various",
       "category": "Other",
@@ -3701,7 +3863,7 @@
       "is_free": false
     },
     {
-      "id": 1144,
+      "id": 1151,
       "plugin_name": "Martinic",
       "developer": "Martinic",
       "category": "Other",
@@ -3726,7 +3888,7 @@
       "is_free": true
     },
     {
-      "id": 1145,
+      "id": 1152,
       "plugin_name": "Relooper",
       "developer": "United Plugins",
       "category": "Other",
@@ -3753,7 +3915,7 @@
       "is_free": false
     },
     {
-      "id": 1146,
+      "id": 1153,
       "plugin_name": "Particle Pie",
       "developer": "W. A. Production",
       "category": "Other",
@@ -3780,7 +3942,7 @@
       "is_free": false
     },
     {
-      "id": 1147,
+      "id": 1154,
       "plugin_name": "Function Loops Urban Bundle",
       "developer": "Function Loops",
       "category": "Other",
@@ -3807,7 +3969,7 @@
       "is_free": false
     },
     {
-      "id": 1148,
+      "id": 1155,
       "plugin_name": "Cinematic Alpha",
       "developer": "Cinematic Alpha",
       "category": "Instruments",
@@ -3834,7 +3996,7 @@
       "is_free": false
     },
     {
-      "id": 1149,
+      "id": 1156,
       "plugin_name": "SkyGlow: Light Atmosphere Designer",
       "developer": "Vir2 Instruments",
       "category": "Instruments",
@@ -3861,7 +4023,7 @@
       "is_free": false
     },
     {
-      "id": 1150,
+      "id": 1157,
       "plugin_name": "Excite Audio Bundle",
       "developer": "Excite Audio",
       "category": "Other",
@@ -3888,7 +4050,7 @@
       "is_free": false
     },
     {
-      "id": 1151,
+      "id": 1158,
       "plugin_name": "Bloom Drums Bundle",
       "developer": "Excite Audio",
       "category": "Other",
@@ -3915,7 +4077,7 @@
       "is_free": false
     },
     {
-      "id": 1152,
+      "id": 1159,
       "plugin_name": "Bloom Bundle",
       "developer": "Excite Audio",
       "category": "Other",
@@ -3942,7 +4104,7 @@
       "is_free": false
     },
     {
-      "id": 1153,
+      "id": 1160,
       "plugin_name": "Bloom Drum Kits Lite",
       "developer": "Excite Audio",
       "category": "Drums",
@@ -3969,7 +4131,7 @@
       "is_free": false
     },
     {
-      "id": 1154,
+      "id": 1161,
       "plugin_name": "Bloom Drum Kits",
       "developer": "Excite Audio",
       "category": "Drums",
@@ -3996,7 +4158,7 @@
       "is_free": false
     },
     {
-      "id": 1155,
+      "id": 1162,
       "plugin_name": "Symphonic Elements CHOOIR [Pre Order]",
       "developer": "UJAM",
       "category": "Other",
@@ -4023,7 +4185,7 @@
       "is_free": false
     },
     {
-      "id": 1156,
+      "id": 1163,
       "plugin_name": "Collab Gem Bundle 300 for (Normally )",
       "developer": "Audio Plugin Deals",
       "category": "Other",
@@ -4050,7 +4212,7 @@
       "is_free": false
     },
     {
-      "id": 1157,
+      "id": 1164,
       "plugin_name": "GSamples Full Collection for",
       "developer": "GSamples",
       "category": "Other",
@@ -4077,7 +4239,7 @@
       "is_free": false
     },
     {
-      "id": 1158,
+      "id": 1165,
       "plugin_name": "Zynergy Soundbank for Dawesome Zyklop Synth",
       "developer": "Damon Armani",
       "category": "Synths",
@@ -4104,7 +4266,7 @@
       "is_free": false
     },
     {
-      "id": 1159,
+      "id": 1166,
       "plugin_name": "PSP auralControl",
       "developer": "PSP Audioware",
       "category": "Other",
@@ -4131,7 +4293,7 @@
       "is_free": false
     },
     {
-      "id": 1160,
+      "id": 1167,
       "plugin_name": "PSP auralComp",
       "developer": "PSP Audioware",
       "category": "Other",
@@ -4158,7 +4320,7 @@
       "is_free": false
     },
     {
-      "id": 1161,
+      "id": 1168,
       "plugin_name": "Concert Strings Adaptive",
       "developer": "Kirk Hunter Studios",
       "category": "Instruments",
@@ -4185,7 +4347,7 @@
       "is_free": false
     },
     {
-      "id": 1162,
+      "id": 1169,
       "plugin_name": "FireMaster",
       "developer": "United Plugins",
       "category": "Other",
@@ -4212,34 +4374,7 @@
       "is_free": false
     },
     {
-      "id": 1163,
-      "plugin_name": "DUST",
-      "developer": "SoundMorph",
-      "category": "Other",
-      "current_price": 19.0,
-      "msrp": 146,
-      "historical_low_price": 19.0,
-      "historical_avg_sale_price": 19,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-27T00:00:00+00:00"
-      ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=rec1cuJmWj1koFIIP",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-27T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        19.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "SoundMorph | Get 87% off DUST by SoundMorph. The discounted price is $19. ⏰ ENDS SOON! 💰 SAVE BIG!",
-      "comments": [],
-      "deal_score": 77,
-      "is_free": false
-    },
-    {
-      "id": 1164,
+      "id": 1170,
       "plugin_name": "Dynamics Bundle",
       "developer": "sonible",
       "category": "Other",
@@ -4266,7 +4401,7 @@
       "is_free": false
     },
     {
-      "id": 1165,
+      "id": 1171,
       "plugin_name": "Studio Bundle",
       "developer": "sonible",
       "category": "Other",
@@ -4293,7 +4428,7 @@
       "is_free": false
     },
     {
-      "id": 1166,
+      "id": 1172,
       "plugin_name": "smart:bundle",
       "developer": "sonible",
       "category": "Other",
@@ -4320,7 +4455,7 @@
       "is_free": false
     },
     {
-      "id": 1167,
+      "id": 1173,
       "plugin_name": "smart:comp 3",
       "developer": "sonible",
       "category": "Compression",
@@ -4347,7 +4482,7 @@
       "is_free": false
     },
     {
-      "id": 1168,
+      "id": 1174,
       "plugin_name": "smart:deess",
       "developer": "sonible",
       "category": "Other",
@@ -4374,115 +4509,7 @@
       "is_free": false
     },
     {
-      "id": 1169,
-      "plugin_name": "MSpectralDynamicsLE",
-      "developer": "MeldaProduction",
-      "category": "Other",
-      "current_price": 54.5,
-      "msrp": 109,
-      "historical_low_price": 54.5,
-      "historical_avg_sale_price": 54,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-27T00:00:00+00:00"
-      ],
-      "url": "https://www.audiopluginguy.com/meldaproduction/",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-27T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        54.5
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "MeldaProduction | Get 50% off MSpectralDynamicsLE by MeldaProduction. The discounted price is $54.50. ⏰ ENDS SOON! 🔥 HOT!",
-      "comments": [],
-      "deal_score": 66,
-      "is_free": false
-    },
-    {
-      "id": 1170,
-      "plugin_name": "MSuperLooper",
-      "developer": "MeldaProduction",
-      "category": "Other",
-      "current_price": 53.5,
-      "msrp": 107,
-      "historical_low_price": 53.5,
-      "historical_avg_sale_price": 54,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-27T00:00:00+00:00"
-      ],
-      "url": "https://www.audiopluginguy.com/meldaproduction/",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-27T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        53.5
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "MeldaProduction | Get 50% off MSuperLooper by MeldaProduction. The discounted price is $53.50. ⏰ ENDS SOON! 🔥 HOT!",
-      "comments": [],
-      "deal_score": 66,
-      "is_free": false
-    },
-    {
-      "id": 1171,
-      "plugin_name": "MFreqShifterMB",
-      "developer": "MeldaProduction",
-      "category": "Other",
-      "current_price": 27.0,
-      "msrp": 54,
-      "historical_low_price": 27.0,
-      "historical_avg_sale_price": 27,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-27T00:00:00+00:00"
-      ],
-      "url": "https://www.audiopluginguy.com/meldaproduction/",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-27T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        27.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "MeldaProduction | Get 50% off MFreqShifterMB by MeldaProduction. The discounted price is $27. ⏰ ENDS SOON! 🔥 HOT!",
-      "comments": [],
-      "deal_score": 66,
-      "is_free": false
-    },
-    {
-      "id": 1172,
-      "plugin_name": "MStereoProcessor",
-      "developer": "MeldaProduction",
-      "category": "Other",
-      "current_price": 43.5,
-      "msrp": 87,
-      "historical_low_price": 43.5,
-      "historical_avg_sale_price": 44,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-27T00:00:00+00:00"
-      ],
-      "url": "https://www.audiopluginguy.com/meldaproduction/",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-27T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        43.5
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "MeldaProduction | Get 50% off MStereoProcessor by MeldaProduction. The discounted price is $43.50. ⏰ ENDS SOON! 🔥 HOT!",
-      "comments": [],
-      "deal_score": 66,
-      "is_free": false
-    },
-    {
-      "id": 1173,
+      "id": 1175,
       "plugin_name": "Skaka",
       "developer": "Klevgrand",
       "category": "Other",
@@ -4509,7 +4536,7 @@
       "is_free": false
     },
     {
-      "id": 1174,
+      "id": 1176,
       "plugin_name": "Symphonic Destruction Redux",
       "developer": "Heavyocity",
       "category": "Instruments",
@@ -4536,7 +4563,7 @@
       "is_free": false
     },
     {
-      "id": 1175,
+      "id": 1177,
       "plugin_name": "Bark24",
       "developer": "FSK Audio",
       "category": "Other",
@@ -4563,7 +4590,7 @@
       "is_free": false
     },
     {
-      "id": 1176,
+      "id": 1178,
       "plugin_name": "ModPlay",
       "developer": "FSK Audio",
       "category": "Other",
@@ -4587,60 +4614,6 @@
       "notes": "FSK Audio | Get 49% off ModPlay by FSK Audio. The discounted price is $25.",
       "comments": [],
       "deal_score": 65,
-      "is_free": false
-    },
-    {
-      "id": 1177,
-      "plugin_name": "BassKnob STD",
-      "developer": "Bogren Digital",
-      "category": "Other",
-      "current_price": 35.0,
-      "msrp": 49,
-      "historical_low_price": 35.0,
-      "historical_avg_sale_price": 35,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-27T00:00:00+00:00"
-      ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recAlc8rbdEcbF1Pn",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-27T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        35.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Bogren Digital | Get 29% off BassKnob STD by Bogren Digital. The discounted price is $35. ⏰ ENDS SOON!",
-      "comments": [],
-      "deal_score": 59,
-      "is_free": false
-    },
-    {
-      "id": 1178,
-      "plugin_name": "AmpKnob RevC",
-      "developer": "Bogren Digital",
-      "category": "Other",
-      "current_price": 35.0,
-      "msrp": 49,
-      "historical_low_price": 35.0,
-      "historical_avg_sale_price": 35,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-27T00:00:00+00:00"
-      ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recAlc8rbdEcbF1Pn",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-27T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        35.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Bogren Digital | Get 29% off AmpKnob RevC by Bogren Digital. The discounted price is $35. ⏰ ENDS SOON!",
-      "comments": [],
-      "deal_score": 59,
       "is_free": false
     },
     {
@@ -4780,33 +4753,6 @@
     },
     {
       "id": 1184,
-      "plugin_name": "The Ultimate 30k Loop Bundle for (Normally )",
-      "developer": "Audio Plugin Deals",
-      "category": "Other",
-      "current_price": 30.0,
-      "msrp": 3000,
-      "historical_low_price": 30.0,
-      "historical_avg_sale_price": 30,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-24T00:00:00+00:00"
-      ],
-      "url": "https://audioplugin.deals/product/the-ultimate-30k-loop-bundle/ref/21/",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-24T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        30.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Audio Plugin Deals | Get 99% off The Ultimate 30k Loop Bundle for $30 (Normally $2400). ⏰ ENDS SOON! 💰 SAVE BIG!",
-      "comments": [],
-      "deal_score": 80,
-      "is_free": false
-    },
-    {
-      "id": 1185,
       "plugin_name": "Leviathan 4",
       "developer": "Black Octopus Sound",
       "category": "Other",
@@ -4827,13 +4773,13 @@
       ],
       "dev_discount_freq": "unknown",
       "sentiment": 0.7,
-      "notes": "Black Octopus Sound | Get 90% off Leviathan 4 by Black Octopus Sound for $9.99 (Normally $99). 💰 SAVE BIG!",
+      "notes": "Black Octopus Sound | Get 90% off Leviathan 4 by Black Octopus Sound for $9.99 (Normally $99). ⏰ ENDS SOON! 💰 SAVE BIG!",
       "comments": [],
       "deal_score": 78,
       "is_free": false
     },
     {
-      "id": 1186,
+      "id": 1185,
       "plugin_name": "The MIDI Collection",
       "developer": "UNDRGRND Sounds",
       "category": "Other",
@@ -4854,13 +4800,13 @@
       ],
       "dev_discount_freq": "unknown",
       "sentiment": 0.7,
-      "notes": "UNDRGRND Sounds | Get 95% off The MIDI Collection by Undrgrnd Sounds for $44.99 (Normally 850). 💰 SAVE BIG!",
+      "notes": "UNDRGRND Sounds | Get 95% off The MIDI Collection by Undrgrnd Sounds for $44.99 (Normally 850). ⏰ ENDS SOON! 💰 SAVE BIG!",
       "comments": [],
       "deal_score": 79,
       "is_free": false
     },
     {
-      "id": 1187,
+      "id": 1186,
       "plugin_name": "NovelSimple",
       "developer": "NovelSimple",
       "category": "Mastering",
@@ -4887,7 +4833,7 @@
       "is_free": false
     },
     {
-      "id": 1188,
+      "id": 1187,
       "plugin_name": "House Producer Vault",
       "developer": "Vanilla Groove Studios",
       "category": "Other",
@@ -4908,13 +4854,13 @@
       ],
       "dev_discount_freq": "unknown",
       "sentiment": 0.7,
-      "notes": "Vanilla Groove Studios | Get 97% off House Producer Vault by Vanilla Groove Studios for $9.99 (Normally $360). 💰 SAVE BIG!",
+      "notes": "Vanilla Groove Studios | Get 97% off House Producer Vault by Vanilla Groove Studios for $9.99 (Normally $360). ⏰ ENDS SOON! 💰 SAVE BIG!",
       "comments": [],
       "deal_score": 80,
       "is_free": false
     },
     {
-      "id": 1189,
+      "id": 1188,
       "plugin_name": "Addictive Drums 2: Metal & Heavy Collection",
       "developer": "XLN Audio",
       "category": "Other",
@@ -4941,7 +4887,7 @@
       "is_free": false
     },
     {
-      "id": 1190,
+      "id": 1189,
       "plugin_name": "XLN Audio",
       "developer": "XLN Audio",
       "category": "Other",
@@ -4968,7 +4914,7 @@
       "is_free": false
     },
     {
-      "id": 1191,
+      "id": 1190,
       "plugin_name": "Addictive Drums 2: Dead & Dry Collection",
       "developer": "XLN Audio",
       "category": "Other",
@@ -4995,7 +4941,7 @@
       "is_free": false
     },
     {
-      "id": 1192,
+      "id": 1191,
       "plugin_name": "Addictive Drums 2: Custom XXL Collection",
       "developer": "XLN Audio",
       "category": "Other",
@@ -5022,61 +4968,7 @@
       "is_free": false
     },
     {
-      "id": 1195,
-      "plugin_name": "Sonnox Producer Power Bundle – Oxford Inflator & Oxford Limiter",
-      "developer": "Sonnox",
-      "category": "Compression",
-      "current_price": 49.0,
-      "msrp": 408,
-      "historical_low_price": 49.0,
-      "historical_avg_sale_price": 49,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-21T00:00:00+00:00"
-      ],
-      "url": "https://www.audiopluginguy.com/sonnox/",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-21T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        49.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Sonnox | Get 88% off Sonnox Producer Power Bundle – Oxford Inflator & Oxford Limiter by Sonnox. The discounted price is $49. ⏰ ENDS SOON! 🔥 HOT! 💰 SAVE BIG!",
-      "comments": [],
-      "deal_score": 77,
-      "is_free": false
-    },
-    {
-      "id": 1196,
-      "plugin_name": "The Ultimate Tech House Bundle",
-      "developer": "Banger Samples",
-      "category": "Other",
-      "current_price": 15.0,
-      "msrp": 100,
-      "historical_low_price": 15.0,
-      "historical_avg_sale_price": 15,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-21T00:00:00+00:00"
-      ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recXJHoxgSz3tnoGc",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-21T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        15.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Banger Samples | Get 85% off The Ultimate Tech House Bundle by Banger Samples for $15 (Normally $100). ⏰ ENDS SOON! 💰 SAVE BIG!",
-      "comments": [],
-      "deal_score": 76,
-      "is_free": false
-    },
-    {
-      "id": 1197,
+      "id": 1194,
       "plugin_name": "ELECTRO CITY",
       "developer": "Sample Logic",
       "category": "Other",
@@ -5103,7 +4995,7 @@
       "is_free": false
     },
     {
-      "id": 1198,
+      "id": 1195,
       "plugin_name": "FLTRS",
       "developer": "MNTRA Instruments",
       "category": "Other",
@@ -5130,34 +5022,7 @@
       "is_free": false
     },
     {
-      "id": 1199,
-      "plugin_name": "Mirror",
-      "developer": "United Plugins",
-      "category": "Other",
-      "current_price": 28.0,
-      "msrp": 68,
-      "historical_low_price": 28.0,
-      "historical_avg_sale_price": 28,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-20T00:00:00+00:00"
-      ],
-      "url": "https://www.audiopluginguy.com/united-plugins/",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-20T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        28.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "United Plugins | Get 59% off Mirror by United Plugins. The discounted price is $28. ⏰ ENDS SOON!",
-      "comments": [],
-      "deal_score": 68,
-      "is_free": false
-    },
-    {
-      "id": 1200,
+      "id": 1196,
       "plugin_name": "MicDrop Classic",
       "developer": "Soundlabs.ai",
       "category": "Other",
@@ -5184,7 +5049,7 @@
       "is_free": false
     },
     {
-      "id": 1201,
+      "id": 1197,
       "plugin_name": "Basic Audio Programming",
       "developer": "pointblank",
       "category": "Other",
@@ -5211,169 +5076,7 @@
       "is_free": false
     },
     {
-      "id": 1202,
-      "plugin_name": "Texture Lab Bundle",
-      "developer": "Minimal Audio",
-      "category": "Other",
-      "current_price": 90.0,
-      "msrp": 225,
-      "historical_low_price": 90.0,
-      "historical_avg_sale_price": 90,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-20T00:00:00+00:00"
-      ],
-      "url": "https://www.audiopluginguy.com/minimal-audio/",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-20T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        90.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Minimal Audio | Get 60% off Texture Lab Bundle by Minimal Audio. The discounted price is $90. ⏰ ENDS SOON!",
-      "comments": [],
-      "deal_score": 69,
-      "is_free": false
-    },
-    {
-      "id": 1203,
-      "plugin_name": "Melody Sauce 3",
-      "developer": "EVAbeat",
-      "category": "Other",
-      "current_price": 79.0,
-      "msrp": 99,
-      "historical_low_price": 79.0,
-      "historical_avg_sale_price": 79,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-20T00:00:00+00:00"
-      ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recKVKDlsjho4ZBUk",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-20T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        79.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "EVAbeat | Get 20% off Melody Sauce 3 by EVAbeat. The discounted price is $79. ⏰ ENDS SOON!",
-      "comments": [],
-      "deal_score": 57,
-      "is_free": false
-    },
-    {
-      "id": 1204,
-      "plugin_name": "Building Blocks 1 & 2 Bundle",
-      "developer": "Audible Genius",
-      "category": "Other",
-      "current_price": 54.0,
-      "msrp": 89,
-      "historical_low_price": 54.0,
-      "historical_avg_sale_price": 54,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-20T00:00:00+00:00"
-      ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recUkekVpwdnifk1t",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-20T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        54.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Audible Genius | Get 39% off Building Blocks 1 & 2 Bundle by Audible Genius. The discounted price is $54. ⏰ ENDS SOON!",
-      "comments": [],
-      "deal_score": 62,
-      "is_free": false
-    },
-    {
-      "id": 1205,
-      "plugin_name": "Syntorial 2",
-      "developer": "Audible Genius",
-      "category": "Other",
-      "current_price": 78.0,
-      "msrp": 128,
-      "historical_low_price": 78.0,
-      "historical_avg_sale_price": 78,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-20T00:00:00+00:00"
-      ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recUkekVpwdnifk1t",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-20T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        78.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Audible Genius | Get 39% off Syntorial 2 by Audible Genius. The discounted price is $78. ⏰ ENDS SOON!",
-      "comments": [],
-      "deal_score": 62,
-      "is_free": false
-    },
-    {
-      "id": 1206,
-      "plugin_name": "Building Blocks 2",
-      "developer": "Audible Genius",
-      "category": "Other",
-      "current_price": 33.0,
-      "msrp": 54,
-      "historical_low_price": 33.0,
-      "historical_avg_sale_price": 33,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-20T00:00:00+00:00"
-      ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recUkekVpwdnifk1t",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-20T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        33.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Audible Genius | Get 39% off Building Blocks 2 by Audible Genius. The discounted price is $33. ⏰ ENDS SOON!",
-      "comments": [],
-      "deal_score": 62,
-      "is_free": false
-    },
-    {
-      "id": 1207,
-      "plugin_name": "Building Blocks 1",
-      "developer": "Audible Genius",
-      "category": "Other",
-      "current_price": 33.0,
-      "msrp": 54,
-      "historical_low_price": 33.0,
-      "historical_avg_sale_price": 33,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-20T00:00:00+00:00"
-      ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recUkekVpwdnifk1t",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-20T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        33.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Audible Genius | Get 39% off Building Blocks 1 by Audible Genius. The discounted price is $33. ⏰ ENDS SOON!",
-      "comments": [],
-      "deal_score": 62,
-      "is_free": false
-    },
-    {
-      "id": 1208,
+      "id": 1198,
       "plugin_name": "Insta Series 2 Bundle",
       "developer": "W. A. Production",
       "category": "Other",
@@ -5400,7 +5103,7 @@
       "is_free": false
     },
     {
-      "id": 1209,
+      "id": 1199,
       "plugin_name": "Jazz Guitar Octaves",
       "developer": "Have Audio",
       "category": "Instruments",
@@ -5427,34 +5130,7 @@
       "is_free": false
     },
     {
-      "id": 1210,
-      "plugin_name": "VocalSynth 2",
-      "developer": "iZotope",
-      "category": "Other",
-      "current_price": 29.0,
-      "msrp": 193,
-      "historical_low_price": 29.0,
-      "historical_avg_sale_price": 29,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-17T00:00:00+00:00"
-      ],
-      "url": "https://www.audiopluginguy.com/izotope/",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-17T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        29.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "iZotope | Get 85% off VocalSynth 2 by iZotope. The discounted price is $29. ⏰ ENDS SOON! 🔥 HOT! 💰 SAVE BIG!",
-      "comments": [],
-      "deal_score": 76,
-      "is_free": false
-    },
-    {
-      "id": 1211,
+      "id": 1200,
       "plugin_name": "Wired: Soundbox Instrument",
       "developer": "Audiomodern",
       "category": "Other",
@@ -5481,7 +5157,7 @@
       "is_free": false
     },
     {
-      "id": 1212,
+      "id": 1201,
       "plugin_name": "8Dio",
       "developer": "8Dio",
       "category": "Instruments",
@@ -5506,7 +5182,7 @@
       "is_free": true
     },
     {
-      "id": 1213,
+      "id": 1202,
       "plugin_name": "Master Bundle II",
       "developer": "Zynaptiq",
       "category": "Other",
@@ -5533,7 +5209,7 @@
       "is_free": false
     },
     {
-      "id": 1214,
+      "id": 1203,
       "plugin_name": "UNMIX::DRUMS",
       "developer": "Zynaptiq",
       "category": "Other",
@@ -5560,7 +5236,7 @@
       "is_free": false
     },
     {
-      "id": 1215,
+      "id": 1204,
       "plugin_name": "UNFILTER",
       "developer": "Zynaptiq",
       "category": "Other",
@@ -5587,7 +5263,7 @@
       "is_free": false
     },
     {
-      "id": 1216,
+      "id": 1205,
       "plugin_name": "INTENSITY 2",
       "developer": "Zynaptiq",
       "category": "Other",
@@ -5614,7 +5290,7 @@
       "is_free": false
     },
     {
-      "id": 1217,
+      "id": 1206,
       "plugin_name": "PUNCH",
       "developer": "Zynaptiq",
       "category": "Other",
@@ -5641,7 +5317,7 @@
       "is_free": false
     },
     {
-      "id": 1218,
+      "id": 1207,
       "plugin_name": "BALANCE",
       "developer": "Zynaptiq",
       "category": "Other",
@@ -5668,34 +5344,7 @@
       "is_free": false
     },
     {
-      "id": 1219,
-      "plugin_name": "The Judge",
-      "developer": "Antelope Audio",
-      "category": "Other",
-      "current_price": 14.99,
-      "msrp": 136,
-      "historical_low_price": 14.99,
-      "historical_avg_sale_price": 15,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-13T00:00:00+00:00"
-      ],
-      "url": "https://www.audiopluginguy.com/antelope-audio/",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-13T00:00:00+00:00",
-      "deal_ends": "2026-05-03T00:00:00+00:00",
-      "price_history": [
-        14.99
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Antelope Audio | Get 89% off The Judge by Antelope Audio. The discounted price is $14.99. ⏰ ENDS SOON! 💰 SAVE BIG!",
-      "comments": [],
-      "deal_score": 77,
-      "is_free": false
-    },
-    {
-      "id": 1220,
+      "id": 1208,
       "plugin_name": "Fabric Vintage Synths Vol",
       "developer": "AIR Music Technology",
       "category": "Other",
@@ -5722,7 +5371,7 @@
       "is_free": false
     },
     {
-      "id": 1221,
+      "id": 1209,
       "plugin_name": "Groove Shaper",
       "developer": "Pitch Innovations",
       "category": "Other",
@@ -5749,7 +5398,7 @@
       "is_free": false
     },
     {
-      "id": 1222,
+      "id": 1210,
       "plugin_name": "Sapphire Drive",
       "developer": "Three-Body Technology",
       "category": "Other",
@@ -5776,7 +5425,7 @@
       "is_free": false
     },
     {
-      "id": 1232,
+      "id": 1217,
       "plugin_name": "Cherry Audio Mercury-4, Memorymode, PS-20, DCO-106, and Polymode, starting at",
       "developer": "Various",
       "category": "Other",
@@ -5803,34 +5452,7 @@
       "is_free": false
     },
     {
-      "id": 1223,
-      "plugin_name": "GENOME",
-      "developer": "Two Notes Audio Engineering",
-      "category": "Other",
-      "current_price": 59.99,
-      "msrp": 80,
-      "historical_low_price": 59.99,
-      "historical_avg_sale_price": 60,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-04T00:00:00+00:00"
-      ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=rec863uVmvxX5Pc2Z",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-04T00:00:00+00:00",
-      "deal_ends": "2026-05-04T00:00:00+00:00",
-      "price_history": [
-        59.99
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Two Notes Audio Engineering | Get 25% off GENOME by Two Notes Audio Engineering. The discounted price is $59.99. ⏰ ENDS SOON!",
-      "comments": [],
-      "deal_score": 58,
-      "is_free": false
-    },
-    {
-      "id": 1231,
+      "id": 1216,
       "plugin_name": "u-he Repro, now",
       "developer": "Various",
       "category": "Modulation",
@@ -5857,32 +5479,7 @@
       "is_free": false
     },
     {
-      "id": 1224,
-      "plugin_name": "Korneff Audio",
-      "developer": "Korneff Audio",
-      "category": "Other",
-      "current_price": 0,
-      "msrp": 0,
-      "historical_low_price": 0,
-      "historical_avg_sale_price": 0,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-03T00:00:00+00:00"
-      ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recF3QqXarW9z0qbR",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-03T00:00:00+00:00",
-      "deal_ends": null,
-      "price_history": [],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Korneff Audio | Korneff Audio has released yesterday Power Grid Disruptor glitch and damage plugin for Mac, Win & Linux. The plugin is available as a free download for a limited time. 🎁 FREEBIE! 💰 SAV",
-      "comments": [],
-      "deal_score": 51,
-      "is_free": true
-    },
-    {
-      "id": 1230,
+      "id": 1215,
       "plugin_name": "the new SSL x sonible Synergy Bundle, now",
       "developer": "Various",
       "category": "Other",
@@ -5909,34 +5506,7 @@
       "is_free": false
     },
     {
-      "id": 1225,
-      "plugin_name": "Safari Audio",
-      "developer": "Safari Audio",
-      "category": "Other",
-      "current_price": 39.0,
-      "msrp": 111,
-      "historical_low_price": 39.0,
-      "historical_avg_sale_price": 39,
-      "sale_frequency_days": 120,
-      "last_sale_dates": [
-        "2026-04-02T00:00:00+00:00"
-      ],
-      "url": "https://airtable.com/shriuFkfmESDCCwJE?prefill_Developer=recP7lde57KYKe1Mf",
-      "source": "AudioPluginGuy",
-      "timestamp": "2026-04-02T00:00:00+00:00",
-      "deal_ends": null,
-      "price_history": [
-        39.0
-      ],
-      "dev_discount_freq": "unknown",
-      "sentiment": 0.7,
-      "notes": "Safari Audio | Safari Audio Easter Mistery Box – get 3 random Safari Pedals plugins for $39. Plugins are chosen at random from the current catalog.",
-      "comments": [],
-      "deal_score": 70,
-      "is_free": false
-    },
-    {
-      "id": 1229,
+      "id": 1214,
       "plugin_name": "SSL Fusion Full Bundle, now",
       "developer": "Various",
       "category": "Other",
@@ -5963,7 +5533,7 @@
       "is_free": false
     },
     {
-      "id": 1228,
+      "id": 1213,
       "plugin_name": "Up to UJAM, including Usynth Deluxe and Finisher FLUXX for",
       "developer": "Various",
       "category": "Modulation",
@@ -5990,7 +5560,7 @@
       "is_free": false
     },
     {
-      "id": 1227,
+      "id": 1212,
       "plugin_name": "Also Eventide Anthology XII for",
       "developer": "Various",
       "category": "Other",
@@ -6017,7 +5587,7 @@
       "is_free": false
     },
     {
-      "id": 1226,
+      "id": 1211,
       "plugin_name": "u-he Bazille USD",
       "developer": "Various",
       "category": "Other",
@@ -6045,14 +5615,14 @@
     }
   ],
   "sources": {
-    "apg": 225,
+    "apg": 210,
     "reddit": 0,
     "kvr": 7,
     "vic": 0,
     "linkedMusicians": 0,
     "cakewalk": 0,
-    "total": 224
+    "total": 208
   },
-  "updated": "2026-05-02T10:38:52.058522+00:00",
+  "updated": "2026-05-03T11:07:03.048086+00:00",
   "source": "live"
 }
