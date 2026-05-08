@@ -1,4 +1,4 @@
-name: Scrape Plugin Deals
+name: Scrape Plugin Deals 
 
 on:
   schedule:
