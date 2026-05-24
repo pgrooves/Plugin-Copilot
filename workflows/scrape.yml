@@ -1,36 +1,25 @@
-name: Scrape Plugin Deals 
+name: Scrape Plugin Deals
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 8 * * *'
-  workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
-      - name: Install dependencies
-        run: pip install requests beautifulsoup4 lxml
-
-      - name: Run scraper
-        run: python scraper.py
-
-      - name: Commit and push deals.json
-        run: |
-          git config user.name  "github-actions[bot]"
+      - run: pip install requests beautifulsoup4 lxml
+      - run: python scraper.py
+      - run: |
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add deals.json
-          git diff --staged --quiet || git commit -m "chore: update deals $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git diff --staged --quiet || git commit -m "update deals $(date -u '+%Y-%m-%d')"
           git push
